@@ -46,7 +46,7 @@ By your 3rd–4th application the library is rich and Q&A gets shorter every tim
 data/
 ├── personal_profile.json    ← Contact info & regional routing rules
 ├── candidate_library.json   ← Persistent career knowledge base
-├── source_cvs/              ← Drop your CV here (.md or .txt)
+├── source_cvs/              ← Drop your CVs here (.md, .txt, .pdf, or .docx)
 │   └── my_cv.md
 └── submissions/             ← Generated application packages
     └── cloudscale_ai_backend_engineer_20260828/
@@ -91,12 +91,14 @@ folder_management/  ← Naming conventions
 
 ---
 
-## CV Format
+## CV Formats
 
-Place your CV in `data/source_cvs/` as a **Markdown or plain text** file.
-The agent reads it directly — no conversion needed.
+Drop your CV into `data/source_cvs/`. Supported formats:
+- **Markdown (`.md`)** & **Plain Text (`.txt`)**: Read directly.
+- **PDF (`.pdf`)**: Read directly via built-in viewer and text/OCR.
+- **Word (`.docx`)**: Extracted automatically via built-in macOS text utility (`textutil`).
 
-For PDF/DOCX: open it, select all, paste into chat when the agent asks.
+No manual copy-pasting or format conversion is required.
 
 ---
 

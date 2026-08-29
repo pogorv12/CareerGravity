@@ -2,7 +2,7 @@
 name: cv-parsing
 description: >-
   Rules and techniques for extracting structured data from CV documents
-  (Markdown or plain text). Use when reading or parsing a candidate's CV.
+  (Markdown, plain text, PDF, DOCX). Use when reading or parsing a candidate's CV.
 ---
 
 # CV Parsing Skill
@@ -14,12 +14,13 @@ the candidate library and matched against job descriptions.
 
 ## Reading the CV
 
-Use `view_file` to read the CV file from `data/source_cvs/`.
+Read the CV file directly from `data/source_cvs/` based on its format:
 
-**Supported formats:** `.md`, `.txt`
+- **Markdown (`.md`) / Plain text (`.txt`):** Use `view_file`.
+- **PDF (`.pdf`):** Use `view_file` directly (built-in binary viewer parses PDF pages and OCR/text).
+- **Word (`.docx`):** Read automatically using `run_command` with `textutil -convert txt "<path>" -stdout` (or Python zipfile extraction).
 
-**PDF / DOCX:** Cannot be read directly by the IDE agent. Ask the user:
-> "Please paste the full text of your CV and I'll extract the data from it."
+No manual copy-pasting is required from the user.
 
 ---
 

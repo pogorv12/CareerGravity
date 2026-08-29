@@ -49,13 +49,13 @@ Read `data/candidate_library.json` and `data/personal_profile.json` using `view_
 Check if the user specified a CV file. If not:
 
 1. List files in `data/source_cvs/` using `list_dir`.
-2. Pick the most recently modified file (Markdown or plain text preferred).
+2. Pick the most relevant or recently modified file.
 3. Confirm the selected file with the user.
-4. Read it with `view_file`.
+4. Read it directly according to format:
+   - **`.md` / `.txt` / `.pdf`:** Read with `view_file` (built-in binary viewer handles PDF pages and text/OCR).
+   - **`.docx`:** Read automatically using `run_command` with `textutil -convert txt "<file_path>" -stdout`.
 
-**Supported formats:** `.md`, `.txt`
-**PDF/DOCX:** These cannot be read directly. Ask the user:
-> "Please paste the text content of your CV and I'll process it."
+**Supported formats:** `.md`, `.txt`, `.pdf`, `.docx` (all read automatically without requiring copy-paste).
 
 ---
 
