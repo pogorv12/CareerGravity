@@ -1,0 +1,22 @@
+.env
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Keep source CV folder tracked but not its contents
+data/*
+!data/.gitkeep
+data/source_cvs/*
+!data/source_cvs/.gitkeep
+data/submissions/*
+!data/submissions/.gitkeep
