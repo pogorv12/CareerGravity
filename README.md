@@ -109,3 +109,10 @@ No manual copy-pasting or format conversion is required.
 
 No `pip install`. No virtual environment. No API keys to configure.
 Open the project in Antigravity IDE and start chatting.
+
+---
+
+## License
+
+Free to use for **personal, non-commercial use** at your own risk and responsibility. See [LICENSE.md](file:///Users/pogorv/Dev/CareerGravity/LICENSE.md) for full terms, conditions, and disclaimers.
+
