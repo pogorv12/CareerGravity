@@ -69,6 +69,15 @@ description: >-
 
 ## Cover Letter (`cover_letter.md`)
 
+### Core Objective
+A compelling narrative that explicitly bridges the candidate's past experience with the target job description by linking **Qualifications**, **Tools**, and **Metrics** to the JD's core requirements.
+
+### Qualification-Tool-Metric (QTM) Alignment Principle
+Every cover letter MUST explicitly articulate the direct relation between the candidate's previous experience and the JD requirements across three key dimensions:
+1. **Qualifications & Competencies:** Map verified domain expertise, responsibilities, and leadership experience directly to the required qualifications and core duties in the JD.
+2. **Tools & Technologies:** Explicitly mention specific tools, platforms, languages, and technical stacks used in prior roles and correlate them directly to the tech stack required in the JD (highlighting direct matches and transferable equivalents).
+3. **Metrics & Measurable Impact:** Ground the tool and qualification alignments with concrete, quantified outcomes (e.g., % efficiency gain, scale handled, latency reductions, cost/time saved, revenue/data accuracy) achieved in past experience to demonstrate proven execution capability.
+
 ### Structure
 ```
 [Date]
@@ -80,17 +89,17 @@ Dear [name / Hiring Team],
 
 PARAGRAPH 1 — Hook & Intent (2–3 sentences)
   - State the role you're applying for.
-  - Lead with your most compelling strength for THIS role.
+  - Lead with your most compelling strength/qualification for THIS role.
   - Show genuine enthusiasm for the company/product.
 
-PARAGRAPH 2 — Proof of Fit (3–5 sentences)
+PARAGRAPH 2 — Proof of Fit & QTM Alignment (4–6 sentences)
   - Pick the 2–3 strongest matches from MatchReport.strong_points.
-  - Give one concrete example with a measurable outcome.
-  - Connect directly to a key responsibility from the JD.
+  - Explicitly relate prior qualifications and verified responsibilities to the JD's primary requirements.
+  - Name the specific tools/technologies used in past experience that match or transfer to the JD's required tech stack.
+  - Connect tools and qualifications to tangible, quantified metrics (e.g. "leveraged [Tool X] to achieve [Metric Y], directly aligning with your need for [JD Requirement Z]").
 
-PARAGRAPH 3 — Addressing Gaps (optional, 2–3 sentences)
-  - If match_score < 70, briefly acknowledge the gap and reframe it as
-    a growth opportunity or transferable skill.
+PARAGRAPH 3 — Addressing Gaps & Transferable Value (optional / conditional, 2–3 sentences)
+  - If match_score < 70 or when bridging adjacent technologies, explain how proven qualifications and tool mastery enable rapid adaptation, supported by past metrics.
 
 PARAGRAPH 4 — Call to Action (2 sentences)
   - Express enthusiasm for next steps.

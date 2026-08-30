@@ -165,8 +165,9 @@ Structure: Header → Summary → Key Skills → Experience → Education → Ce
 ≤600 words. Top 3 experiences, top 8 skills, degree only (no dates).
 
 ### 7c — Cover Letter (`cover_letter.md`)
-250–400 words. Opening → Proof → (Gap) → Closing.
-Infer tone from `culture_notes`.
+250–400 words. Opening → Proof & QTM Alignment → (Gap) → Closing.
+- Infer tone from `culture_notes`.
+- **Qualification-Tool-Metric (QTM) Mapping**: Explicitly relate previous qualifications, specific tools/technologies used, and quantified metrics achieved to the requirements in the job description.
 
 **Contact details & Regional Routing (mandatory):**
 - Consult `data/personal_profile.json` for name, email, links, and contact routing rules.

@@ -71,6 +71,12 @@ All skills live in `.agents/skills/`:
 - Never invent or fabricate unspecified experience, credentials, tools, or metrics to match a job description.
 - Describe and reframe how the candidate's *specified, verified* experience and transferable skills fulfill the requirements of the JD.
 
+## Cover Letter Alignment Rule
+- When generating cover letters, explicitly articulate the relationship between the candidate's previous experience and the job description requirements across three pillars:
+  1. **Qualifications:** Map verified domain qualifications and responsibilities to the JD's requirements.
+  2. **Tools:** Connect specific tools/technologies used in past work to the JD's required tech stack (including transferable parallels).
+  3. **Metrics:** Anchor qualification and tool alignments in concrete, quantified outcomes achieved in prior roles.
+
 ## Security
 - Never log or print any API keys.
 - Never commit `.env` files.
