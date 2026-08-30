@@ -35,8 +35,8 @@ All skills live in `.agents/skills/`:
 
 ## File & Folder Conventions
 - Personal profile & contact routing configuration lives at `data/personal_profile.json`.
-- Source CVs go in `data/source_cvs/` — supported formats: Markdown (`.md`), plain text (`.txt`), PDF (`.pdf`), and Word (`.docx`).
-- PDF and DOCX files are read automatically (PDF via `view_file`, DOCX via `textutil` command) without requiring manual copy-pasting.
+- Source CVs go in `data/source_cvs/` — supported formats: Markdown (`.md`), plain text (`.txt`), PDF (`.pdf`), and Word (`.doc`, `.docx`).
+- PDF and Word (DOC/DOCX) files are read automatically (PDF via `view_file`, DOC/DOCX via `textutil` on macOS, standard Python `zipfile/xml` or CLI parsers on Linux, and PowerShell on Windows) without requiring manual copy-pasting.
 - The candidate library lives at `data/candidate_library.json`.
 - Each submission is saved to `data/submissions/<company>_<role>_YYYYMMDD/` (including tailored documents, match report, and raw JD saved as `jd_source.md`).
 - Output documents are always Markdown (`.md`).

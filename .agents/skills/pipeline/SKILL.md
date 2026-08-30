@@ -53,9 +53,13 @@ Check if the user specified a CV file. If not:
 3. Confirm the selected file with the user.
 4. Read it directly according to format:
    - **`.md` / `.txt` / `.pdf`:** Read with `view_file` (built-in binary viewer handles PDF pages and text/OCR).
-   - **`.docx`:** Read automatically using `run_command` with `textutil -convert txt "<file_path>" -stdout`.
+   - **`.docx` / `.doc`:** Read automatically using `run_command`:
+     - *macOS:* `textutil -convert txt "<file_path>" -stdout`
+     - *Linux / Cross-platform (`.docx`):* Zero-dependency Python one-liner (`python3 -c "import zipfile, xml.etree.ElementTree as ET, sys; tree=ET.fromstring(zipfile.ZipFile(sys.argv[1]).read('word/document.xml')); print('\n'.join(''.join(p.itertext()) for p in tree.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p')))" "<file_path>"`), `pandoc`, or `docx2txt`.
+     - *Linux (`.doc`):* `catdoc`, `antiword`, or `soffice --headless --convert-to txt:Text "<file_path>" --stdout`.
+     - *Windows:* PowerShell extraction or Word COM automation.
 
-**Supported formats:** `.md`, `.txt`, `.pdf`, `.docx` (all read automatically without requiring copy-paste).
+**Supported formats:** `.md`, `.txt`, `.pdf`, `.doc`, `.docx` (all read automatically without requiring copy-paste).
 
 ---
 

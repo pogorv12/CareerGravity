@@ -46,7 +46,7 @@ By your 3rd–4th application the library is rich and Q&A gets shorter every tim
 data/
 ├── personal_profile.json    ← Contact info & regional routing rules
 ├── candidate_library.json   ← Persistent career knowledge base
-├── source_cvs/              ← Drop your CVs here (.md, .txt, .pdf, or .docx)
+├── source_cvs/              ← Drop your CVs here (.md, .txt, .pdf, .doc, or .docx)
 │   └── my_cv.md
 └── submissions/             ← Generated application packages
     └── cloudscale_ai_backend_engineer_20260828/
@@ -96,7 +96,10 @@ folder_management/  ← Naming conventions
 Drop your CV into `data/source_cvs/`. Supported formats:
 - **Markdown (`.md`)** & **Plain Text (`.txt`)**: Read directly.
 - **PDF (`.pdf`)**: Read directly via built-in viewer and text/OCR.
-- **Word (`.docx`)**: Extracted automatically via built-in macOS text utility (`textutil`).
+- **Word (`.docx` & `.doc`)**: Extracted automatically across operating systems:
+  - **macOS**: Native `textutil` utility.
+  - **Linux / Cross-Platform**: Universal Python stdlib extractor (`zipfile`/`xml.etree.ElementTree`, zero dependencies) or CLI tools (`pandoc`, `docx2txt`, `catdoc`, `antiword`, LibreOffice).
+  - **Windows**: PowerShell or Word automation.
 
 No manual copy-pasting or format conversion is required.
 

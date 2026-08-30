@@ -18,7 +18,24 @@ Read the CV file directly from `data/source_cvs/` based on its format:
 
 - **Markdown (`.md`) / Plain text (`.txt`):** Use `view_file`.
 - **PDF (`.pdf`):** Use `view_file` directly (built-in binary viewer parses PDF pages and OCR/text).
-- **Word (`.docx`):** Read automatically using `run_command` with `textutil -convert txt "<path>" -stdout` (or Python zipfile extraction).
+- **Word (`.docx`):**
+  - **macOS:** `run_command` with `textutil -convert txt "<path>" -stdout`
+  - **Linux / Cross-Platform (Universal Python stdlib, zero extra dependencies):**
+    ```bash
+    python3 -c "import zipfile, xml.etree.ElementTree as ET, sys; tree=ET.fromstring(zipfile.ZipFile(sys.argv[1]).read('word/document.xml')); print('\n'.join(''.join(p.itertext()) for p in tree.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p')))" "<file_path>"
+    ```
+  - **Linux / Unix CLI tools (if available):** `pandoc -f docx -t plain "<file_path>"`, `docx2txt "<file_path>"`, or `unzip -p "<file_path>" word/document.xml | sed -e 's/<[^>]*>/ /g'`
+  - **Windows (PowerShell):**
+    ```powershell
+    powershell -Command "[System.IO.Compression.ZipFile]::OpenRead('<file_path>').Entries | Where-Object { $_.FullName -eq 'word/document.xml' } | ForEach-Object { (New-Object System.IO.StreamReader($_.Open())).ReadToEnd() -replace '<[^>]+>', ' ' }"
+    ```
+- **Legacy Word (`.doc`):**
+  - **macOS:** `run_command` with `textutil -convert txt "<path>" -stdout`
+  - **Linux / Unix:** `catdoc "<file_path>"` or `antiword "<file_path>"` or `soffice --headless --convert-to txt:Text "<file_path>" --stdout`
+  - **Windows (PowerShell via Word COM):**
+    ```powershell
+    powershell -Command "$w = New-Object -ComObject Word.Application; $w.Visible = $false; $d = $w.Documents.Open((Resolve-Path '<file_path>').Path); Write-Output $d.Content.Text; $d.Close(); $w.Quit()"
+    ```
 
 No manual copy-pasting is required from the user.
 
