@@ -10,9 +10,7 @@ description: >-
 
 ## Goal
 
-Produce a MatchReport that quantifies fit, surfaces genuine gaps, and drives
-the interviewer Q&A — using the **full candidate library** as evidence, not just
-the current CV parse.
+Produce a MatchReport that quantifies fit, surfaces genuine non-matches and competence/qualification gaps, and drives the interviewer Q&A — using the **full candidate library** as evidence, not just the current CV parse.
 
 ---
 
@@ -26,15 +24,15 @@ the current CV parse.
 
 ## Matching Steps
 
-### Step 1 — Skill Coverage
+### Step 1 — Skill Coverage & Non-Match Identification
 
 For each skill in `JDData.required_skills`:
 - Search across `library.technical_skills`, `library.tools`, and all `experience[].bullets`
 - **Also search `library.enrichments[].answer`** — prior Q&A answers count as evidence.
 - Mark as:
-  - **covered** — directly evidenced
-  - **partial** — related or adjacent skill found
-  - **missing** — no evidence found
+  - **covered** — directly evidenced (`gap: null`)
+  - **partial** — related or adjacent skill found, but lacks exact domain, depth, or specific platform (`gap: explanation of nuance/shortfall`)
+  - **missing** — no evidence found (`gap: explanation of missing requirement`)
 
 Repeat for `nice_to_have_skills`.
 
@@ -43,6 +41,7 @@ Repeat for `nice_to_have_skills`.
 For each responsibility in `JDData.responsibilities`:
 - Find the best matching evidence from `library.experience[].bullets` or enrichments.
 - Score: **strong** / **moderate** / **weak** / **none**
+- For **moderate**, **weak**, or **none**, articulate the specific domain or procedural gap in `gap`.
 
 ### Step 3 — Seniority Alignment
 
@@ -54,6 +53,18 @@ For each responsibility in `JDData.responsibilities`:
 
 - Count `JDData.keywords` present anywhere in the library (skills, bullets, enrichments).
 - `keyword_coverage_pct = matching / total`
+
+### Step 5 — Automated Competence & Qualification Gaps Extraction (Mandatory)
+
+For every identified non-match (status `missing`), partial match (status `partial`), or weak responsibility (relevance `moderate`/`weak`/`none`), automatically generate a structured entry in `competence_gaps`:
+- **`competence`**: Clear name of the required skill, qualification, tool, or domain area.
+- **`gap_type`**: Classification (`tooling_platform` | `domain_knowledge` | `formal_education` | `methodology_process`).
+- **`jd_requirement`**: Exact phrase or requirement from the JD.
+- **`candidate_status`**: `missing` | `partial`.
+- **`candidate_reality`**: Accurate, grounded summary of what the candidate actually has in the library.
+- **`gap_analysis`**: Clear, objective analysis of the shortfall or domain distinction.
+- **`mitigation_strategy`**: Verified transferable skills, analogous tooling, or adjacent experience that bridges the gap.
+- **`impact_level`**: `high` | `medium` | `low`.
 
 ---
 
@@ -67,6 +78,8 @@ match_score (0–100) =
   + 0.10 × nice_to_have_coverage_pct
   + 0.05 × seniority_alignment_bonus        (1.0 aligned, 0.5 ±1 level, 0 otherwise)
 ```
+
+*(Note: In calculations, `covered` = 1.0, `partial` = 0.5, `missing` = 0.0).*
 
 ---
 
@@ -90,24 +103,69 @@ Before finalising gap questions:
 
 ---
 
-## MatchReport Output
+## MatchReport Output Schema
 
-Produce this structure and hold in context (JSON):
+Produce this structure and save as `match_report.json` in the submission package:
 
-```
-MatchReport:
-  match_score: float (0–100)
-  required_skill_matches:
-    - skill, status (covered|partial|missing), evidence (quote from library)
-  nice_to_have_matches:
-    - skill, status, evidence
-  responsibility_matches:
-    - responsibility, relevance (strong|moderate|weak|none), best_evidence
-  keyword_coverage_pct: float
-  seniority_aligned: bool
-  strong_points: [3–5 headline strengths for this specific role]
-  gap_questions: [topic, question]   ← already filtered against library
-  suggested_emphasis: [existing library items to highlight more prominently]
+```json
+{
+  "job_title": "string",
+  "company": "string",
+  "location": "string",
+  "match_score": 0.0,
+  "required_skill_matches": [
+    {
+      "skill": "string",
+      "status": "covered | partial | missing",
+      "evidence": "string (quote or reference from library)",
+      "gap": "string | null (explanation of shortfall if partial/missing)"
+    }
+  ],
+  "nice_to_have_matches": [
+    {
+      "skill": "string",
+      "status": "covered | partial | missing",
+      "evidence": "string",
+      "gap": "string | null"
+    }
+  ],
+  "responsibility_matches": [
+    {
+      "responsibility": "string",
+      "relevance": "strong | moderate | weak | none",
+      "best_evidence": "string",
+      "gap": "string | null"
+    }
+  ],
+  "competence_gaps": [
+    {
+      "competence": "string",
+      "gap_type": "tooling_platform | domain_knowledge | formal_education | methodology_process",
+      "jd_requirement": "string",
+      "candidate_status": "missing | partial",
+      "candidate_reality": "string",
+      "gap_analysis": "string",
+      "mitigation_strategy": "string",
+      "impact_level": "high | medium | low"
+    }
+  ],
+  "keyword_coverage_pct": 0.0,
+  "seniority_aligned": true,
+  "strong_points": ["string"],
+  "gap_questions": [
+    {
+      "topic": "string",
+      "question": "string"
+    }
+  ],
+  "pre_answered_enrichments": [
+    {
+      "topic": "string",
+      "answer": "string"
+    }
+  ],
+  "suggested_emphasis": ["string"]
+}
 ```
 
 ---
@@ -126,6 +184,8 @@ MatchReport:
 ## Display to User
 
 After matching, show:
-1. Match score with colour interpretation
-2. A required skills table (skill | covered/partial/missing | evidence snippet)
-3. Count of new gap questions vs pre-answered from library
+1. Match score with colour interpretation.
+2. A required skills & coverage table (`skill` | `status` | `evidence` | `gap`).
+3. **Competence & Qualification Gaps Table**: Highlight all non-matches/partial matches with their mitigation strategies.
+4. Count of new gap questions vs pre-answered from library.
+
