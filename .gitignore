@@ -13,11 +13,12 @@ build/
 .pytest_cache/
 .mypy_cache/
 
-# Keep source CV and candidate/submissions folders tracked but not their generated/user contents
-candidate/*
-!candidate/.gitkeep
-candidate/source_cvs/*
-!candidate/source_cvs/.gitkeep
+# Keep source CV and library/submissions folders tracked but not their generated/user contents
+library/*
+!library/.gitkeep
+library/source_cvs/*
+!library/source_cvs/.gitkeep
 submissions/*
 !submissions/.gitkeep
+
 

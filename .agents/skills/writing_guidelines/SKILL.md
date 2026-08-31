@@ -15,8 +15,8 @@ description: >-
 - **Mirror the JD language truthfully** — use relevant phrasing from `JDData.keywords` where it honestly reflects the candidate's work.
 - **No first-person pronouns** — Never "I" or "my" in CVs/résumés; write in third-person implied (e.g. "Designed…" not "I designed…").
 - **ATS-safe formatting** — no tables, columns, or graphics in the Markdown that would break text extraction.
-- **Personal profile & Regional contact routing** — Read `candidate/candidate_library.json` for personal contact information and apply the defined regional contact routing rules (`contact_routing_rules`, `work_authorization`) in respect of the job location.
-- **Consult relevant source CVs** — Check `candidate/source_cvs/` for role-aligned CVs (e.g., Data Analyst, Solutions Manager, etc.) to borrow tailored framing, strong phrasing, and relevant emphasis.
+- **Personal profile & Regional contact routing** — Read `library/candidate.json` for personal contact information and apply the defined regional contact routing rules (`contact_routing_rules`, `work_authorization`) in respect of the job location.
+- **Consult relevant source CVs** — Check `library/source_cvs/` for role-aligned CVs (e.g., Data Analyst, Solutions Manager, etc.) to borrow tailored framing, strong phrasing, and relevant emphasis.
 
 ---
 

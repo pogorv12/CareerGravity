@@ -32,8 +32,8 @@ You do not need to use Git or the command line:
 - You will see the project file list on the left side and an **AI Chat panel** on the right side.
 
 ### 4. Put Your Resume / CV in the Source Folder
-- Look at the left file explorer panel and expand the `candidate/` folder.
-- Drag & drop your existing resume or CV files into `candidate/source_cvs/`.
+- Look at the left file explorer panel and expand the `library/` folder.
+- Drag & drop your existing resume or CV files into `library/source_cvs/`.
 - You can drop multiple formats: **PDF (`.pdf`)**, **Word (`.docx` / `.doc`)**, **Markdown (`.md`)**, or **Text (`.txt`)**.
 - *Tip: If you have different CV versions (e.g., general, technical, management), drop all of them in — the AI will combine and organize your full experience!*
 
@@ -42,7 +42,7 @@ Click into the **Chat window** on the right side and type your request in normal
 - **First time setup:** Type:
   > *"Please initialize my candidate library from all source CVs"*
   
-  The AI will read your resumes, build your personal career profile in `candidate/candidate_library.json`, and confirm when ready.
+  The AI will read your resumes, build your personal career profile in `library/candidate.json`, and confirm when ready.
 
 - **To apply for a job:** Simply paste the job link or text into the chat:
   > *"I want to apply for this role: [Paste URL or Paste Job Description Text]"*
@@ -80,20 +80,20 @@ The agent automatically reads the `pipeline` skill and walks you through the ent
 Before generating job applications, initialize and verify your persistent career knowledge base:
 
 ### Step 1: Drop Your Available CVs
-Place all your existing CV versions into `candidate/source_cvs/` (supported: `.md`, `.txt`, `.pdf`, `.doc`, `.docx`). If you have role-specific CVs (e.g., Data Analyst, Solutions Manager, Software Engineer), include all of them so the library captures your full career history, tools, and achievements.
+Place all your existing CV versions into `library/source_cvs/` (supported: `.md`, `.txt`, `.pdf`, `.doc`, `.docx`). If you have role-specific CVs (e.g., Data Analyst, Solutions Manager, Software Engineer), include all of them so the library captures your full career history, tools, and achievements.
 
 ### Step 2: Ingest CVs into the Library
 Tell the agent:
-> *"Initialise my candidate library from all source CVs in `candidate/source_cvs/`"*
+> *"Initialise my candidate library from all source CVs in `library/source_cvs/`"*
 
-The agent parses every CV file and cleanly merges experience bullets, skills, education, tools, and certifications into `candidate/candidate_library.json`.
+The agent parses every CV file and cleanly merges experience bullets, skills, education, tools, and certifications into `library/candidate.json`.
 
 ### Step 3: Review & Verify Library Information (Crucial!)
 > [!IMPORTANT]
 > **Checking and maintaining your candidate library information is essential for high document relevance.**
-> `candidate/candidate_library.json` is the **single source of truth** for all document generation and ATS matching. The quality, precision, and truthfulness of your tailored CV, one-page résumé, and cover letter directly depend on the library's data.
+> `library/candidate.json` is the **single source of truth** for all document generation and ATS matching. The quality, precision, and truthfulness of your tailored CV, one-page résumé, and cover letter directly depend on the library's data.
 >
-> Open `candidate/candidate_library.json` to verify:
+> Open `library/candidate.json` to verify:
 > 1. **Identity & Contact Routing:** Ensure `contact_routing_rules` has correct phone numbers and locations for your target countries/regions.
 > 2. **Work Authorization:** Confirm `work_authorization` accurately reflects your legal eligibility for target jurisdictions (e.g., EU, UK, US).
 > 3. **Experience Bullets & Metrics:** Check that past roles contain quantified outcomes, verified technologies, and clear responsibilities.
@@ -102,7 +102,7 @@ The agent parses every CV file and cleanly merges experience bullets, skills, ed
 
 ## How the Candidate Library Works
 
-`candidate/candidate_library.json` is your personal career knowledge base:
+`library/candidate.json` is your personal career knowledge base:
 
 | Event | What happens |
 |---|---|
@@ -118,8 +118,8 @@ By your 3rd–4th application the library is rich and Q&A gets shorter every tim
 ## Data Structure
 
 ```
-candidate/
-├── candidate_library.json   ← Persistent career knowledge base, profile & contact routing
+library/
+├── candidate.json           ← Persistent career knowledge base, profile & contact routing
 └── source_cvs/              ← Drop your CVs here (.md, .txt, .pdf, .doc, or .docx)
     └── my_cv.md
 
@@ -153,7 +153,7 @@ folder_management/  ← Naming conventions
 
 ```
 0. Load candidate library
-1. Locate CV (candidate/source_cvs/ or paste text)
+1. Locate CV (library/source_cvs/ or paste text)
 2. Get JD (file / URL / paste)
 3. Parse CV → merge into library → save
 4. Parse JD → extract structured data
@@ -168,7 +168,7 @@ folder_management/  ← Naming conventions
 
 ## CV Formats
 
-Drop your CV into `candidate/source_cvs/`. Supported formats:
+Drop your CV into `library/source_cvs/`. Supported formats:
 - **Markdown (`.md`)** & **Plain Text (`.txt`)**: Read directly.
 - **PDF (`.pdf`)**: Read directly via built-in viewer and text/OCR.
 - **Word (`.docx` & `.doc`)**: Extracted automatically across operating systems:
