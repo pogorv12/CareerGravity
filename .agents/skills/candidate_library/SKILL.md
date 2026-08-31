@@ -2,7 +2,7 @@
 name: candidate-library
 description: >-
   How to read, update, merge, and save the persistent candidate library at
-  data/candidate_library.json. The library is the single source of truth for
+  candidate/candidate_library.json. The library is the single source of truth for
   everything known about the candidate. Use whenever touching the library file.
 ---
 
@@ -10,7 +10,7 @@ description: >-
 
 ## What the Library Is
 
-`data/candidate_library.json` is a permanent, growing knowledge base for the
+`candidate/candidate_library.json` is a permanent, growing knowledge base for the
 candidate. It accumulates content from every CV version and every gap Q&A session
 across all job applications.
 
@@ -22,11 +22,28 @@ across all job applications.
 
 ```jsonc
 {
-  // ── Identity ────────────────────────────────────────────────────────────
+  // ── Identity & Contact Routing ──────────────────────────────────────────
   "name": "string",
   "email": "string | null",
   "linkedin": "string | null",
   "github": "string | null",
+  "default_location": "string | null",
+  "contact_routing_rules": {
+    "default": {
+      "region_scope": "string",
+      "phone": "string",
+      "location": "string"
+    },
+    // Region-specific overrides (e.g. "ru", "by", "uk", "us", etc.)
+    "<region_key>": {
+      "region_scope": "string",
+      "phone": "string",
+      "location": "string"
+    }
+  },
+  "work_authorization": {
+    "<region_key>": "string"          // e.g. "eu_hungary": "Eligible to work in Hungary / EU"
+  },
 
   // ── Career content ───────────────────────────────────────────────────────
   "experience": [
@@ -53,12 +70,11 @@ across all job applications.
   "technical_skills": ["string"],
   "soft_skills": ["string"],
   "tools": ["string"],
-  "languages": ["string"],
+  "languages": ["string"] | {"<language>": "<proficiency>"},
   "certifications": [{"name": "string", "issuer": "string", "date": "string"}],
   "projects": [{"name": "string", "description": "string", "tech_stack": ["string"]}],
   "awards": ["string"],
   "summary_statements": ["string"],   // raw summaries from all CV versions
-
   // ── Q&A Enrichments ──────────────────────────────────────────────────────
   "enrichments": [
     {
@@ -77,21 +93,52 @@ across all job applications.
 }
 ```
 
+## Importance of Candidate Library Information for Document Relevance
+
+`candidate/candidate_library.json` is the **single source of truth** for all document generation and ATS matching.
+
+> [!IMPORTANT]
+> **Checking and maintaining complete, verified candidate library information is essential for high document relevance.**
+> - All generated submission documents (tailored CV, 1-page résumé, cover letter) and matching scores directly draw from the library.
+> - High-quality bullets with verified metrics, accurate tools, and up-to-date regional contact routing rules (`contact_routing_rules`, `work_authorization`) directly ensure the highest relevance, quality, and ATS alignment for every application.
+
+---
+
+## Initialising the Candidate Library from Available CVs
+
+When setting up a new candidate library or ingesting all available CVs:
+
+1. Locate all files in `candidate/source_cvs/` (`.md`, `.txt`, `.pdf`, `.doc`, `.docx`).
+2. Load or initialize `candidate/candidate_library.json`.
+3. For each CV in `candidate/source_cvs/`:
+   - Parse CV data into structured format (see **cv-parsing** skill).
+   - Merge the parsed data into the candidate library following the merge rules below.
+   - Add the filename to `source_cvs`.
+4. Save the merged library to `candidate/candidate_library.json`.
+5. Advise the user to inspect and verify `candidate/candidate_library.json` (specifically contact details, location routing, work authorizations, and past experiences) before running applications.
+
 ---
 
 ## Loading the Library
 
-1. Use `view_file` on `data/candidate_library.json`.
+1. Use `view_file` on `candidate/candidate_library.json`.
 2. If the file does not exist, initialise an empty library:
 
 ```json
 {
   "name": "",
   "email": null,
-  "phone": null,
   "linkedin": null,
   "github": null,
-  "location": null,
+  "default_location": null,
+  "contact_routing_rules": {
+    "default": {
+      "region_scope": "Worldwide",
+      "phone": "",
+      "location": ""
+    }
+  },
+  "work_authorization": {},
   "experience": [],
   "education": [],
   "technical_skills": [],
@@ -189,7 +236,7 @@ Before the interview step, split gap questions into two groups:
 
 1. Update `updated_at` to the current ISO timestamp.
 2. Use `write_to_file` with `Overwrite: true` to save the full JSON to
-   `data/candidate_library.json`.
+   `candidate/candidate_library.json`.
 3. Always pretty-print (2-space indent) for human readability.
 
 **Save after:**
@@ -205,3 +252,4 @@ Before the interview step, split gap questions into two groups:
 - Never replace the entire library with a single CV's content.
 - Never store duplicate enrichments for the same topic+position.
 - Never omit the `updated_at` timestamp on save.
+

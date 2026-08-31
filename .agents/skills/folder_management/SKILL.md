@@ -10,23 +10,22 @@ description: >-
 ## Directory Layout
 
 ```
-data/
-├── personal_profile.json     # Contact info & regional routing rules
-├── candidate_library.json    # Persistent career knowledge base
-├── source_cvs/               # Drop raw CVs here; one file per format
-│   ├── john_doe_cv.pdf
-│   ├── john_doe_cv.docx
-│   └── john_doe_cv.md
-│
-└── submissions/              # Generated output; one folder per application
-    └── <company>_<role>_YYYYMMDD/
-        ├── README.md         # Application checklist & summary
-        ├── tailored_cv.md
-        ├── resume_1page.md
-        ├── cover_letter.md
-        ├── match_report.json # Raw MatchReport for reference
-        ├── jd_source.md      # Original job description
-        └── session.json      # Gap Q&A answers (for re-generation)
+candidate/
+├── candidate_library.json    # Persistent career knowledge base, profile & routing rules
+└── source_cvs/               # Drop raw CVs here; one file per format
+    ├── john_doe_cv.pdf
+    ├── john_doe_cv.docx
+    └── john_doe_cv.md
+
+submissions/                  # Generated output; one folder per application
+└── <company>_<role>_YYYYMMDD/
+    ├── README.md         # Application checklist & summary
+    ├── tailored_cv.md
+    ├── resume_1page.md
+    ├── cover_letter.md
+    ├── match_report.json # Raw MatchReport for reference
+    ├── jd_source.md      # Original job description
+    └── session.json      # Gap Q&A answers (for re-generation)
 ```
 
 ## Naming Conventions

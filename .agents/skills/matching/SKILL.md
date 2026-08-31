@@ -18,7 +18,7 @@ the current CV parse.
 
 ## Input
 
-- `CandidateLibrary` — the full library loaded from `data/candidate_library.json`
+- `CandidateLibrary` — the full library loaded from `candidate/candidate_library.json`
   (includes all experience, skills, AND previous enrichments / Q&A answers)
 - `JDData` — structured job description from Step 4 of the pipeline
 
