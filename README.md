@@ -10,6 +10,19 @@ with every application.
 
 ---
 
+## 💡 Why Use Antigravity for Job Applications?
+
+Most job seekers struggle with a frustrating choice: juggle 10 different versions of their CV across cluttered folders, or pay for expensive, subscription-based AI resume builders that store their personal data in the cloud.
+
+CareerGravity takes a completely different approach by turning Google Antigravity into an **"Integrated Workspace (IDE) for Job Seekers"**:
+
+- 💸 **100% Free & Pro-Grade AI:** Running deep multi-agent pipelines (parsing multiple resumes, ATS matching, gap interviews, and document generation) is computationally heavy. Instead of relying on ad-supported web apps or paying monthly SaaS fees, you leverage the generous free AI quota already included in your Google account.
+- 🔒 **Local-First & Private:** Your career history, contact details, salary expectations, and tailored submission files remain stored safely on your local machine in clean JSON and Markdown—not in a proprietary third-party database.
+- 🧠 **Persistent Career Knowledge Base:** Standard chatbots forget your details after every chat. CareerGravity builds and maintains a single source of truth (`library/candidate.json`) that merges all your past CVs and learns from your answers, getting smarter with each application.
+- 🤖 **Zero Coding Required:** You don't need to write code, install libraries, or manage API keys. If you can type in plain English and drag-and-drop a file, you have a professional agentic workflow at your fingertips.
+
+---
+
 ## 🚀 Beginner's Quick Start (No Coding or Git Required)
 
 If you've never used **Git**, coding tools, or **Antigravity** before, don't worry! CareerGravity is designed so anyone can use it simply by chatting in plain English.
