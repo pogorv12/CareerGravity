@@ -159,7 +159,7 @@ Generate three documents in order. For each, use the **full library** as context
 (not just the CV parse from this session). Include:
 - All `library.experience` entries (ordered by recency)
 - All `library.enrichments` (especially those relevant to this JD)
-- **Relevant CVs in `library/source_cvs/`**: Check `library/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements.
+- **Relevant CVs in `library/source_cvs/` (if gaps exist)**: If `library/candidate.json` has gaps matching the JD, check `library/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements to address those gaps.
 - The MatchReport's `strong_points`, `weak_points`, `competence_gaps`, and `suggested_emphasis`
 - The JD's `keywords` (mirror exact phrasing where truthful)
 

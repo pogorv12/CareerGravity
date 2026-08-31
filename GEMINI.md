@@ -70,8 +70,8 @@ All skills live in `.agents/skills/`:
 - Also update `library.updated_at` to the current ISO timestamp on every save.
 
 ## Source CV Consultation Rule
-- When creating a submission, always inspect `library/source_cvs/` for any role-relevant CVs (e.g., Data Analyst, Solutions Manager, Developer).
-- If relevant CVs exist, consult their specific phrasing, bullet structuring, and highlighted achievements to tailor the submission documents alongside the candidate library.
+- When creating a submission, inspect `library/source_cvs/` for role-relevant CVs (e.g., Data Analyst, Solutions Manager, Developer) only if `library/candidate.json` has gaps to match the job description (JD).
+- If relevant CVs exist and gaps are identified, consult their specific phrasing, bullet structuring, and highlighted achievements to tailor the submission documents alongside the candidate library to address those gaps.
 
 ## Grounding & Authenticity Rule
 - Never invent or fabricate unspecified experience, credentials, tools, or metrics to match a job description.
