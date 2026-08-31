@@ -151,7 +151,19 @@ Produce this structure and save as `match_report.json` in the submission package
   ],
   "keyword_coverage_pct": 0.0,
   "seniority_aligned": true,
-  "strong_points": ["string"],
+  "strong_points": [
+    "3–5 headline strengths, competitive advantages, and verified achievements for this specific role"
+  ],
+  "weak_points": [
+    "3–5 candid vulnerability areas, missing specialized tools, or perceived qualification gaps from the hiring manager's perspective"
+  ],
+  "interview_preparation_recommendations": [
+    {
+      "topic": "string (specific subject, standard, tool, or methodology to study)",
+      "recommendation": "string (what to read, research, or practice before the interview)",
+      "key_concepts_to_master": ["string"]
+    }
+  ],
   "gap_questions": [
     {
       "topic": "string",
@@ -187,5 +199,7 @@ After matching, show:
 1. Match score with colour interpretation.
 2. A required skills & coverage table (`skill` | `status` | `evidence` | `gap`).
 3. **Competence & Qualification Gaps Table**: Highlight all non-matches/partial matches with their mitigation strategies.
-4. Count of new gap questions vs pre-answered from library.
+4. **Strong Points vs Weak Points**: Direct side-by-side or paired comparison of strengths and hiring manager vulnerability flags.
+5. **Interview Preparation & Reading Recommendations**: Concrete topics, terminology, and tools to review prior to conversations with the team.
+6. Count of new gap questions vs pre-answered from library.
 

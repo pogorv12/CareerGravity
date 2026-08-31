@@ -120,9 +120,11 @@ Read the **matching** skill for the scoring algorithm and competence gap schema.
    - Calculate match score according to formula.
    - For all items (required skills, nice-to-have, responsibilities), track `gap` nuances.
    - **Automatically generate structured `competence_gaps`** for every non-match (`missing`), partial match (`partial`), or weak responsibility with mitigation strategies.
+   - **Extract `strong_points` and `weak_points`**: Explicitly contrast key competitive advantages against candid vulnerability areas.
+   - **Generate `interview_preparation_recommendations`**: Provide actionable topics, industry concepts, tools, or frameworks to read/improve before interviews.
 3. **Filter gap questions:** for each gap topic, check if `library.enrichments`
    already contains an answer for that topic. If yes → skip that question.
-4. Print the match score, skills coverage table, and competence gaps table.
+4. Print the match score, skills coverage table, competence gaps table, strong vs weak points, and interview preparation recommendations.
 5. Save `match_report.json` to the session — you will write it to the submission
    folder in Step 8.
 
@@ -158,7 +160,7 @@ Generate three documents in order. For each, use the **full library** as context
 - All `library.experience` entries (ordered by recency)
 - All `library.enrichments` (especially those relevant to this JD)
 - **Relevant CVs in `candidate/source_cvs/`**: Check `candidate/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements.
-- The MatchReport's `strong_points`, `competence_gaps`, and `suggested_emphasis`
+- The MatchReport's `strong_points`, `weak_points`, `competence_gaps`, and `suggested_emphasis`
 - The JD's `keywords` (mirror exact phrasing where truthful)
 
 ### 7a — Tailored CV (`tailored_cv.md`)
@@ -191,7 +193,7 @@ Write these files:
 | `tailored_cv.md` | From Step 7a |
 | `resume_1page.md` | From Step 7b |
 | `cover_letter.md` | From Step 7c |
-| `match_report.json` | The MatchReport from Step 5 as JSON (including `competence_gaps`) |
+| `match_report.json` | The MatchReport from Step 5 as JSON (including `competence_gaps`, `weak_points`, `interview_preparation_recommendations`) |
 | `jd_source.md` | Original JD text |
 | `README.md` | Checklist (see template below) |
 
@@ -210,7 +212,9 @@ Write these files:
 
 ## Match Summary
 **Strong points:** [from report]
+**Weak points (Hiring Manager Perspective):** [from report]
 **Competence Gaps & Non-Matches Highlighted:** [list from competence_gaps]
+**Interview Preparation & Reading Recommendations:** [from report]
 **Gaps addressed:** [topics answered in interview]
 **Suggested emphasis:** [from report]
 
