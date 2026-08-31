@@ -1,0 +1,247 @@
+{
+  "job_title": "CF & Planning Performance Analyst CASTROL",
+  "company": "bp",
+  "location": "Budapest, Hungary (Hybrid)",
+  "match_score": 84.5,
+  "required_skill_matches": [
+    {
+      "skill": "University/College degree preferably in Economics, Supply Chain or similar",
+      "status": "partial",
+      "evidence": "Belarusian State University of Informatics and Radioelectronics (BSUIR) — M.S. in Computer Science, Systems and Networks Engineering (Graduated with Honors)",
+      "gap": "Formal degree is in Computer Science / Engineering rather than Economics or Supply Chain Management."
+    },
+    {
+      "skill": "Fluency in English",
+      "status": "covered",
+      "evidence": "English (Full Professional Proficiency); 15+ years in global enterprise roles across EMEA for Nokia and Ericsson",
+      "gap": null
+    },
+    {
+      "skill": "Advanced Excel knowledge",
+      "status": "covered",
+      "evidence": "Excel / VBA, complex financial, cost and geo-analytical data processing models, data mining workbooks, and automated macros",
+      "gap": null
+    },
+    {
+      "skill": "Very strong analytical skills – able to analyze & summarize complex info and drive improvements",
+      "status": "covered",
+      "evidence": "Designed and deployed proprietary analytical system on Nokia Traffica platform; built KPI dashboards at UAVLAS tracking financial, operational, and technical metrics",
+      "gap": null
+    },
+    {
+      "skill": "High level understanding of sales & supply chain activities (logistics, demand/supply planning)",
+      "status": "partial",
+      "evidence": "Extensive experience in capacity planning, nationwide rollout logistics, vendor negotiation, and SLA/KPI delivery for multi-million dollar infrastructure contracts",
+      "gap": "Experience is centered on telecom network rollout logistics and capacity planning rather than physical lubricant/FMCG demand planning and formal S&OP processes."
+    },
+    {
+      "skill": "High understanding of business requirements and strategy",
+      "status": "covered",
+      "evidence": "Services Solution Manager at Nokia Russia ($15M+ enterprise deals, business case justifications) & Startup Founder (checkprice.app)",
+      "gap": null
+    },
+    {
+      "skill": "Solid knowledge of ERP system (SAP, APO, Oracle, Kinaxis) and business reporting tools (MI / SAP Business Objects)",
+      "status": "partial",
+      "evidence": "Hands-on experience with SAP (User / Cost Reporting), Power BI dashboard development, Microsoft Power Automate, Tableau, QlikView",
+      "gap": "Proficient with SAP reporting, Power BI, and Power Automate, but has no direct working experience with specialized SCM planning modules (SAP APO, Kinaxis, Oracle SCM) or SAP Business Objects."
+    },
+    {
+      "skill": "Experience in SQL language and Python",
+      "status": "covered",
+      "evidence": "Deep SQL proficiency across PostgreSQL, BigQuery, and NoSQL databases; Python for automated SON scripts, ETL pipelines, and data analytics",
+      "gap": null
+    },
+    {
+      "skill": "Attention to detail, lateral thinking & problem-solving under pressure",
+      "status": "covered",
+      "evidence": "Delivered high-stakes zero-outage telecom projects for FIFA 2018 World Cup; led regional engineering squads across 8+ regions simultaneously",
+      "gap": null
+    },
+    {
+      "skill": "Continuous improvement mind-set",
+      "status": "covered",
+      "evidence": "Lean Six Sigma Purple Belt certified; introduced Jira ticketing workflows into network optimization projects to optimize cycle times",
+      "gap": null
+    }
+  ],
+  "nice_to_have_matches": [
+    {
+      "skill": "Data Lake integration & extraction optimization",
+      "status": "covered",
+      "evidence": "Architected granular queries across telecom signaling data lake (Nokia Traffica), GCP BigQuery, and Firebase Cloud Functions",
+      "gap": null
+    },
+    {
+      "skill": "Cross-business KPI & executive reporting development",
+      "status": "covered",
+      "evidence": "Designed Customer Experience Management (CEM) analytics engine adopted across EMEA operators, improving customer retention by 15%",
+      "gap": null
+    },
+    {
+      "skill": "Process automation & scripting",
+      "status": "covered",
+      "evidence": "Automated network configuration, data ingestion pipelines, and Power Automate ETL workflows",
+      "gap": null
+    },
+    {
+      "skill": "Specialized SCM Planning Software (SAP APO / Kinaxis RapidResponse / Oracle SCM)",
+      "status": "missing",
+      "evidence": "No direct experience recorded in candidate library for Kinaxis, SAP APO, or Oracle SCM suites",
+      "gap": "Candidate relies on custom BI dashboards (Power BI / Excel / SQL / Python) rather than proprietary SCM planning platforms."
+    },
+    {
+      "skill": "SAP Business Objects (BO) / Management Information (MI) reporting suites",
+      "status": "missing",
+      "evidence": "No direct experience recorded with SAP Business Objects / MI; candidate utilizes Power BI, Tableau, QlikView, and Excel",
+      "gap": "Lack of direct exposure to SAP Business Objects / MI tools."
+    }
+  ],
+  "responsibility_matches": [
+    {
+      "responsibility": "Provide insights by conducting robust analysis on supply chain & operational process performance",
+      "relevance": "moderate",
+      "best_evidence": "UAVLAS & Nokia: Built real-time monitoring and KPI analytics tracking operational, performance, and financial metrics across multi-tiered workflows",
+      "gap": "Analytical methodology is strong, but operational supply chain domain knowledge (lubricants distribution, stockout analysis) will require ramp-up."
+    },
+    {
+      "responsibility": "Create and maintain routine performance reports and dashboards of key metrics and KPIs",
+      "relevance": "strong",
+      "best_evidence": "Engineered Power BI, Tableau, and Excel reporting suites with scheduled automated data refreshes and high punctuality",
+      "gap": null
+    },
+    {
+      "responsibility": "Design or maintain data visualization workbooks",
+      "relevance": "strong",
+      "best_evidence": "Developed intuitive geo-analytical and operational workbooks in Excel/Power BI translating millions of data points into actionable executive insights",
+      "gap": null
+    },
+    {
+      "responsibility": "Support weekly/monthly cluster performance packs",
+      "relevance": "strong",
+      "best_evidence": "Prepared executive reviews, service level KPI packs, and financial profitability reports for regional directors and Tier-1 clients",
+      "gap": null
+    },
+    {
+      "responsibility": "Support supply chain projects (network optimization, service level improvement, logistics efficiency)",
+      "relevance": "moderate",
+      "best_evidence": "15+ years optimizing large-scale complex network topologies, capacity distribution, and rollout logistics across EMEA",
+      "gap": "Experience is in telecom infrastructure network topologies rather than physical manufacturing/warehouse supply chain logistics."
+    },
+    {
+      "responsibility": "Recommend data quality and standards improvements & input continuous improvement ideas to data lake/extraction",
+      "relevance": "strong",
+      "best_evidence": "Lean Six Sigma Purple Belt; established data governance, schema validation, and automated ETL pipelines across GCP and on-prem architectures",
+      "gap": null
+    }
+  ],
+  "competence_gaps": [
+    {
+      "competence": "Specialized SCM & Planning Systems (SAP APO, Kinaxis RapidResponse, Oracle SCM)",
+      "gap_type": "tooling_platform",
+      "jd_requirement": "Solid knowledge of an ERP system (SAP, APO or Oracle or Kinaxis etc)",
+      "candidate_status": "missing",
+      "candidate_reality": "Candidate has hands-on experience with core SAP user/reporting, Power BI, and Microsoft Power Automate, but has not used dedicated APS/SCM engines like SAP APO or Kinaxis.",
+      "gap_analysis": "While the candidate understands data pipelines, reporting layers, and general SAP queries, they lack familiarity with Kinaxis/APO supply-demand balancing heuristics and scheduling algorithms.",
+      "mitigation_strategy": "Highlight rapid adaptability in complex data environments, advanced Power BI/Excel modeling, and Python/SQL capabilities to extract and model planning data directly from data lakes and ERP backends.",
+      "impact_level": "medium"
+    },
+    {
+      "competence": "Physical Supply Chain & S&OP Domain Experience (Oil & Gas / Lubricants / FMCG)",
+      "gap_type": "domain_knowledge",
+      "jd_requirement": "High level understanding of sales and supply chain activities (logistics, demand planning and supply planning processes)",
+      "candidate_status": "partial",
+      "candidate_reality": "15+ years of capacity planning, deployment logistics, and SLA tracking in telecommunications and enterprise tech; no direct manufacturing or physical lubricant supply chain experience.",
+      "gap_analysis": "The candidate has not worked within oil & gas or FMCG distribution networks, inventory stock holding policies, or seasonal SKU replenishment cycles.",
+      "mitigation_strategy": "Frame telecom capacity forecasting, equipment rollout logistics, and SLA delivery as direct transferable analogues to supply/demand balancing and logistics performance management.",
+      "impact_level": "medium"
+    },
+    {
+      "competence": "SAP Business Objects (BO) / Legacy MI Reporting Suites",
+      "gap_type": "tooling_platform",
+      "jd_requirement": "Solid knowledge of business reporting tools (e.g. MI/SAP Business Objects)",
+      "candidate_status": "missing",
+      "candidate_reality": "Extensive experience with modern BI tools (Power BI, Tableau, QlikView, Excel/VBA), but no verified exposure to SAP Business Objects / MI.",
+      "gap_analysis": "If the team relies on legacy SAP BO universes or MI interfaces, the candidate will require initial orientation on BO report generation.",
+      "mitigation_strategy": "Demonstrate that core BI principles, SQL queries, and Power BI/Power Automate expertise enable frictionless transition to any enterprise reporting tool.",
+      "impact_level": "low"
+    },
+    {
+      "competence": "Formal Degree Specialization in Economics or Supply Chain",
+      "gap_type": "formal_education",
+      "jd_requirement": "University/College degree preferably in Economics, Supply Chain or similar",
+      "candidate_status": "partial",
+      "candidate_reality": "M.S. in Computer Science, Systems and Networks Engineering (Graduated with Honors).",
+      "gap_analysis": "The degree is technical and engineering-focused rather than a business/economics or supply chain management degree.",
+      "mitigation_strategy": "Emphasize quantitative rigor, advanced analytics, systems engineering, and business acumen proven via $15M+ commercial contract management and Lean Six Sigma certification.",
+      "impact_level": "low"
+    }
+  ],
+  "keyword_coverage_pct": 88.0,
+  "seniority_aligned": true,
+  "strong_points": [
+    "Proven track record in end-to-end performance analytics, KPI dashboard design (Power BI, Excel, SQL, Python), and automated data pipelines using Power Automate.",
+    "Extensive experience in large-scale network optimization and capacity planning, directly transferable to supply chain logistics and cluster performance analysis.",
+    "Certified Lean Six Sigma Purple Belt with deep commitment to data quality, governance, and continuous improvement in enterprise environments.",
+    "Direct experience interfacing with SAP ERP reporting systems and architecting cross-functional business intelligence solutions."
+  ],
+  "weak_points": [
+    "Lack of direct physical supply chain experience in oil & gas, lubricants, or FMCG manufacturing and warehouse logistics.",
+    "No verified working experience with specialized SCM planning suites (SAP APO, Kinaxis RapidResponse, Oracle SCM), relying instead on custom BI and automated pipeline tooling.",
+    "No direct hands-on exposure to SAP Business Objects (BO) / legacy MI reporting environments.",
+    "Formal education is in Computer Science and Systems Engineering rather than a business, economics, or formal supply chain degree."
+  ],
+  "interview_preparation_recommendations": [
+    {
+      "topic": "Downstream Oil & Lubricants Supply Chain KPIs",
+      "recommendation": "Review standard distribution and inventory performance metrics used in lubricants and manufacturing supply chains.",
+      "key_concepts_to_master": [
+        "OTIF (On-Time In-Full) & Fill Rates",
+        "Days of Inventory / Days Sales of Inventory (DSI / DOS)",
+        "Stockout Probability & Safety Stock calculations",
+        "Forecast Accuracy & Forecast Value Added (FVA)"
+      ]
+    },
+    {
+      "topic": "Sales & Operations Planning (S&OP) & IBP Cycles",
+      "recommendation": "Familiarize with the standard 5-stage S&OP / Integrated Business Planning cadence and how performance analysts support demand/supply consensus.",
+      "key_concepts_to_master": [
+        "Demand Planning & Statistical Baseline Forecasting",
+        "Supply Network Capacity & Constraint Balancing",
+        "Pre-S&OP and Executive S&OP deck preparation",
+        "Variance Analysis between budget, forecast, and actuals"
+      ]
+    },
+    {
+      "topic": "Enterprise Planning Platform Concepts (SAP APO / IBP & Kinaxis)",
+      "recommendation": "Read high-level architectural overviews of SAP APO (DP/SNP modules), SAP IBP, and Kinaxis RapidResponse concurrent planning to fluently discuss how custom BI/ETL interfaces with them.",
+      "key_concepts_to_master": [
+        "Demand Planning (DP) vs Supply Network Planning (SNP)",
+        "Concurrent planning & scenario simulation",
+        "Extracting ERP planning tables into Data Lake / Power BI"
+      ]
+    },
+    {
+      "topic": "Cluster Performance Pack Structuring",
+      "recommendation": "Prepare examples and talking points on how to structure regional executive performance packs (combining financial profitability, SLA compliance, operational bottleneck identification, and actionable continuous improvement initiatives).",
+      "key_concepts_to_master": [
+        "Executive narrative synthesis from granular KPIs",
+        "Regional cluster benchmarking",
+        "Root cause analysis presentation using Lean Six Sigma principles"
+      ]
+    }
+  ],
+  "gap_questions": [],
+  "pre_answered_enrichments": [
+    {
+      "topic": "ERP & Supply Chain Planning Platforms (SAP, Power BI Integration)",
+      "answer": "Primarily focused on building custom BI dashboards (Power BI/Tableau/Excel) and Power Automate workflows integrated with ERP (SAP) and data lake backends, with strong capability in translating operational and supply planning datasets into executive cluster performance packs."
+    }
+  ],
+  "suggested_emphasis": [
+    "Highlight Power BI, Microsoft Power Automate, SQL, Python, and Excel/VBA reporting pipelines.",
+    "Emphasize Lean Six Sigma methodology and data quality governance.",
+    "Demonstrate how telecom capacity planning and rollout logistics parallel supply chain demand/supply operations.",
+    "Showcase experience building executive cluster performance packs and translating complex data into strategic business decisions."
+  ]
+}
