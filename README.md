@@ -145,7 +145,7 @@ submissions/                 ← Generated application packages
     ├── match_report.json    ← Match score & gap analysis
     └── jd_source.md         ← Original JD text
 
-example/                     ← Sample completed submission package for reference
+.example/                    ← Sample completed submission package for reference
 ├── README.md                ← Example checklist & match breakdown
 ├── tailored_cv.md           ← Example tailored CV
 ├── resume_1page.md          ← Example 1-page résumé
@@ -159,14 +159,14 @@ example/                     ← Sample completed submission package for referen
 
 ## 📂 Example Submission Package
 
-To explore what a completed application output looks like before running the pipeline, check the [`example/`](file:///Users/pogorv/Dev/CareerGravity/example) directory. It contains a full end-to-end submission generated for a **CF & Planning Performance Analyst (bp / Castrol)** role:
+To explore what a completed application output looks like before running the pipeline, check the [`.example/`](file:///Users/pogorv/Dev/CareerGravity/.example) directory. It contains a full end-to-end submission generated for a **CF & Planning Performance Analyst (bp / Castrol)** role:
 
-- 📄 [`example/tailored_cv.md`](file:///Users/pogorv/Dev/CareerGravity/example/tailored_cv.md) — Multi-page ATS-tailored CV.
-- 📄 [`example/resume_1page.md`](file:///Users/pogorv/Dev/CareerGravity/example/resume_1page.md) — High-impact one-page executive résumé.
-- ✉️ [`example/cover_letter.md`](file:///Users/pogorv/Dev/CareerGravity/example/cover_letter.md) — Targeted cover letter mapping qualifications, tools, and quantified metrics.
-- 📊 [`example/match_report.json`](file:///Users/pogorv/Dev/CareerGravity/example/match_report.json) — Detailed ATS scoring, competence gap analysis, and interview prep suggestions.
-- 📝 [`example/jd_source.md`](file:///Users/pogorv/Dev/CareerGravity/example/jd_source.md) & [`example/session.json`](file:///Users/pogorv/Dev/CareerGravity/example/session.json) — Raw vacancy text and gap Q&A enrichments.
-- 📋 [`example/README.md`](file:///Users/pogorv/Dev/CareerGravity/example/README.md) — Submission package overview and application checklist.
+- 📄 [`.example/tailored_cv.md`](file:///Users/pogorv/Dev/CareerGravity/.example/tailored_cv.md) — Multi-page ATS-tailored CV.
+- 📄 [`.example/resume_1page.md`](file:///Users/pogorv/Dev/CareerGravity/.example/resume_1page.md) — High-impact one-page executive résumé.
+- ✉️ [`.example/cover_letter.md`](file:///Users/pogorv/Dev/CareerGravity/.example/cover_letter.md) — Targeted cover letter mapping qualifications, tools, and quantified metrics.
+- 📊 [`.example/match_report.json`](file:///Users/pogorv/Dev/CareerGravity/.example/match_report.json) — Detailed ATS scoring, competence gap analysis, and interview prep suggestions.
+- 📝 [`.example/jd_source.md`](file:///Users/pogorv/Dev/CareerGravity/.example/jd_source.md) & [`.example/session.json`](file:///Users/pogorv/Dev/CareerGravity/.example/session.json) — Raw vacancy text and gap Q&A enrichments.
+- 📋 [`.example/README.md`](file:///Users/pogorv/Dev/CareerGravity/.example/README.md) — Submission package overview and application checklist.
 
 ---
 
