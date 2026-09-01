@@ -26,9 +26,12 @@ Produce a MatchReport that quantifies fit, surfaces genuine non-matches and comp
 
 ### Step 1 — Skill Coverage & Non-Match Identification
 
-For each skill in `JDData.required_skills`:
-- Search across `library.technical_skills`, `library.tools`, and all `experience[].bullets`
+For each skill, framework, or standard in `JDData.required_skills`:
+- Search across `library.technical_skills`, `library.tools`, `library.certifications`, and all `experience[].bullets`
 - **Also search `library.enrichments[].answer`** — prior Q&A answers count as evidence.
+- **Domain & Framework Strictness**:
+  - Differentiate distinct industry domains (e.g. Telecom vs IT/Enterprise IT).
+  - Treat formal frameworks and standards (e.g., ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, Prince2, PMP) strictly: if not explicitly evidenced or certified in the candidate profile, mark as `missing` or `partial`. NEVER assume or auto-attribute formal framework expertise based solely on adjacent experience.
 - Mark as:
   - **covered** — directly evidenced (`gap: null`)
   - **partial** — related or adjacent skill found, but lacks exact domain, depth, or specific platform (`gap: explanation of nuance/shortfall`)
@@ -41,7 +44,7 @@ Repeat for `nice_to_have_skills`.
 For each responsibility in `JDData.responsibilities`:
 - Find the best matching evidence from `library.experience[].bullets` or enrichments.
 - Score: **strong** / **moderate** / **weak** / **none**
-- For **moderate**, **weak**, or **none**, articulate the specific domain or procedural gap in `gap`.
+- For **moderate**, **weak**, or **none**, articulate the specific domain or procedural gap in `gap`. Keep domain boundaries clear (do not score Telecom experience as strong for pure Enterprise IT service desk management unless verified).
 
 ### Step 3 — Seniority Alignment
 
@@ -57,13 +60,13 @@ For each responsibility in `JDData.responsibilities`:
 ### Step 5 — Automated Competence & Qualification Gaps Extraction (Mandatory)
 
 For every identified non-match (status `missing`), partial match (status `partial`), or weak responsibility (relevance `moderate`/`weak`/`none`), automatically generate a structured entry in `competence_gaps`:
-- **`competence`**: Clear name of the required skill, qualification, tool, or domain area.
-- **`gap_type`**: Classification (`tooling_platform` | `domain_knowledge` | `formal_education` | `methodology_process`).
+- **`competence`**: Clear name of the required skill, qualification, tool, domain area, or formal framework/standard.
+- **`gap_type`**: Classification (`tooling_platform` | `domain_knowledge` | `formal_education` | `methodology_process` | `formal_framework`).
 - **`jd_requirement`**: Exact phrase or requirement from the JD.
 - **`candidate_status`**: `missing` | `partial`.
 - **`candidate_reality`**: Accurate, grounded summary of what the candidate actually has in the library.
-- **`gap_analysis`**: Clear, objective analysis of the shortfall or domain distinction.
-- **`mitigation_strategy`**: Verified transferable skills, analogous tooling, or adjacent experience that bridges the gap.
+- **`gap_analysis`**: Clear, objective analysis of the shortfall, domain distinction (e.g. Telecom vs IT), or missing standard.
+- **`mitigation_strategy`**: Verified transferable skills, analogous tooling, or adjacent experience that bridges the gap without fabricating claims.
 - **`impact_level`**: `high` | `medium` | `low`.
 
 ---
@@ -85,14 +88,15 @@ match_score (0–100) =
 
 ## Gap Question Generation
 
-For each **missing** required skill or **weak/none** responsibility:
+For each **missing** required skill/framework or **weak/none** responsibility:
 
-1. Generate ONE focused question per gap.
+1. Generate ONE focused question per gap (especially for formal frameworks/standards like ITIL, ISO, TOGAF, or distinct domain experience).
 2. Questions must start with one of:
    - "Can you describe..."
    - "Have you worked with..."
-   - "Tell me about..."
-3. Do NOT ask about things already evidenced in the CV or enrichments.
+   - "Tell me about your exposure to..."
+3. Do NOT assume the answer or fabricate experience. Always ask the candidate directly.
+4. Do NOT ask about things already evidenced in the CV or enrichments.
 
 ### Library pre-filter (mandatory)
 

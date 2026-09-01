@@ -9,6 +9,8 @@ description: >-
 
 ## General Principles
 - **Grounding & Authenticity (No Fabrication)** — NEVER invent or fabricate unspecified experience, tools, technologies, responsibilities, or metrics to match a JD. Instead, describe how the candidate's *actual, specified* experience, achievements, and transferable skills fulfill the requirements.
+- **Domain Integrity & Background Boundaries** — Do NOT mix up or conflate distinct technical or industry domains (e.g. IT/Enterprise IT vs Telecommunications, Data Engineering vs Data Analytics, Infrastructure vs Software Engineering). Accurately reflect the true environment in which the candidate worked.
+- **No Formal Framework / Standard Fabrication** — Never claim or imply practical experience, compliance, implementation, or certification in formal frameworks or industry standards (e.g. ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, PMP, Prince2, SAFe) unless they are explicitly present in `library/candidate.json`.
 - **Specificity over vagueness** — "Reduced API latency by 40%" beats "Improved performance".
 - **Action verbs** — Start every bullet with a strong past-tense verb: Led, Built, Designed, Reduced, Launched, Mentored, Automated…
 - **Quantify wherever possible** — numbers, percentages, team sizes, time saved.
@@ -24,12 +26,14 @@ description: >-
 
 - **Strict Grounding (What NOT to do):**
   - Never fabricate unverified claims, tools, projects, or metrics just to fit the JD's requirements.
+  - Never blur distinct domains (e.g. passing off Telecom operations as IT service desk/enterprise IT without honest framing).
+  - Never claim knowledge or usage of formal standards and frameworks (ITIL, ISO, TOGAF, COBIT, etc.) unless verified in the profile.
   - If a skill or experience is absent from the candidate library and source CVs, do not pretend the candidate has done it.
 
 - **Experience Translation & Framing (What TO do):**
-  - **Bridge to JD Competencies:** Deconstruct the core challenges, business problems, and technical competencies the JD requires (e.g. data quality assurance, large-scale ETL, stakeholder alignment, system integration, workflow automation).
+  - **Bridge to JD Competencies:** Deconstruct the core challenges, business problems, and technical competencies the JD requires (e.g. service reliability, incident resolution, SLA management, workflow automation, large-scale systems).
   - **Demonstrate Transferability:** Articulate how the candidate's *existing, verified* projects and achievements prove capability in those core competencies.
-  - **Highlight Parallels & Equivalents:** Connect proven experience in adjacent tools or methodologies to the target stack (e.g., show how expertise in complex SQL, Python, and data pipeline design equips the candidate to excel in MDM or BI environments).
+  - **Highlight Parallels & Equivalents:** Connect proven experience in adjacent tools or methodologies to the target stack (e.g., show how high-availability telecom operations translate to mission-critical IT service delivery without falsely claiming ITIL certification).
   - **Contextualize Real Impact:** Rephrase existing bullet points to accentuate the aspects of real work that matter most to the target hiring manager without distorting the truth.
   - **Address Gaps Honestly:** In cover letters and summaries, frame real experience as a solid foundation that enables rapid adaptation and domain mastery.
 

@@ -73,9 +73,11 @@ All skills live in `.agents/skills/`:
 - When creating a submission, inspect `library/source_cvs/` for role-relevant CVs (e.g., Data Analyst, Solutions Manager, Developer).
 - If relevant CVs exist, consult their specific phrasing, bullet structuring, and highlighted achievements to tailor the submission documents alongside the candidate library.
 
-## Grounding & Authenticity Rule
-- Never invent or fabricate unspecified experience, credentials, tools, or metrics to match a job description.
-- Describe and reframe how the candidate's *specified, verified* experience and transferable skills fulfill the requirements of the JD.
+## Grounding, Domain Boundaries & Formal Frameworks Rules
+- **No Domain Mixing:** Never confuse, conflate, or mix up distinct or adjacent domains (e.g., IT/Enterprise IT vs Telecommunications, Software Development vs Infrastructure/Network Engineering, Data Analytics vs Data Engineering). Ground each role and achievement accurately within its true industry and functional domain.
+- **No Framework/Standard Fabrication:** Never invent, assume, or fabricate experience, familiarity, compliance, or certifications related to formal frameworks, standards, governance, or methodologies (e.g., ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, Prince2, PMP, SAFe) unless explicitly recorded in `library/candidate.json`.
+- **Mandatory Questioning for Missing Frameworks & Domains:** When a job description requires a formal framework, standard, or specific domain background not present in the candidate library, treat it as a hard gap and actively interview the user during the Gap Q&A step before drafting application materials. Never auto-fill or fabricate it.
+- **Authentic Grounding:** Describe and reframe how the candidate's *specified, verified* experience and transferable skills fulfill the requirements of the JD without claiming unverified credentials or methodologies.
 
 ## Cover Letter Alignment Rule
 - When generating cover letters, explicitly articulate the relationship between the candidate's previous experience and the job description requirements across three pillars:

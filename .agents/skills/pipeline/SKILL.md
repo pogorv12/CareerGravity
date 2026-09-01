@@ -116,14 +116,14 @@ Read the **matching** skill for the scoring algorithm and competence gap schema.
 1. Match the **full library** (not just one CV parse) against the JD:
    - Experience, skills, tools, awards, projects
    - **Also check `library.enrichments`** — prior Q&A answers count as evidence.
+   - **Enforce Domain & Framework Boundaries**: Differentiate between IT and Telecom (or other adjacent domains). Do not assume familiarity with formal standards or frameworks (e.g. ITIL, TOGAF, ISO, COBIT, eTOM) unless explicitly verified.
 2. Produce a MatchReport:
    - Calculate match score according to formula.
    - For all items (required skills, nice-to-have, responsibilities), track `gap` nuances.
    - **Automatically generate structured `competence_gaps`** for every non-match (`missing`), partial match (`partial`), or weak responsibility with mitigation strategies.
    - **Extract `strong_points` and `weak_points`**: Explicitly contrast key competitive advantages against candid vulnerability areas.
    - **Generate `interview_preparation_recommendations`**: Provide actionable topics, industry concepts, tools, or frameworks to read/improve before interviews.
-3. **Filter gap questions:** for each gap topic, check if `library.enrichments`
-   already contains an answer for that topic. If yes → skip that question.
+3. **Filter gap questions:** for each gap topic (including missing formal frameworks or unverified domain experience), check if `library.enrichments` already contains an answer for that topic. If yes → skip that question.
 4. Print the match score, skills coverage table, competence gaps table, strong vs weak points, and interview preparation recommendations.
 5. Save `match_report.json` to the session — you will write it to the submission
    folder in Step 8.
@@ -137,7 +137,7 @@ If there are pre-answered gaps (from library):
 > "📚 Your library already covers these topics from previous applications:"
 > [list topic + short answer for each]
 
-For each **new** gap question:
+For each **new** gap question (especially missing formal frameworks, standards, or distinct domain requirements):
 
 1. Show the topic and question clearly.
 2. Use `ask_question` if a multiple-choice answer helps; otherwise ask free-form.
@@ -159,6 +159,7 @@ Generate three documents in order. For each, use the **full library** as context
 (not just the CV parse from this session). Include:
 - All `library.experience` entries (ordered by recency)
 - All `library.enrichments` (especially those relevant to this JD)
+- **Domain Separation & No Framework Fabrication**: Maintain strict domain integrity (e.g. IT vs Telecom). Never invent or fabricate experience with formal frameworks or standards (ITIL, ISO, TOGAF, etc.) that the candidate did not explicitly verify.
 - **Relevant CVs in `library/source_cvs/` (if gaps exist)**: If `library/candidate.json` has gaps matching the JD, check `library/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements to address those gaps.
 - The MatchReport's `strong_points`, `weak_points`, `competence_gaps`, and `suggested_emphasis`
 - The JD's `keywords` (mirror exact phrasing where truthful)
