@@ -67,6 +67,7 @@ Click into the **Chat window** on the right side and type your request in normal
   - 📄 **Tailored CV (`tailored_cv.md`)** — Optimized for ATS filters and the exact role
   - 📄 **1-Page Résumé (`resume_1page.md`)** — Concise, high-impact one-page version
   - ✉️ **Targeted Cover Letter (`cover_letter.md`)** — Compelling story connecting your past achievements to the job's needs
+  - 💰 **Compensation Benchmark (`compensation_benchmark.md`)** — Market salary benchmarks, net estimations, benefits, and negotiation targets
   - 📊 **Match Report (`match_report.json`)** — Match percentage, score breakdown, and strengths
 
 ---
@@ -137,11 +138,12 @@ library/
     └── my_cv.md
 
 submissions/                 ← Generated application packages
-└── cloudscale_ai_backend_engineer_20260828/
+└── mol_group_it_business_partner_circular_economy_20260901/
     ├── README.md            ← Checklist + summary
     ├── tailored_cv.md       ← Full CV tailored for this role
     ├── resume_1page.md      ← One-page résumé
     ├── cover_letter.md      ← Personalised cover letter
+    ├── compensation_benchmark.md ← Market salary benchmarks & negotiation targets
     ├── match_report.json    ← Match score & gap analysis
     └── jd_source.md         ← Original JD text
 
@@ -150,6 +152,7 @@ submissions/                 ← Generated application packages
 ├── tailored_cv.md           ← Example tailored CV
 ├── resume_1page.md          ← Example 1-page résumé
 ├── cover_letter.md          ← Example targeted cover letter
+├── compensation_benchmark.md ← Example compensation & salary benchmark report
 ├── match_report.json        ← Example match report & score
 ├── jd_source.md             ← Example raw job description
 └── session.json             ← Example recorded Q&A session
@@ -159,11 +162,12 @@ submissions/                 ← Generated application packages
 
 ## 📂 Example Submission Package
 
-To explore what a completed application output looks like before running the pipeline, check the [`.example/`](file:///Users/pogorv/Dev/CareerGravity/.example) directory. It contains a full end-to-end submission generated for a **CF & Planning Performance Analyst (bp / Castrol)** role:
+To explore what a completed application output looks like before running the pipeline, check the [`.example/`](file:///Users/pogorv/Dev/CareerGravity/.example) directory. It contains a full end-to-end submission generated for an **IT Business Partner (Circular economy) @ MOL Group** role:
 
 - 📄 [`.example/tailored_cv.md`](file:///Users/pogorv/Dev/CareerGravity/.example/tailored_cv.md) — Multi-page ATS-tailored CV.
 - 📄 [`.example/resume_1page.md`](file:///Users/pogorv/Dev/CareerGravity/.example/resume_1page.md) — High-impact one-page executive résumé.
 - ✉️ [`.example/cover_letter.md`](file:///Users/pogorv/Dev/CareerGravity/.example/cover_letter.md) — Targeted cover letter mapping qualifications, tools, and quantified metrics.
+- 💰 [`.example/compensation_benchmark.md`](file:///Users/pogorv/Dev/CareerGravity/.example/compensation_benchmark.md) — Market salary benchmarks, net estimations, benefits, and negotiation strategy.
 - 📊 [`.example/match_report.json`](file:///Users/pogorv/Dev/CareerGravity/.example/match_report.json) — Detailed ATS scoring, competence gap analysis, and interview prep suggestions.
 - 📝 [`.example/jd_source.md`](file:///Users/pogorv/Dev/CareerGravity/.example/jd_source.md) & [`.example/session.json`](file:///Users/pogorv/Dev/CareerGravity/.example/session.json) — Raw vacancy text and gap Q&A enrichments.
 - 📋 [`.example/README.md`](file:///Users/pogorv/Dev/CareerGravity/.example/README.md) — Submission package overview and application checklist.
@@ -195,7 +199,7 @@ folder_management/  ← Naming conventions
 5. Match library vs JD → score + gap questions
    (skips topics already answered in library)
 6. Interview for new gaps → save to library
-7. Generate tailored CV, résumé, cover letter
+7. Generate tailored CV, résumé, cover letter, compensation report
 8. Package submission folder
 ```
 

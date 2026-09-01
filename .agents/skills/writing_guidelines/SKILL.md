@@ -8,33 +8,34 @@ description: >-
 # Writing Guidelines Skill
 
 ## General Principles
-- **Grounding & Authenticity (No Fabrication)** — NEVER invent or fabricate unspecified experience, tools, technologies, responsibilities, or metrics to match a JD. Instead, describe how the candidate's *actual, specified* experience, achievements, and transferable skills fulfill the requirements.
+- **Zero Fabrication Principle (Strict Grounding)** — NEVER invent or fabricate ANY experience, technologies, tools, platforms, programming languages, responsibilities, formal frameworks/standards (ITIL, ISO, TOGAF, etc.), or metrics to match a JD. If an item is not explicitly recorded in `library/candidate.json` or verified in Q&A enrichments, do NOT mention or claim it in any generated document.
 - **Domain Integrity & Background Boundaries** — Do NOT mix up or conflate distinct technical or industry domains (e.g. IT/Enterprise IT vs Telecommunications, Data Engineering vs Data Analytics, Infrastructure vs Software Engineering). Accurately reflect the true environment in which the candidate worked.
-- **No Formal Framework / Standard Fabrication** — Never claim or imply practical experience, compliance, implementation, or certification in formal frameworks or industry standards (e.g. ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, PMP, Prince2, SAFe) unless they are explicitly present in `library/candidate.json`.
+- **No Unverified Tool/Framework Claims** — Never claim or imply practical experience, compliance, implementation, or certification with unverified technologies or industry standards (e.g. Jira Service Management, ServiceNow, ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, PMP, Prince2, SAFe) unless they are explicitly present in `library/candidate.json`.
+- **Ask Before Bridging Gaps** — If a JD requires a critical technology or qualification not present in the candidate library, the pipeline must interview the user during Gap Q&A to ask how the candidate wants to address that gap.
 - **Specificity over vagueness** — "Reduced API latency by 40%" beats "Improved performance".
 - **Action verbs** — Start every bullet with a strong past-tense verb: Led, Built, Designed, Reduced, Launched, Mentored, Automated…
-- **Quantify wherever possible** — numbers, percentages, team sizes, time saved.
-- **Mirror the JD language truthfully** — use relevant phrasing from `JDData.keywords` where it honestly reflects the candidate's work.
+- **Quantify only with verified numbers** — Never invent percentages, team sizes, or dollar amounts not in the candidate profile.
+- **Mirror the JD language truthfully** — use relevant phrasing from `JDData.keywords` ONLY where it honestly reflects the candidate's verified work.
 - **No first-person pronouns** — Never "I" or "my" in CVs/résumés; write in third-person implied (e.g. "Designed…" not "I designed…").
 - **ATS-safe formatting** — no tables, columns, or graphics in the Markdown that would break text extraction.
 - **Personal profile & Regional contact routing** — Read `library/candidate.json` for personal contact information and apply the defined regional contact routing rules (`contact_routing_rules`, `work_authorization`) in respect of the job location.
-- **Consult relevant source CVs (on gaps)** — If `library/candidate.json` has gaps against the JD, check `library/source_cvs/` for role-aligned CVs (e.g., Data Analyst, Solutions Manager, etc.) to borrow tailored framing, strong phrasing, and relevant emphasis to help address those gaps.
+- **Consult relevant source CVs (on gaps)** — If `library/candidate.json` has gaps against the JD, check `library/source_cvs/` for role-aligned CVs (e.g., Data Analyst, Solutions Manager, etc.) to borrow tailored framing, strong phrasing, and relevant emphasis to help address those gaps based strictly on real work.
 
 ---
 
 ## Grounding & Experience Translation (Authenticity vs Framing)
 
 - **Strict Grounding (What NOT to do):**
-  - Never fabricate unverified claims, tools, projects, or metrics just to fit the JD's requirements.
+  - **Zero Fabrication:** Never fabricate unverified claims, technologies, tools, platforms, projects, or metrics just to fit the JD's requirements.
   - Never blur distinct domains (e.g. passing off Telecom operations as IT service desk/enterprise IT without honest framing).
-  - Never claim knowledge or usage of formal standards and frameworks (ITIL, ISO, TOGAF, COBIT, etc.) unless verified in the profile.
+  - Never claim knowledge or usage of unverified tools, software platforms, or formal standards and frameworks (Jira Service Management, ServiceNow, ITIL, ISO, TOGAF, COBIT, etc.) unless verified in the profile.
   - If a skill or experience is absent from the candidate library and source CVs, do not pretend the candidate has done it.
 
 - **Experience Translation & Framing (What TO do):**
   - **Bridge to JD Competencies:** Deconstruct the core challenges, business problems, and technical competencies the JD requires (e.g. service reliability, incident resolution, SLA management, workflow automation, large-scale systems).
   - **Demonstrate Transferability:** Articulate how the candidate's *existing, verified* projects and achievements prove capability in those core competencies.
-  - **Highlight Parallels & Equivalents:** Connect proven experience in adjacent tools or methodologies to the target stack (e.g., show how high-availability telecom operations translate to mission-critical IT service delivery without falsely claiming ITIL certification).
-  - **Contextualize Real Impact:** Rephrase existing bullet points to accentuate the aspects of real work that matter most to the target hiring manager without distorting the truth.
+  - **Highlight Parallels & Equivalents:** Connect proven experience in adjacent tools or methodologies to the target stack (e.g., show how high-availability telecom operations translate to mission-critical IT service delivery without falsely claiming unverified tools or certifications).
+  - **Contextualize Real Impact:** Rephrase existing bullet points to accentuate the aspects of real work that matter most to the target hiring manager without distorting the truth or adding fictitious technologies.
   - **Address Gaps Honestly:** In cover letters and summaries, frame real experience as a solid foundation that enables rapid adaptation and domain mastery.
 
 ---

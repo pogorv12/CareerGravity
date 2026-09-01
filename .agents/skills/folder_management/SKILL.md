@@ -19,13 +19,14 @@ library/
 
 submissions/                  # Generated output; one folder per application
 └── <company>_<role>_YYYYMMDD/
-    ├── README.md         # Application checklist & summary
+    ├── README.md                  # Application checklist & summary
     ├── tailored_cv.md
     ├── resume_1page.md
     ├── cover_letter.md
-    ├── match_report.json # Raw MatchReport for reference
-    ├── jd_source.md      # Original job description
-    └── session.json      # Gap Q&A answers (for re-generation)
+    ├── compensation_benchmark.md  # Salary benchmarks & negotiation targets
+    ├── match_report.json          # Raw MatchReport for reference
+    ├── jd_source.md               # Original job description
+    └── session.json               # Gap Q&A answers (for re-generation)
 ```
 
 ## Naming Conventions
@@ -41,11 +42,12 @@ submissions/                  # Generated output; one folder per application
 
 ### File naming inside submission folders
 | File | Name (fixed) |
-|------|-------------|
+|---|---|
 | Application checklist | `README.md` |
 | Full tailored CV | `tailored_cv.md` |
 | One-page résumé | `resume_1page.md` |
 | Cover letter | `cover_letter.md` |
+| Compensation & salary report | `compensation_benchmark.md` |
 | Match report | `match_report.json` |
 | Original job description | `jd_source.md` |
 | Session (gap answers) | `session.json` |

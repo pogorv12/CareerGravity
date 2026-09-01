@@ -26,15 +26,15 @@ Produce a MatchReport that quantifies fit, surfaces genuine non-matches and comp
 
 ### Step 1 — Skill Coverage & Non-Match Identification
 
-For each skill, framework, or standard in `JDData.required_skills`:
+For each skill, tool, technology, platform, framework, or standard in `JDData.required_skills`:
 - Search across `library.technical_skills`, `library.tools`, `library.certifications`, and all `experience[].bullets`
 - **Also search `library.enrichments[].answer`** — prior Q&A answers count as evidence.
-- **Domain & Framework Strictness**:
+- **Strict Verification (Zero Fabrication & Domain Boundaries)**:
   - Differentiate distinct industry domains (e.g. Telecom vs IT/Enterprise IT).
-  - Treat formal frameworks and standards (e.g., ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, Prince2, PMP) strictly: if not explicitly evidenced or certified in the candidate profile, mark as `missing` or `partial`. NEVER assume or auto-attribute formal framework expertise based solely on adjacent experience.
+  - Treat all specific technologies, tools, platforms, and formal frameworks strictly: if not explicitly evidenced in the candidate library (`tools`, `technical_skills`, `experience`), mark as `missing` or `partial`. NEVER assume or fabricate tool experience (e.g. do not assume Jira Service Management or ServiceNow from generic ticketing; do not assume specific BI tools, cloud platforms, or standard frameworks).
 - Mark as:
   - **covered** — directly evidenced (`gap: null`)
-  - **partial** — related or adjacent skill found, but lacks exact domain, depth, or specific platform (`gap: explanation of nuance/shortfall`)
+  - **partial** — related or adjacent skill/tool found, but lacks exact platform, depth, or specific domain (`gap: explanation of nuance/shortfall`)
   - **missing** — no evidence found (`gap: explanation of missing requirement`)
 
 Repeat for `nice_to_have_skills`.
@@ -44,7 +44,7 @@ Repeat for `nice_to_have_skills`.
 For each responsibility in `JDData.responsibilities`:
 - Find the best matching evidence from `library.experience[].bullets` or enrichments.
 - Score: **strong** / **moderate** / **weak** / **none**
-- For **moderate**, **weak**, or **none**, articulate the specific domain or procedural gap in `gap`. Keep domain boundaries clear (do not score Telecom experience as strong for pure Enterprise IT service desk management unless verified).
+- For **moderate**, **weak**, or **none**, articulate the specific domain, tooling, or procedural gap in `gap`. Keep domain boundaries clear (do not score Telecom experience as strong for pure Enterprise IT service desk management unless verified).
 
 ### Step 3 — Seniority Alignment
 
@@ -60,12 +60,12 @@ For each responsibility in `JDData.responsibilities`:
 ### Step 5 — Automated Competence & Qualification Gaps Extraction (Mandatory)
 
 For every identified non-match (status `missing`), partial match (status `partial`), or weak responsibility (relevance `moderate`/`weak`/`none`), automatically generate a structured entry in `competence_gaps`:
-- **`competence`**: Clear name of the required skill, qualification, tool, domain area, or formal framework/standard.
+- **`competence`**: Clear name of the required skill, qualification, tool, technology, domain area, or formal framework/standard.
 - **`gap_type`**: Classification (`tooling_platform` | `domain_knowledge` | `formal_education` | `methodology_process` | `formal_framework`).
 - **`jd_requirement`**: Exact phrase or requirement from the JD.
 - **`candidate_status`**: `missing` | `partial`.
 - **`candidate_reality`**: Accurate, grounded summary of what the candidate actually has in the library.
-- **`gap_analysis`**: Clear, objective analysis of the shortfall, domain distinction (e.g. Telecom vs IT), or missing standard.
+- **`gap_analysis`**: Clear, objective analysis of the shortfall, missing technology, domain distinction (e.g. Telecom vs IT), or unverified framework.
 - **`mitigation_strategy`**: Verified transferable skills, analogous tooling, or adjacent experience that bridges the gap without fabricating claims.
 - **`impact_level`**: `high` | `medium` | `low`.
 
@@ -86,16 +86,15 @@ match_score (0–100) =
 
 ---
 
-## Gap Question Generation
+## Gap Question Generation (Interview How to Fill the Gap)
 
-For each **missing** required skill/framework or **weak/none** responsibility:
+For each **missing** required technology, tool, platform, formal framework/standard, or **weak/none** responsibility:
 
-1. Generate ONE focused question per gap (especially for formal frameworks/standards like ITIL, ISO, TOGAF, or distinct domain experience).
-2. Questions must start with one of:
-   - "Can you describe..."
-   - "Have you worked with..."
-   - "Tell me about your exposure to..."
-3. Do NOT assume the answer or fabricate experience. Always ask the candidate directly.
+1. Generate ONE focused question per gap asking the user explicitly how they want to fill, bridge, or address the gap (e.g., whether they have unlisted hands-on exposure, adjacent tools, or specific transferable examples).
+2. Questions must be clear and direct, for example:
+   - "The JD requires [Technology/Framework/Competency]. Do you have hands-on experience with it, or how would you prefer to frame your transferable background from [Verified Tool/Experience] to address this requirement?"
+   - "Can you describe your direct exposure to [Technology/Standard], or should we highlight [Alternative Experience] instead?"
+3. NEVER assume the answer or fabricate experience. Always ask the candidate directly.
 4. Do NOT ask about things already evidenced in the CV or enrichments.
 
 ### Library pre-filter (mandatory)

@@ -116,14 +116,14 @@ Read the **matching** skill for the scoring algorithm and competence gap schema.
 1. Match the **full library** (not just one CV parse) against the JD:
    - Experience, skills, tools, awards, projects
    - **Also check `library.enrichments`** — prior Q&A answers count as evidence.
-   - **Enforce Domain & Framework Boundaries**: Differentiate between IT and Telecom (or other adjacent domains). Do not assume familiarity with formal standards or frameworks (e.g. ITIL, TOGAF, ISO, COBIT, eTOM) unless explicitly verified.
+   - **Enforce Zero Fabrication & Domain Boundaries**: Differentiate between IT and Telecom (or other adjacent domains). Do not assume familiarity with any unverified technologies, platforms, tools, or formal frameworks (e.g. Jira Service Management, ServiceNow, ITIL, TOGAF, ISO, COBIT, eTOM) unless explicitly verified.
 2. Produce a MatchReport:
    - Calculate match score according to formula.
    - For all items (required skills, nice-to-have, responsibilities), track `gap` nuances.
    - **Automatically generate structured `competence_gaps`** for every non-match (`missing`), partial match (`partial`), or weak responsibility with mitigation strategies.
    - **Extract `strong_points` and `weak_points`**: Explicitly contrast key competitive advantages against candid vulnerability areas.
    - **Generate `interview_preparation_recommendations`**: Provide actionable topics, industry concepts, tools, or frameworks to read/improve before interviews.
-3. **Filter gap questions:** for each gap topic (including missing formal frameworks or unverified domain experience), check if `library.enrichments` already contains an answer for that topic. If yes → skip that question.
+3. **Filter gap questions:** for each gap topic (including missing technologies, platforms, formal frameworks, or unverified domain experience), check if `library.enrichments` already contains an answer for that topic. If yes → skip that question.
 4. Print the match score, skills coverage table, competence gaps table, strong vs weak points, and interview preparation recommendations.
 5. Save `match_report.json` to the session — you will write it to the submission
    folder in Step 8.
@@ -137,9 +137,9 @@ If there are pre-answered gaps (from library):
 > "📚 Your library already covers these topics from previous applications:"
 > [list topic + short answer for each]
 
-For each **new** gap question (especially missing formal frameworks, standards, or distinct domain requirements):
+For each **new** gap question (missing technologies, tools, platforms, formal frameworks, or domain experience):
 
-1. Show the topic and question clearly.
+1. Show the gap topic and ask clearly how the user wants to address or fill that gap (e.g. whether they have direct unrecorded exposure, or how they prefer to frame verified transferable experience).
 2. Use `ask_question` if a multiple-choice answer helps; otherwise ask free-form.
 3. If the answer seems vague, ask one gentle follow-up:
    > "Can you add a specific example or metric to strengthen that answer?"
@@ -159,10 +159,10 @@ Generate three documents in order. For each, use the **full library** as context
 (not just the CV parse from this session). Include:
 - All `library.experience` entries (ordered by recency)
 - All `library.enrichments` (especially those relevant to this JD)
-- **Domain Separation & No Framework Fabrication**: Maintain strict domain integrity (e.g. IT vs Telecom). Never invent or fabricate experience with formal frameworks or standards (ITIL, ISO, TOGAF, etc.) that the candidate did not explicitly verify.
-- **Relevant CVs in `library/source_cvs/` (if gaps exist)**: If `library/candidate.json` has gaps matching the JD, check `library/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements to address those gaps.
+- **Strict Zero Fabrication & Domain Integrity**: Never invent, assume, or fabricate any technologies, tools, platforms, frameworks, standards, certifications, or metrics that are not explicitly present in `library/candidate.json` or answered in Q&A enrichments. Keep IT and Telecom domains distinct.
+- **Relevant CVs in `library/source_cvs/` (if gaps exist)**: If `library/candidate.json` has gaps matching the JD, check `library/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements to address those gaps without adding fictitious tools.
 - The MatchReport's `strong_points`, `weak_points`, `competence_gaps`, and `suggested_emphasis`
-- The JD's `keywords` (mirror exact phrasing where truthful)
+- The JD's `keywords` (mirror exact phrasing ONLY where truthful and verified)
 
 ### 7a — Tailored CV (`tailored_cv.md`)
 Full CV, restructured and reworded for this specific role.
@@ -175,6 +175,14 @@ Structure: Header → Summary → Key Skills → Experience → Education → Ce
 250–400 words. Opening → Proof & QTM Alignment → (Gap) → Closing.
 - Infer tone from `culture_notes`.
 - **Qualification-Tool-Metric (QTM) Mapping**: Explicitly relate previous qualifications, specific tools/technologies used, and quantified metrics achieved to the requirements in the job description.
+
+### 7d — Compensation & Salary Benchmark Report (`compensation_benchmark.md`)
+Conduct market salary benchmarking based on the position, seniority, location, and employer profile:
+- **Base Gross Salary Range (Monthly & Annual)**: Market baseline, realistic target, and upper band.
+- **Net Salary Estimations**: Net take-home calculations reflecting local tax regulations.
+- **Variable Pay & Benefits**: Bonus structures (10–20%+), cafeteria/fringe allowances, and corporate perks listed in the JD.
+- **Total Compensation (OTE)**: Comprehensive package scenarios (Moderate, Target, Upper Range).
+- **Negotiation Recommendations**: Target anchor phrasing and experience-backed justifications for HR/recruiter screening calls.
 
 **Contact details & Regional Routing (mandatory):**
 - Consult `library/candidate.json` for name, email, links, and contact routing rules (`contact_routing_rules`, `work_authorization`).
@@ -194,6 +202,7 @@ Write these files:
 | `tailored_cv.md` | From Step 7a |
 | `resume_1page.md` | From Step 7b |
 | `cover_letter.md` | From Step 7c |
+| `compensation_benchmark.md` | From Step 7d (Salary benchmarks, total package OTE, negotiation strategy) |
 | `match_report.json` | The MatchReport from Step 5 as JSON (including `competence_gaps`, `weak_points`, `interview_preparation_recommendations`) |
 | `jd_source.md` | Original JD text |
 | `README.md` | Checklist (see template below) |
@@ -208,6 +217,7 @@ Write these files:
 - [ ] Review `tailored_cv.md` — check all facts are accurate
 - [ ] Review `cover_letter.md` — personalise opening line
 - [ ] Review `resume_1page.md` — confirm it fits one page
+- [ ] Review `compensation_benchmark.md` — benchmark salary expectations & negotiation targets
 - [ ] Upload to ATS / email as instructed in the JD
 - [ ] Log application in your tracker
 

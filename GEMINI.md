@@ -44,7 +44,7 @@ All skills live in `.agents/skills/`:
 - The candidate library lives at `library/candidate.json` and serves as the single source of truth (including personal profile, contact routing, and work authorizations).
 - Source CVs go in `library/source_cvs/` — supported formats: Markdown (`.md`), plain text (`.txt`), PDF (`.pdf`), and Word (`.doc`, `.docx`).
 - PDF and Word (DOC/DOCX) files are read automatically (PDF via `view_file`, DOC/DOCX via `textutil` on macOS, standard Python `zipfile/xml` or CLI parsers on Linux, and PowerShell on Windows) without requiring manual copy-pasting.
-- Each submission is saved to `submissions/<company>_<role>_YYYYMMDD/` (including tailored documents, match report, and raw JD saved as `jd_source.md`).
+- Each submission is saved to `submissions/<company>_<role>_YYYYMMDD/` (including tailored documents, match report, compensation benchmark report, and raw JD saved as `jd_source.md`).
 - Output documents are always Markdown (`.md`).
 
 ## Personal Data & Contact Routing Rules
@@ -73,17 +73,17 @@ All skills live in `.agents/skills/`:
 - When creating a submission, inspect `library/source_cvs/` for role-relevant CVs (e.g., Data Analyst, Solutions Manager, Developer).
 - If relevant CVs exist, consult their specific phrasing, bullet structuring, and highlighted achievements to tailor the submission documents alongside the candidate library.
 
-## Grounding, Domain Boundaries & Formal Frameworks Rules
+## Strict Grounding, Domain Boundaries & Zero Fabrication Rules
+- **Zero Fabrication Principle:** NEVER fabricate, invent, or assume any experience, technologies, tools, programming languages, platforms, formal frameworks, standards, certifications, or metrics (e.g. ITIL, TOGAF, ISO, Jira Service Management, specific cloud services, unverified software). If a technology, tool, standard, or qualification is not explicitly recorded in `library/candidate.json`, it does not exist for the candidate.
 - **No Domain Mixing:** Never confuse, conflate, or mix up distinct or adjacent domains (e.g., IT/Enterprise IT vs Telecommunications, Software Development vs Infrastructure/Network Engineering, Data Analytics vs Data Engineering). Ground each role and achievement accurately within its true industry and functional domain.
-- **No Framework/Standard Fabrication:** Never invent, assume, or fabricate experience, familiarity, compliance, or certifications related to formal frameworks, standards, governance, or methodologies (e.g., ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, Prince2, PMP, SAFe) unless explicitly recorded in `library/candidate.json`.
-- **Mandatory Questioning for Missing Frameworks & Domains:** When a job description requires a formal framework, standard, or specific domain background not present in the candidate library, treat it as a hard gap and actively interview the user during the Gap Q&A step before drafting application materials. Never auto-fill or fabricate it.
-- **Authentic Grounding:** Describe and reframe how the candidate's *specified, verified* experience and transferable skills fulfill the requirements of the JD without claiming unverified credentials or methodologies.
+- **Mandatory Gap Questioning for Missing Requirements:** Whenever a job description requires a technology, tool, platform, standard, framework, or domain background not present in the candidate library, treat it as a hard gap. Actively interview the user during the Gap Q&A step (Step 6) to ask how to address or bridge the gap before generating any application documents.
+- **Authentic Grounding:** Describe and frame ONLY the candidate's *specified, verified* experience, real tools, and genuine transferable competencies. Never auto-fill unverified skills or tools.
 
 ## Cover Letter Alignment Rule
 - When generating cover letters, explicitly articulate the relationship between the candidate's previous experience and the job description requirements across three pillars:
   1. **Qualifications:** Map verified domain qualifications and responsibilities to the JD's requirements.
-  2. **Tools:** Connect specific tools/technologies used in past work to the JD's required tech stack (including transferable parallels).
-  3. **Metrics:** Anchor qualification and tool alignments in concrete, quantified outcomes achieved in prior roles.
+  2. **Tools:** Connect specific tools/technologies actually used in past work to the JD's required tech stack (including verified transferable parallels).
+  3. **Metrics:** Anchor qualification and tool alignments in concrete, verified quantified outcomes achieved in prior roles.
 
 ## Security
 - Never log or print any API keys.
