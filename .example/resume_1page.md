@@ -1,49 +1,56 @@
 # Victor Pogorelov
-**victor.pogorelov@example.com** · **+36 20 123 4567** · [LinkedIn](https://www.linkedin.com/in/pogorelov/) · Budapest, Hungary (Eligible to work in Hungary / EU)
+
+**Email:** [pogorv@gmail.com](mailto:pogorv@gmail.com) · **Phone:** [+36 70 552 63 15](tel:+36705526315) · **LinkedIn:** [linkedin.com/in/pogorelov](https://www.linkedin.com/in/pogorelov/) · **Location:** Budapest, Hungary  
+**Work Authorization:** Eligible to work in Hungary / European Union (No sponsorship required)
 
 ---
 
 ## Professional Summary
-Performance & Data Analytics Expert with 15+ years of experience designing automated KPI dashboards, executive performance packs, and data pipelines across enterprise operations. Proficient in Power BI, Microsoft Power Automate, advanced Excel (VBA), SQL, Python, and ERP (SAP), with Lean Six Sigma Purple Belt certification driving continuous process improvement.
+
+Strategic IT Business Partner and Solutions Leader with 15+ years of experience aligning business objectives with enterprise IT capabilities, digital transformation, and process automation. Proven expert in business process landscaping, demand management, CAPEX/OPEX governance, and enterprise data analytics across large-scale operational environments.
 
 ---
 
-## Key Skills
-`Power BI` `Microsoft Power Automate` `Advanced Excel / VBA` `SQL` `Python` `ERP (SAP)` `KPI Dashboards & Cluster Packs` `Lean Six Sigma`
+## Core Competencies
+
+`IT Business Partnering` `Process Landscaping & Automation` `Demand & Opportunity Funnel Management` `CAPEX / OPEX Planning` `Data-to-Systems Mapping & Analytics` `Stakeholder & Vendor Governance` `Lean Six Sigma (Purple Belt)` `Power BI / SQL / Jira`
 
 ---
 
-## Work Experience
+## Key Experience
 
-### Metrics and Analytics Expert — UAVLAS
-*Mar 2021 – Present · Budapest, Hungary / Remote*
-- Architect and maintain real-time KPI monitoring dashboards and executive reports tracking financial, operational, and technical indicators.
-- Translate complex multi-source telemetry and operational data into strategic decision-support packs, identifying performance bottlenecks and driving continuous improvements.
-- Standardize data validation protocols and automated data extraction routines to guarantee high accuracy, governance, and punctuality across reporting cycles.
+### Founder & Full-Stack Cloud Engineer — checkprice.app
+*May 2023 – Present · Budapest, Hungary*
 
-### Services Solution Manager — Nokia Russia
-*Jun 2016 – Jan 2018 · Moscow, Russia*
-- Structured and negotiated enterprise service solutions and operational performance frameworks, managing budgeting, cost justification, and financial modeling for $15M+ service contracts.
-- Packaged the specialized SpecOps performance management framework for FIFA 2018 World Cup venues, delivering zero-outage operational KPIs within stringent operator budget constraints.
-- Interfaced directly with SAP ERP cost reporting and project accounting tools to maintain margin visibility, SLA compliance, and cross-functional operational alignment.
+- Architected and deployed an end-to-end price comparison and retail analytics platform on Google Cloud Platform (GCP), translating complex commercial requirements into scalable cloud services.
+- Engineered automated ETL data pipelines, entity matching algorithms, and data governance frameworks to normalize multi-source catalog feeds across international retail endpoints.
+- Designed management KPI dashboards and operational telemetry monitors to ensure high system availability, low API latency, and real-time operational transparency.
 
-### Team Lead for Telecom Networks Optimization Services — Nokia / NSN Russia
-*Aug 2010 – Jun 2016 · Moscow & Regions, Russia*
-- Directed engineering squads delivering end-to-end performance analytics, capacity planning, and regional rollout logistics across nationwide telecommunications networks.
-- Designed a proprietary Customer Experience Management (CEM) analytical platform querying large-scale data lakes to generate executive cluster performance reports and root-cause analysis dashboards, reducing customer churn by 15%.
-- Streamlined project delivery and resource allocation by introducing Jira workflow management, establishing transparent RACI governance and reliable cycle-time estimation.
-- Authored automated network configuration and performance optimization scripts in Python; honoured with multiple Nokia Innovation and Project Delivery Excellence awards.
-- Applied Lean Six Sigma methodologies to eliminate process waste, standardize data ingestion pipelines, and improve reporting punctuality across 8 regional deployments.
+### Services Solution Manager — Nokia
+*Jun 2016 – Jan 2018 · Moscow & Regional Accounts*
+
+- Acted as the primary strategic interface and trusted advisor between executive business leadership and technical delivery organizations to develop IT/service roadmaps and solution architectures.
+- Closed **$15M+** in complex enterprise services contracts by mapping business pain points to delivery models, establishing business case justifications, and structuring multi-year CAPEX/OPEX budgets.
+- Led technical proposal writing, bid management, and supplier contract negotiations, setting rigorous contractual SLA standards, performance benchmarks, and vendor governance protocols.
+- Designed and packaged the high-availability SpecOps performance management solution for FIFA 2018 World Cup venues, delivering zero-outage service delivery within client budget constraints.
+
+### Team Lead for Optimization Services & Systems Architect — Nokia / NSN
+*Aug 2010 – Jun 2016 · Moscow & Regional Accounts*
+
+- Directed engineering teams delivering large-scale operational modernization programs, establishing structured Jira workflows and SLA tracking to optimize resource allocation and project velocity.
+- Architected an enterprise Customer Experience Management (CEM) data analytics platform on Nokia Traffica, converting multi-terabyte data streams into actionable executive intelligence dashboards.
+- Reduced enterprise client churn by **15%** through automated service quality visibility and VIP incident tracking workflows; platform subsequently scaled across multiple international markets.
+- Developed automated reporting pipelines in Python, accelerating root cause analysis and eliminating manual reporting overhead.
 
 ---
 
 ## Education
 
-- **M.S. in Computer Science, Systems and Networks Engineering** (Graduated with Honors) — Belarusian State University of Informatics and Radioelectronics (BSUIR)
+**Master of Science (M.S.) in Computer Science, Systems and Networks Engineering**  
+Belarusian State University of Informatics and Radioelectronics (BSUIR) · *Graduated with Honors*
 
 ---
 
-## Certifications
+## Languages
 
-- **Lean Six Sigma Purple Belt** — Nokia Education Center
-- **NCSS 3G RA PaO Certification** — Nokia Education Center
+**English:** Full Professional Proficiency · **Hungarian:** Basic · **Russian / Belarusian:** Native

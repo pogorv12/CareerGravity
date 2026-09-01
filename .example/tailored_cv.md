@@ -1,89 +1,106 @@
 # Victor Pogorelov
-**victor.pogorelov@example.com** · **+36 20 123 4567** · [LinkedIn](https://www.linkedin.com/in/pogorelov/) · Budapest, Hungary (Eligible to work in Hungary / EU)
+
+**Email:** [pogorv@gmail.com](mailto:pogorv@gmail.com) · **Phone:** [+36 70 552 63 15](tel:+36705526315) · **LinkedIn:** [linkedin.com/in/pogorelov](https://www.linkedin.com/in/pogorelov/) · **Location:** Budapest, Hungary  
+**Work Authorization:** Eligible to work in Hungary / European Union (No sponsorship required)
 
 ---
 
 ## Professional Summary
-Performance and Data Analytics Expert with 15+ years of cross-functional experience translating complex operational, supply chain, and telecommunications datasets into high-impact executive dashboards and strategic business intelligence. Proficient in Power BI, Microsoft Power Automate, advanced Excel (VBA/macros), SQL, Python, and ERP reporting systems (SAP). Lean Six Sigma Purple Belt certified with a proven track record of designing automated KPI monitoring frameworks, optimizing process cycle times, maintaining robust data quality standards across enterprise data lakes, and delivering actionable cluster performance insights to executive stakeholders.
+
+Strategic, results-oriented IT Business Partner and Solutions Leader with 15+ years of experience bridging business strategy and technical execution across large-scale enterprise services, digital transformation initiatives, and mission-critical systems. Proven track record in demand management, business process landscaping, and aligning cross-functional business stakeholders with IT delivery teams to maximize operational efficiency and ROI. Skilled in translating complex business requirements into robust IT roadmaps, CAPEX/OPEX business cases, and automated workflows, supported by deep expertise in data analytics (Power BI, BigQuery, SQL) and Lean Six Sigma methodology.
 
 ---
 
-## Key Skills
+## Key Skills & Competencies
 
-- **Business Intelligence & Reporting:** Power BI, Tableau, QlikView, Advanced Excel (VBA / Power Query / Financial Modeling), Dashboard & KPI Design, Cluster Performance Packs, Data Visualization Workbooks.
-- **Process Automation & ETL:** Microsoft Power Automate (BI Scheduled Refreshes), Python (Data Analysis, SON Scripts), SQL (PostgreSQL, BigQuery), ETL Pipeline Development, Data Mining.
-- **Enterprise Systems & Operations:** ERP (SAP User / Cost Reporting), Data Lake Interrogation, Service Level Agreement (SLA) Governance, Capacity Planning, Logistics & Network Optimization, Continuous Improvement (Lean Six Sigma Purple Belt).
-- **Languages:** English (Full Professional Proficiency), Russian (Native), Belarusian (Native), Hungarian (Basic).
+`IT Business Partnering` `Business-IT Strategy & Roadmapping` `Digital Transformation` `Business Process Modeling & Landscaping` `Demand Management & Prioritization` `CAPEX / OPEX Planning & Budgeting` `Stakeholder & Executive Relationship Management` `Data Analytics & Data-to-Systems Mapping` `IT Service Reviews & Quality Assurance` `Vendor & Contractor Governance` `Lean Six Sigma (Purple Belt)` `Risk & Issue Remediation` `Power BI` `Tableau` `SQL` `BigQuery` `Python` `Jira` `SAP (Reporting)`
 
 ---
 
-## Work Experience
+## Professional Experience
+
+### Founder & Full-Stack Cloud Engineer — checkprice.app
+*May 2023 – Present · Budapest, Hungary*
+
+- Architected and deployed an end-to-end price comparison and retail analytics platform, translating complex market requirements into scalable cloud services on Google Cloud Platform (GCP) and Firebase.
+- Designed comprehensive data pipelines and automated ETL workflows to ingest, normalize, and match multi-source product datasets, establishing entity matching algorithms and data governance rules.
+- Built interactive management dashboards and operational monitoring tools to track platform performance, latency metrics, and API availability across global retail endpoints.
+- Managed the end-to-end product lifecycle from strategic concept definition and architecture design to production release and continuous enhancement.
 
 ### Metrics and Analytics Expert — UAVLAS
-*Mar 2021 – Present · Remote / Budapest, Hungary*
-- Architect, develop, and maintain automated KPI dashboards and real-time operational monitoring suites tracking financial, supply, and technical performance indicators.
-- Translate raw multi-source telemetry and operational data into structured business intelligence reports, enabling senior leadership to identify operational bottlenecks and drive data-backed strategic decisions.
-- Establish robust data quality validation checks and automated extraction routines, ensuring data integrity and timeliness across regular reporting cycles.
+*Mar 2021 – Present · Remote / Hybrid*
 
-### Engineer / Founder — checkprice.app
-*May 2023 – Present · Budapest, Hungary*
-- Engineered a full-stack retail price analytics and comparison platform utilizing Dart/Flutter, Firebase, and Google Cloud Platform (GCP) with BigQuery backends.
-- Built scalable ETL data pipelines and automated scraping/aggregation workflows to process and normalize high-volume pricing and catalog data across multinational retail suppliers.
-- Designed analytical dashboards monitoring supply variances, pricing trends, and multi-currency metrics across global markets.
+- Design, develop, and maintain executive KPI dashboards and real-time operational monitoring systems tracking financial, technical, and process performance metrics.
+- Perform root cause analyses and trend modeling on large telemetry and operational datasets, translating quantitative findings into strategic recommendations for business leadership.
+- Standardized data modeling and reporting workflows across distributed teams, enhancing reporting velocity and cross-functional decision-making accuracy.
 
-### Startup Founder / Software Developer — Startups Development
-*Sep 2018 – Present · Budapest, Hungary*
-- Engineered cloud backends, administrative BI dashboards, and automated workflows using JavaScript/Node.js, SQL/NoSQL databases, and GCP.
-- Developed geo-analytical data processing systems converting multi-dimensional spatial and transactional data into actionable operational reports.
-- Automated data transformation and reporting schedules, reducing manual data preparation overhead.
+### Solutions & Services Consultant — Independent Consulting
+*Sep 2018 – Present · Budapest & EMEA*
+
+- Advise enterprise clients and service providers on digital transformation, system performance optimization, business process automation, and solution architecture.
+- Conduct operational audits, technical feasibility studies, and business case evaluations for large-scale infrastructure upgrades and software platform modernizations.
+- Author technical proposals, statement-of-work (SOW) documents, and SLA governance models to ensure alignment between client business objectives and technical delivery commitments.
+
+### Head of Network Optimization Direction — Nokia Russia
+*Jan 2018 – Aug 2018 · South Region, Russia*
+
+- Led regional technical service delivery teams across multiple cities, directing 25 engineers organized into specialized units for major carrier infrastructure rollouts and swap projects.
+- Partnered with client executive management and project governance stakeholders to align technical rollout milestones with commercial customer service KPIs and contractual commitments.
+- Optimized resource allocation, budget utilization, and escalation workflows across cross-functional project teams, ensuring zero disruption to live operations.
 
 ### Services Solution Manager — Nokia Russia
 *Jun 2016 – Jan 2018 · Moscow, Russia*
-- Mapped complex enterprise customer requirements into service delivery models, leading budgeting, cost justification, and profitability modeling for $15M+ service contracts.
-- Designed and packaged the specialized SpecOps performance management solution for FIFA 2018 World Cup stadium venues, delivering zero-outage operational KPIs within stringent budget constraints.
-- Interfaced directly with SAP ERP cost reporting and project accounting tools to maintain margin visibility and operational alignment across cross-business teams.
 
-### Team Lead for Telecom Networks Optimization Services — Nokia / NSN Russia
-*Aug 2010 – Jun 2016 · Moscow & Regions, Russia*
-- Led engineering squads delivering end-to-end performance optimization, capacity planning, and regional rollout logistics across major national operator networks.
-- Designed and deployed a proprietary Customer Experience Management (CEM) and geo-analytical system on the Nokia Traffica platform, querying massive signaling data lakes to convert millions of records into executive performance packs and root-cause analysis dashboards.
-- Reduced enterprise customer churn by 15% through data-driven network quality visibility and enhanced SLA monitoring across Russia, Ukraine, and Belarus.
-- Streamlined project delivery and resource allocation by integrating Jira workflow management into engineering operations, establishing clear RACI matrices and accurate workload estimation.
-- Authored automated network configuration and performance optimization scripts in Python; awarded Nokia Innovation and Project Delivery Excellence awards (2012, 2014, 2015).
-- Certified as Lean Six Sigma Purple Belt; spearheaded continuous improvement initiatives that standardized data extraction, reporting punctuality, and SLA tracking across 8 regional deployments.
+- Acted as the primary strategic interface and trusted advisor between enterprise carrier business leaders and internal technical delivery organizations.
+- Closed **$15M+** in enterprise services contracts by translating customer business requirements, operational pain points, and strategic priorities into tailored technical solutions and business cases.
+- Spearheaded the design, packaging, and commercial delivery of the high-availability SpecOps performance management solution for the FIFA 2018 World Cup venues, delivering flawless execution and high stakeholder satisfaction within strict budget parameters.
+- Conducted multi-year CAPEX/OPEX cost modeling, margin calculations, and pricing strategies for complex multi-vendor technology modernization projects.
+- Directed bid management, technical RFP/tender submissions, and contract negotiations, establishing enforceable SLA standards and supplier governance frameworks.
+
+### Team Lead for Optimization Services & Systems Architect — Nokia / NSN
+*Aug 2010 – Jun 2016 · Moscow & Regions*
+
+- Led engineering teams delivering end-to-end operational performance and modernization programs across nationwide enterprise infrastructure.
+- Transformed service delivery governance by introducing structured Jira ticketing workflows and SLA tracking matrices across distributed teams, drastically improving task transparency and capacity forecasting.
+- Architected and deployed an advanced Customer Experience Management (CEM) and geo-analytical data platform on Nokia Traffica, converting multi-terabyte signaling data streams into actionable executive intelligence (population flow, displacement matrices, quality indexing).
+- Achieved a **15% reduction in enterprise client churn** by implementing proactive service quality dashboards and VIP incident monitoring workflows; platform replicated across multiple international markets.
+- Automated system health and configuration reporting by developing custom scripts in Python, significantly reducing manual overhead and accelerating fault isolation.
+- Received Nokia Innovation and Project Delivery Excellence Awards (2012, 2014, 2015) for software platform innovation and service delivery leadership.
 
 ### Radio Network Planning & Optimization Engineer — Ericsson Russia
-*Nov 2007 – Aug 2010 · Moscow, Russia*
-- Planned, optimized, and analyzed radio network performance across 9 regions (1,000+ base stations serving 25M+ population).
-- Analyzed large drive-test datasets and statistical performance metrics using TEMS tools to optimize handover parameters, achieving a 99.5%+ service completion rate.
-- Coordinated cross-functional teams to meet aggressive rollout milestones and rigorous customer acceptance standards.
+*Nov 2007 – Aug 2010 · Moscow & Regions*
 
-### Deputy Head of Network Operations Department / Shift Technician — Belcel JV LTD
+- Managed end-to-end technical delivery and quality assurance for multi-region network rollouts serving over 25 million people across 9 major metropolitan regions.
+- Coordinated cross-functional teams including customer business leads, internal engineering units, and third-party vendors to meet rigorous milestone schedules and quality acceptance criteria.
+- Achieved **99.5%+ operational KPI benchmarks** through systematic performance tuning and deep-dive telemetry analysis.
+
+### Deputy Head of Network Operations Department / Shift Technician — Belcel JV
 *Mar 2003 – Oct 2007 · Minsk, Belarus*
-- Managed 24/7 network operations and shift technical staff (5+ engineers) monitoring nationwide wireless network alarms, performance statistics, and availability metrics.
-- Promoted from Shift Technician to Deputy Head of Network Operations; led cross-stakeholder design and implementation of Wireless Local Loop (WLL) infrastructure.
+
+- Directed 24/7 technical shift operations, network surveillance, and rapid incident response teams for nationwide wireless infrastructure.
+- Led technical design, inter-carrier negotiation, and deployment of a nationwide Wireless Local Loop (WLL) solution in partnership with the national fixed-line operator Beltelecom, expanding access across 50+ regional exchange points.
+- Promoted from Shift Technician to Deputy Head of Network Operations in recognition of operational excellence and team leadership.
 
 ---
 
 ## Education
 
-### Belarusian State University of Informatics and Radioelectronics (BSUIR)
-*1999 – 2004 · Minsk, Belarus*
-- **M.S. in Computer Science, Systems and Networks Engineering** (Graduated with Honors)
+**Master of Science (M.S.) in Computer Science, Systems and Networks Engineering**  
+*Belarusian State University of Informatics and Radioelectronics (BSUIR)* · *Graduated with Honors*
 
 ---
 
-## Certifications & Continuous Improvement
+## Certifications & Continuous Development
 
 - **Lean Six Sigma Purple Belt Certification** — Nokia Education Center
-- **Sales Staircase L3 Certification** — Nokia Education Center
-- **NCSS 3G RA PaO 2.2 Certification** — Nokia Education Center
-- **Ericsson Technical & Optimization Trainings** — Ericsson Education Center
-- **Huawei Technical Operations Trainings** — Huawei Education Center
+- **Sales Staircase L3 Certification (Consultative Selling & Business Case Framing)** — Nokia Education Center
+- **NCSS 3G Technical Architecture Certification** — Nokia Education Center
+- **Huawei & Ericsson Technical Systems Trainings** — Huawei & Ericsson Education Centers
 
 ---
 
-## Key Projects
+## Languages
 
-- **Customer Experience Management (CEM) & Geo-analytical Platform:** Built an enterprise analytics engine processing high-velocity telecom signaling into executive heatmaps, SLA dashboards, and operational performance reports using SQL, Excel VBA, and Power BI.
-- **Automated Scheduled BI Workflows:** Designed end-to-end reporting automation leveraging Microsoft Power Automate, SQL queries, and Power BI scheduled refreshes for hands-off executive reporting.
+- **English:** Full Professional Proficiency
+- **Hungarian:** Basic
+- **Russian / Belarusian:** Native

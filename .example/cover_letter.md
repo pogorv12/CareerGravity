@@ -1,21 +1,24 @@
-August 31, 2026
+September 1, 2026
 
-Hiring Team — Finance Business & Technology (FBT)
-bp / Castrol
-Budapest Agora Office, Hungary
+Andrea Juhász & Hiring Team  
+MOL Group  
+MOL Campus, 11th District  
+Budapest, Hungary  
 
-Dear Hiring Team,
+**Application for IT Business Partner (Circular economy) — Job Number: 26001233**
 
-I am writing to express my strong interest in the **CF & Planning Performance Analyst CASTROL** position at bp in Budapest. With over 15 years of experience in performance analytics, process optimization, and executive reporting across complex telecommunications and operational environments, I have built a career translating massive operational and financial datasets into actionable strategic intelligence. I am eager to bring my analytical rigor, BI automation skills, and continuous improvement mindset to Castrol's supply chain and planning performance operations.
+Dear Andrea Juhász and the MOL Group Hiring Team,
 
-Throughout my career, I have consistently aligned verified technical qualifications with robust analytical tools to deliver measurable business outcomes. At Nokia and UAVLAS, I spearheaded the design of automated KPI monitoring suites and executive cluster performance packs, integrating **Power BI**, **Microsoft Power Automate**, **SQL**, and **Advanced Excel (VBA)** with enterprise backends and **SAP ERP** cost reporting systems. In my role as Team Lead for Network Optimization Services, I architected an enterprise Customer Experience Management (CEM) platform querying high-volume signaling data lakes to underpin critical operational decisions—an initiative that reduced enterprise customer churn by **15%** and earned multiple Nokia Innovation awards. Furthermore, as Services Solution Manager, I engineered performance management frameworks and business case justifications for **$15M+** in mission-critical service contracts, ensuring 100% SLA compliance and zero-outage execution during high-visibility deployments such as the FIFA 2018 World Cup venues.
+I am writing to express my strong enthusiasm for the **IT Business Partner (Circular economy)** role at MOL Group. With over 15 years of experience bridging business strategy and technical execution across large-scale enterprise services, digital transformation, and mission-critical systems, I offer a proven track record of acting as a trusted advisor to business leaders, establishing robust demand management funnels, and aligning IT capabilities with strategic business goals. Based locally in Budapest with full EU work eligibility, I am excited to support MOL Group’s 2030+ vision and accelerate digital value realization within Circular Economy Services.
 
-As a certified **Lean Six Sigma Purple Belt** based locally in Budapest with full EU work authorization, I bring a systematic approach to data quality governance, automated ETL extraction, and cross-functional problem-solving. My background in large-scale capacity planning, network optimization, and logistics parallel the core analytical needs of Castrol’s supply chain, enabling me to rapidly interrogate data lakes, improve reporting punctuality, and drive performance across global clusters from day one.
+Throughout my career as a Services Solution Manager at Nokia and founder of cloud analytics platform checkprice.app, I have specialized in translating complex operational requirements into actionable IT roadmaps, automated process landscapes, and high-ROI business cases. In previous consultative roles, I managed multi-stakeholder demand funnels and structured multi-year CAPEX/OPEX budgets to successfully close and deliver over **$15M in enterprise technology and services contracts**. By implementing structured **Jira** delivery governance and **Lean Six Sigma** quality frameworks, I streamlined cross-functional workflows between business units and engineering teams, while designing the zero-outage SpecOps performance management solution for the FIFA 2018 World Cup.
 
-I am enthusiastic about the opportunity to contribute to bp’s dynamic Finance Business & Technology team at the Budapest Agora office and help advance Castrol’s supply chain excellence. Thank you for your time and consideration; I look forward to discussing how my experience and capabilities align with your strategic goals.
+Furthermore, my deep background in enterprise data analytics enables me to collaborate seamlessly with enterprise data and architecture teams. Leveraging platforms such as **Power BI**, **BigQuery**, **SQL**, and **Nokia Traffica**, I architected end-to-end data lakes and executive KPI dashboards that converted complex telemetry and transactional feeds into strategic decision models, directly achieving a **15% reduction in client churn**. My extensive background in large-scale utility and network infrastructure operations translates directly to Circular Economy Services, ensuring rapid onboarding into MOHU concession processes, waste logistics systems, and reverse supply chain data integration.
+
+I welcome the opportunity to discuss how my consultative partnering background, process modeling rigor, and data-driven approach can add immediate value to MOL Group's Circular Economy business partners. Thank you for your time and consideration.
 
 Sincerely,
 
-Victor Pogorelov  
-victor.pogorelov@example.com | +36 20 123 4567 | [LinkedIn](https://www.linkedin.com/in/pogorelov/)  
+**Victor Pogorelov**  
+[pogorv@gmail.com](mailto:pogorv@gmail.com) · [+36 70 552 63 15](tel:+36705526315) · [linkedin.com/in/pogorelov](https://www.linkedin.com/in/pogorelov/)  
 Budapest, Hungary

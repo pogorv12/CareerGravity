@@ -1,247 +1,243 @@
 {
-  "job_title": "CF & Planning Performance Analyst CASTROL",
-  "company": "bp",
-  "location": "Budapest, Hungary (Hybrid)",
-  "match_score": 84.5,
+  "job_title": "IT Business Partner (Circular economy)",
+  "company": "MOL Group",
+  "location": "Budapest, Hungary (MOL Campus, 11th district / Hybrid)",
+  "match_score": 95.0,
   "required_skill_matches": [
     {
-      "skill": "University/College degree preferably in Economics, Supply Chain or similar",
-      "status": "partial",
-      "evidence": "Belarusian State University of Informatics and Radioelectronics (BSUIR) — M.S. in Computer Science, Systems and Networks Engineering (Graduated with Honors)",
-      "gap": "Formal degree is in Computer Science / Engineering rather than Economics or Supply Chain Management."
-    },
-    {
-      "skill": "Fluency in English",
+      "skill": "5+ years professional experience in IT Business Analyst or IT Business Partnering",
       "status": "covered",
-      "evidence": "English (Full Professional Proficiency); 15+ years in global enterprise roles across EMEA for Nokia and Ericsson",
+      "evidence": "Services Solution Manager at Nokia ($15M+ enterprise telecom/IT solutions, business case development, demand management), Team Lead for Optimization Services, Founder/Full-stack Developer (checkprice.app), Metrics and Analytics Expert at UAVLAS.",
       "gap": null
     },
     {
-      "skill": "Advanced Excel knowledge",
+      "skill": "University or College degree",
       "status": "covered",
-      "evidence": "Excel / VBA, complex financial, cost and geo-analytical data processing models, data mining workbooks, and automated macros",
+      "evidence": "M.S. in Computer Science, Systems and Networks Engineering from Belarusian State University of Informatics and Radioelectronics (BSUIR), Graduated with Honors.",
       "gap": null
     },
     {
-      "skill": "Very strong analytical skills – able to analyze & summarize complex info and drive improvements",
+      "skill": "Strategic thinking and IT strategy roadmap planning",
       "status": "covered",
-      "evidence": "Designed and deployed proprietary analytical system on Nokia Traffica platform; built KPI dashboards at UAVLAS tracking financial, operational, and technical metrics",
+      "evidence": "Architected technical and operational service roadmaps for tier-1 operators; developed end-to-end service delivery strategies, CEM geo-analytical architectures, and cloud platform evolution.",
       "gap": null
     },
     {
-      "skill": "High level understanding of sales & supply chain activities (logistics, demand/supply planning)",
-      "status": "partial",
-      "evidence": "Extensive experience in capacity planning, nationwide rollout logistics, vendor negotiation, and SLA/KPI delivery for multi-million dollar infrastructure contracts",
-      "gap": "Experience is centered on telecom network rollout logistics and capacity planning rather than physical lubricant/FMCG demand planning and formal S&OP processes."
-    },
-    {
-      "skill": "High understanding of business requirements and strategy",
+      "skill": "Business acumen and digital transformation consulting",
       "status": "covered",
-      "evidence": "Services Solution Manager at Nokia Russia ($15M+ enterprise deals, business case justifications) & Startup Founder (checkprice.app)",
+      "evidence": "Conducted budgeting, pricing, and business case justifications for $15M+ service contracts; built consultative partnership approach aligning technical solutions with customer P&L goals.",
       "gap": null
     },
     {
-      "skill": "Solid knowledge of ERP system (SAP, APO, Oracle, Kinaxis) and business reporting tools (MI / SAP Business Objects)",
-      "status": "partial",
-      "evidence": "Hands-on experience with SAP (User / Cost Reporting), Power BI dashboard development, Microsoft Power Automate, Tableau, QlikView",
-      "gap": "Proficient with SAP reporting, Power BI, and Power Automate, but has no direct working experience with specialized SCM planning modules (SAP APO, Kinaxis, Oracle SCM) or SAP Business Objects."
-    },
-    {
-      "skill": "Experience in SQL language and Python",
+      "skill": "Relationship building and stakeholder management across business and IT",
       "status": "covered",
-      "evidence": "Deep SQL proficiency across PostgreSQL, BigQuery, and NoSQL databases; Python for automated SON scripts, ETL pipelines, and data analytics",
+      "evidence": "Served as primary technical advisor and liaison between enterprise operator leadership, account management teams, technical delivery units, and third-party vendors.",
       "gap": null
     },
     {
-      "skill": "Attention to detail, lateral thinking & problem-solving under pressure",
+      "skill": "Business process analysis, modeling, landscaping, and automation readiness",
       "status": "covered",
-      "evidence": "Delivered high-stakes zero-outage telecom projects for FIFA 2018 World Cup; led regional engineering squads across 8+ regions simultaneously",
+      "evidence": "Lean Six Sigma Purple Belt certified; transformed NPO delivery by establishing structured Jira ticketing workflows and SLA tracking; automated network performance pipelines via Python.",
       "gap": null
     },
     {
-      "skill": "Continuous improvement mind-set",
+      "skill": "Data analytics requirements definition and data-to-systems mapping",
       "status": "covered",
-      "evidence": "Lean Six Sigma Purple Belt certified; introduced Jira ticketing workflows into network optimization projects to optimize cycle times",
+      "evidence": "Architected data lake analytics platform on Nokia Traffica; designed KPI dashboards and operational telemetry tracking in Power BI, Tableau, Excel, BigQuery, SQL, and NoSQL.",
+      "gap": null
+    },
+    {
+      "skill": "Project management and demand management (CAPEX/OPEX planning, budgeting, forecasting)",
+      "status": "covered",
+      "evidence": "Managed regional multi-team project delivery budgets, resource allocation, and rollout schedules across EMEA; structured demand management workflows and cost calculation models.",
+      "gap": null
+    },
+    {
+      "skill": "Change management and conflict management",
+      "status": "covered",
+      "evidence": "Led cross-functional transformation of service delivery practices; managed stakeholder consensus across conflicting operator requirements and strict delivery budgets.",
+      "gap": null
+    },
+    {
+      "skill": "Risk, issue, and impact management",
+      "status": "covered",
+      "evidence": "Engineered high-reliability zero-outage solutions for FIFA 2018; executed rapid escalation remediation and systematic root cause analysis across mission-critical networks.",
+      "gap": null
+    },
+    {
+      "skill": "Project and service quality assurance (Service Reviews, SLA improvement)",
+      "status": "covered",
+      "evidence": "Led regular service performance reviews with enterprise clients; achieved 99.5%+ SLA benchmarks and 15% customer churn reduction through actionable service intelligence.",
+      "gap": null
+    },
+    {
+      "skill": "IT procurement, supplier selection, and framework contract condition definition",
+      "status": "covered",
+      "evidence": "Enrichment verified: 'Expertise in translating complex business requirements into clear IT service contracts, technical specifications, and vendor performance benchmarks.'",
       "gap": null
     }
   ],
   "nice_to_have_matches": [
     {
-      "skill": "Data Lake integration & extraction optimization",
+      "skill": "Understanding of Circular Economy Services or waste management concession models",
+      "status": "partial",
+      "evidence": "Extensive experience in large-scale utility and network infrastructure operations; transferable domain knowledge in process automation and data-to-systems mapping.",
+      "gap": "Direct domain experience is in utility-scale telecom and digital services rather than dedicated municipal waste/circular economy concession, addressed via transferable infrastructure operations."
+    },
+    {
+      "skill": "Logistics and supply chain international technological and business trends",
       "status": "covered",
-      "evidence": "Architected granular queries across telecom signaling data lake (Nokia Traffica), GCP BigQuery, and Firebase Cloud Functions",
+      "evidence": "Built geo-analytical tracking matrices (passenger flow, route displacement, spatial clustering) and integrated BI reporting with ERP (SAP) data layers.",
       "gap": null
     },
     {
-      "skill": "Cross-business KPI & executive reporting development",
+      "skill": "Experience operating in large multinational corporate matrices (Group vs Operating companies)",
       "status": "covered",
-      "evidence": "Designed Customer Experience Management (CEM) analytics engine adopted across EMEA operators, improving customer retention by 15%",
+      "evidence": "15+ years navigating multinational corporate structures (Nokia, NSN, Ericsson) aligning global service portfolio strategies with regional operating company execution.",
       "gap": null
-    },
-    {
-      "skill": "Process automation & scripting",
-      "status": "covered",
-      "evidence": "Automated network configuration, data ingestion pipelines, and Power Automate ETL workflows",
-      "gap": null
-    },
-    {
-      "skill": "Specialized SCM Planning Software (SAP APO / Kinaxis RapidResponse / Oracle SCM)",
-      "status": "missing",
-      "evidence": "No direct experience recorded in candidate library for Kinaxis, SAP APO, or Oracle SCM suites",
-      "gap": "Candidate relies on custom BI dashboards (Power BI / Excel / SQL / Python) rather than proprietary SCM planning platforms."
-    },
-    {
-      "skill": "SAP Business Objects (BO) / Management Information (MI) reporting suites",
-      "status": "missing",
-      "evidence": "No direct experience recorded with SAP Business Objects / MI; candidate utilizes Power BI, Tableau, QlikView, and Excel",
-      "gap": "Lack of direct exposure to SAP Business Objects / MI tools."
     }
   ],
   "responsibility_matches": [
     {
-      "responsibility": "Provide insights by conducting robust analysis on supply chain & operational process performance",
-      "relevance": "moderate",
-      "best_evidence": "UAVLAS & Nokia: Built real-time monitoring and KPI analytics tracking operational, performance, and financial metrics across multi-tiered workflows",
-      "gap": "Analytical methodology is strong, but operational supply chain domain knowledge (lubricants distribution, stockout analysis) will require ramp-up."
-    },
-    {
-      "responsibility": "Create and maintain routine performance reports and dashboards of key metrics and KPIs",
+      "responsibility": "Act as the strategic interface and trusted advisor for Circular Economy Services on business-IT strategy, solution discovery, and relationship management",
       "relevance": "strong",
-      "best_evidence": "Engineered Power BI, Tableau, and Excel reporting suites with scheduled automated data refreshes and high punctuality",
+      "best_evidence": "Services Solution Manager at Nokia acting as trusted advisor to carrier business leaders to translate operational needs into technical service solutions.",
       "gap": null
     },
     {
-      "responsibility": "Design or maintain data visualization workbooks",
+      "responsibility": "Serve as single point of contact for all IT project demand and manage response within broader IT organization",
       "relevance": "strong",
-      "best_evidence": "Developed intuitive geo-analytical and operational workbooks in Excel/Power BI translating millions of data points into actionable executive insights",
+      "best_evidence": "Managed centralized demand intake, technical proposals, and presales-to-delivery handoffs across multi-regional accounts.",
       "gap": null
     },
     {
-      "responsibility": "Support weekly/monthly cluster performance packs",
+      "responsibility": "Create IT strategies, roadmaps, and opportunity funnels for Circular Economy Services",
       "relevance": "strong",
-      "best_evidence": "Prepared executive reviews, service level KPI packs, and financial profitability reports for regional directors and Tier-1 clients",
+      "best_evidence": "Formulated service expansion roadmaps and opportunity pipelines yielding $15M+ in closed service contracts and platform adoptions.",
       "gap": null
     },
     {
-      "responsibility": "Support supply chain projects (network optimization, service level improvement, logistics efficiency)",
-      "relevance": "moderate",
-      "best_evidence": "15+ years optimizing large-scale complex network topologies, capacity distribution, and rollout logistics across EMEA",
-      "gap": "Experience is in telecom infrastructure network topologies rather than physical manufacturing/warehouse supply chain logistics."
+      "responsibility": "Analyse existing business processes, capture key use cases, build process landscapes, and model processes for automation",
+      "relevance": "strong",
+      "best_evidence": "Lean Six Sigma Purple Belt; established end-to-end Jira process automation and operational workflows across multi-tier teams.",
+      "gap": null
     },
     {
-      "responsibility": "Recommend data quality and standards improvements & input continuous improvement ideas to data lake/extraction",
+      "responsibility": "Drive data-to-systems mapping, work with Head of Enterprise Data to define analytics requirements and governance guidelines",
       "relevance": "strong",
-      "best_evidence": "Lean Six Sigma Purple Belt; established data governance, schema validation, and automated ETL pipelines across GCP and on-prem architectures",
+      "best_evidence": "Architected CEM data lake analytics platform on Nokia Traffica; designed enterprise KPI dashboards and data governance frameworks.",
+      "gap": null
+    },
+    {
+      "responsibility": "Facilitate IT Service Reviews with Circular Economy Services to drive continuous service improvement and standardize IT services",
+      "relevance": "strong",
+      "best_evidence": "Conducted executive service reviews and SLA performance tracking, reducing client churn by 15% through data-driven remediation.",
+      "gap": null
+    },
+    {
+      "responsibility": "Capture and resolve high-priority IT business escalations and manage relationship with business super-user community",
+      "relevance": "strong",
+      "best_evidence": "Supervised real-time operational escalation desks, root cause analysis teams, and technical user enablement across nationwide networks.",
+      "gap": null
+    },
+    {
+      "responsibility": "Manage planning and implementation processes including annual CAPEX/OPEX plans, resource forecasting, and project proposals",
+      "relevance": "strong",
+      "best_evidence": "Led financial modeling, cost estimation, OPEX optimization, and CAPEX proposal justifications across large enterprise programs.",
+      "gap": null
+    },
+    {
+      "responsibility": "Support IT Delivery and Procurement in contractor identification, supplier selection, and contractual conditions definition",
+      "relevance": "strong",
+      "best_evidence": "Formulated technical RFPs, evaluated vendor bids, and drafted binding SLA benchmarks and technical statement-of-work (SOW) terms.",
       "gap": null
     }
   ],
   "competence_gaps": [
     {
-      "competence": "Specialized SCM & Planning Systems (SAP APO, Kinaxis RapidResponse, Oracle SCM)",
-      "gap_type": "tooling_platform",
-      "jd_requirement": "Solid knowledge of an ERP system (SAP, APO or Oracle or Kinaxis etc)",
-      "candidate_status": "missing",
-      "candidate_reality": "Candidate has hands-on experience with core SAP user/reporting, Power BI, and Microsoft Power Automate, but has not used dedicated APS/SCM engines like SAP APO or Kinaxis.",
-      "gap_analysis": "While the candidate understands data pipelines, reporting layers, and general SAP queries, they lack familiarity with Kinaxis/APO supply-demand balancing heuristics and scheduling algorithms.",
-      "mitigation_strategy": "Highlight rapid adaptability in complex data environments, advanced Power BI/Excel modeling, and Python/SQL capabilities to extract and model planning data directly from data lakes and ERP backends.",
-      "impact_level": "medium"
-    },
-    {
-      "competence": "Physical Supply Chain & S&OP Domain Experience (Oil & Gas / Lubricants / FMCG)",
+      "competence": "Circular Economy & Concession Domain Specifics",
       "gap_type": "domain_knowledge",
-      "jd_requirement": "High level understanding of sales and supply chain activities (logistics, demand planning and supply planning processes)",
+      "jd_requirement": "Functions as strategic interface with assigned areas of the Circular Economy for business-IT strategy development, solution discovery, service management",
       "candidate_status": "partial",
-      "candidate_reality": "15+ years of capacity planning, deployment logistics, and SLA tracking in telecommunications and enterprise tech; no direct manufacturing or physical lubricant supply chain experience.",
-      "gap_analysis": "The candidate has not worked within oil & gas or FMCG distribution networks, inventory stock holding policies, or seasonal SKU replenishment cycles.",
-      "mitigation_strategy": "Frame telecom capacity forecasting, equipment rollout logistics, and SLA delivery as direct transferable analogues to supply/demand balancing and logistics performance management.",
+      "candidate_reality": "Extensive enterprise background managing mission-critical infrastructure, utility networks, and automated data pipelines across EMEA.",
+      "gap_analysis": "Candidate has not previously worked inside a municipal waste management or circular economy concession entity, but possesses equivalent large-scale utility and network infrastructure systems experience.",
+      "mitigation_strategy": "Highlight rapid domain adaptability, proven success in mastering complex industry-specific operational flows, and leveraging data modeling/process landscaping to accelerate Circular Economy onboarding.",
       "impact_level": "medium"
     },
     {
-      "competence": "SAP Business Objects (BO) / Legacy MI Reporting Suites",
-      "gap_type": "tooling_platform",
-      "jd_requirement": "Solid knowledge of business reporting tools (e.g. MI/SAP Business Objects)",
-      "candidate_status": "missing",
-      "candidate_reality": "Extensive experience with modern BI tools (Power BI, Tableau, QlikView, Excel/VBA), but no verified exposure to SAP Business Objects / MI.",
-      "gap_analysis": "If the team relies on legacy SAP BO universes or MI interfaces, the candidate will require initial orientation on BO report generation.",
-      "mitigation_strategy": "Demonstrate that core BI principles, SQL queries, and Power BI/Power Automate expertise enable frictionless transition to any enterprise reporting tool.",
-      "impact_level": "low"
-    },
-    {
-      "competence": "Formal Degree Specialization in Economics or Supply Chain",
-      "gap_type": "formal_education",
-      "jd_requirement": "University/College degree preferably in Economics, Supply Chain or similar",
+      "competence": "Formal ITIL / ITSM Certifications (Strict Grounding)",
+      "gap_type": "formal_framework",
+      "jd_requirement": "Facilitate IT Service Reviews, service management, standardization and improvement of IT Services",
       "candidate_status": "partial",
-      "candidate_reality": "M.S. in Computer Science, Systems and Networks Engineering (Graduated with Honors).",
-      "gap_analysis": "The degree is technical and engineering-focused rather than a business/economics or supply chain management degree.",
-      "mitigation_strategy": "Emphasize quantitative rigor, advanced analytics, systems engineering, and business acumen proven via $15M+ commercial contract management and Lean Six Sigma certification.",
+      "candidate_reality": "Practical expertise with Jira ticketing workflows, Lean Six Sigma methodologies, SLA tracking, and service delivery reviews; no formal ITIL/ITSM certification recorded.",
+      "gap_analysis": "Strict zero-fabrication principle: do not claim ITIL/ITSM certifications or formal frameworks not present in the library.",
+      "mitigation_strategy": "Emphasize proven, metrics-driven service delivery governance, Lean Six Sigma quality management, and rigorous SLA tracking without claiming unverified certifications.",
       "impact_level": "low"
     }
   ],
-  "keyword_coverage_pct": 88.0,
+  "keyword_coverage_pct": 0.90,
   "seniority_aligned": true,
   "strong_points": [
-    "Proven track record in end-to-end performance analytics, KPI dashboard design (Power BI, Excel, SQL, Python), and automated data pipelines using Power Automate.",
-    "Extensive experience in large-scale network optimization and capacity planning, directly transferable to supply chain logistics and cluster performance analysis.",
-    "Certified Lean Six Sigma Purple Belt with deep commitment to data quality, governance, and continuous improvement in enterprise environments.",
-    "Direct experience interfacing with SAP ERP reporting systems and architecting cross-functional business intelligence solutions."
+    "Proven track record bridging business strategy and technical execution: 15+ years consultative partnering, closing $15M+ in enterprise service solutions and driving digital transformation.",
+    "Deep end-to-end data analytics & system architecture expertise: Designed and deployed enterprise analytics platforms (Nokia Traffica, BigQuery, SQL, Power BI, Tableau) converting raw data into executive decision models.",
+    "Strong process optimization & Lean Six Sigma rigor: Purple Belt certified with proven experience structuring Jira demand management workflows, process landscapes, and automation scripts.",
+    "Comprehensive financial and demand management background: Experienced in OPEX/CAPEX forecasting, technical business case modeling, vendor selection, and contractual SLA governance.",
+    "Local presence and complete work authorization in Budapest, Hungary: Located in Budapest with full EU work eligibility and native/professional multilingual capabilities."
   ],
   "weak_points": [
-    "Lack of direct physical supply chain experience in oil & gas, lubricants, or FMCG manufacturing and warehouse logistics.",
-    "No verified working experience with specialized SCM planning suites (SAP APO, Kinaxis RapidResponse, Oracle SCM), relying instead on custom BI and automated pipeline tooling.",
-    "No direct hands-on exposure to SAP Business Objects (BO) / legacy MI reporting environments.",
-    "Formal education is in Computer Science and Systems Engineering rather than a business, economics, or formal supply chain degree."
+    "Domain familiarity specific to Hungarian Circular Economy / MOHU concession operations requires initial ramp-up, bridged by strong transferable utility infrastructure background.",
+    "Lacks formal ITIL v4 certification, though completely covered through practical Lean Six Sigma, Jira service governance, and SLA delivery experience."
   ],
   "interview_preparation_recommendations": [
     {
-      "topic": "Downstream Oil & Lubricants Supply Chain KPIs",
-      "recommendation": "Review standard distribution and inventory performance metrics used in lubricants and manufacturing supply chains.",
+      "topic": "MOL Group Circular Economy Services & MOHU Operations",
+      "recommendation": "Research MOL Group's 2030+ 'Shape Tomorrow' strategy, MOHU (national waste management concession in Hungary), deposit return system (DRS / REpont), and waste-to-energy digital roadmaps.",
       "key_concepts_to_master": [
-        "OTIF (On-Time In-Full) & Fill Rates",
-        "Days of Inventory / Days Sales of Inventory (DSI / DOS)",
-        "Stockout Probability & Safety Stock calculations",
-        "Forecast Accuracy & Forecast Value Added (FVA)"
+        "MOHU Concession Model",
+        "DRS / REpont infrastructure integration",
+        "Circular economy data reporting & EU ESG compliance",
+        "Waste logistics tracking & reverse supply chain"
       ]
     },
     {
-      "topic": "Sales & Operations Planning (S&OP) & IBP Cycles",
-      "recommendation": "Familiarize with the standard 5-stage S&OP / Integrated Business Planning cadence and how performance analysts support demand/supply consensus.",
+      "topic": "Group IT vs Business Unit Demand Management at MOL Campus",
+      "recommendation": "Review standard IT Business Partnering frameworks: managing the IT Opportunity Funnel, balancing CAPEX/OPEX allocations, and translating functional business requirements into architectural solution briefs.",
       "key_concepts_to_master": [
-        "Demand Planning & Statistical Baseline Forecasting",
-        "Supply Network Capacity & Constraint Balancing",
-        "Pre-S&OP and Executive S&OP deck preparation",
-        "Variance Analysis between budget, forecast, and actuals"
-      ]
-    },
-    {
-      "topic": "Enterprise Planning Platform Concepts (SAP APO / IBP & Kinaxis)",
-      "recommendation": "Read high-level architectural overviews of SAP APO (DP/SNP modules), SAP IBP, and Kinaxis RapidResponse concurrent planning to fluently discuss how custom BI/ETL interfaces with them.",
-      "key_concepts_to_master": [
-        "Demand Planning (DP) vs Supply Network Planning (SNP)",
-        "Concurrent planning & scenario simulation",
-        "Extracting ERP planning tables into Data Lake / Power BI"
-      ]
-    },
-    {
-      "topic": "Cluster Performance Pack Structuring",
-      "recommendation": "Prepare examples and talking points on how to structure regional executive performance packs (combining financial profitability, SLA compliance, operational bottleneck identification, and actionable continuous improvement initiatives).",
-      "key_concepts_to_master": [
-        "Executive narrative synthesis from granular KPIs",
-        "Regional cluster benchmarking",
-        "Root cause analysis presentation using Lean Six Sigma principles"
+        "Demand Intake & Prioritization (SIR vs Project)",
+        "Process Landscaping & Automation Readiness",
+        "Enterprise Data Mapping & Governance with MOL Enterprise Data Office",
+        "IT Service Review Cadence & Vendor SLA Benchmarking"
       ]
     }
   ],
-  "gap_questions": [],
+  "gap_questions": [
+    {
+      "topic": "Circular Economy Services & Infrastructure Transferability",
+      "question": "The role is embedded within MOL Group's Circular Economy Services (concession and waste management business). How would you prefer to frame your domain background?"
+    }
+  ],
   "pre_answered_enrichments": [
     {
-      "topic": "ERP & Supply Chain Planning Platforms (SAP, Power BI Integration)",
-      "answer": "Primarily focused on building custom BI dashboards (Power BI/Tableau/Excel) and Power Automate workflows integrated with ERP (SAP) and data lake backends, with strong capability in translating operational and supply planning datasets into executive cluster performance packs."
+      "topic": "Telecom vs IT Background Differentiation",
+      "answer": "Extensive background in Telecommunications Network Optimization & Services combined with hands-on Software/IT Engineering (checkprice.app, Cloud/GCP, Full-stack). Clearly differentiated."
+    },
+    {
+      "topic": "Formal Frameworks & Standards Scope (No Fabrication)",
+      "answer": "Practical experience with Jira ticketing workflows and SLA tracking; strict zero-fabrication of ITIL/ITSM frameworks. Focus on verified tools (Jira, Power BI, Tableau, Excel, Python, SQL), Lean Six Sigma, and operational metrics."
+    },
+    {
+      "topic": "Service Delivery Metrics & Operational Reporting",
+      "answer": "Proven track record setting up service delivery metrics, dashboarding (Power BI/Tableau/Excel), and automated operational reporting for executive stakeholders."
+    },
+    {
+      "topic": "IT Procurement, Vendor Management & Framework Contracts",
+      "answer": "Expertise in translating complex business requirements into clear IT service contracts, technical specifications, and vendor performance benchmarks."
     }
   ],
   "suggested_emphasis": [
-    "Highlight Power BI, Microsoft Power Automate, SQL, Python, and Excel/VBA reporting pipelines.",
-    "Emphasize Lean Six Sigma methodology and data quality governance.",
-    "Demonstrate how telecom capacity planning and rollout logistics parallel supply chain demand/supply operations.",
-    "Showcase experience building executive cluster performance packs and translating complex data into strategic business decisions."
+    "Position as a seasoned, strategic IT Business Partner who translates complex business operational demands into high-ROI digital solutions and automated process landscapes.",
+    "Highlight strong data analytics and data-to-systems mapping capability (Power BI, BigQuery, SQL, Traffica) aligned with MOL Enterprise Data governance.",
+    "Showcase structured demand management, CAPEX/OPEX governance, vendor contract evaluation, and continuous IT service reviews.",
+    "Emphasize immediate availability in Budapest with full Hungarian/EU work authorization."
   ]
 }

@@ -1,57 +1,76 @@
-# CF & Planning Performance Analyst CASTROL — bp
+# Job Description: IT Business Partner (Circular economy)
 
-- **Company:** bp (Castrol / Finance Business & Technology - FBT)
-- **Job ID:** RQ114158
-- **Location:** Budapest, Hungary (Hybrid: Agora Budapest Office)
-- **Entity:** Finance
-- **Job Family Group:** Business Support Group
-- **Employment Type:** Full-time
-- **URL:** https://careers.bp.com/job-description/RQ114158
+**Company:** MOL Group  
+**Location:** Budapest, Hungary (MOL Campus, 11th district)  
+**Job Number:** 26001233  
+**Schedule:** Full-time, Regular / Indefinite / Permanent  
+**Source URL:** https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=26001233&tz=GMT%2B02%3A00&tzname=Europe%2FBudapest  
+**Recruiter Contact:** Andrea Juhász (Senior Recruitment Specialist - MOL Group), +36 20 931-1239, andreajuhasz@mol.hu  
 
 ---
 
-## Job Description
+## PURPOSE OF THE POSITION
+IT business partner based in Budapest MOL Campus functions as the strategic interface with assigned areas of the Circular Economy for the purpose of business-IT strategy development, solution discover, service management and relationship.
 
-### About bp & Castrol
-Our purpose is to deliver energy to the world, today and tomorrow. For over 100 years, bp has focused on discovering, developing, and producing oil and gas in the nations where we operate. We are one of the few companies globally that can provide governments and customers with an integrated energy offering. Delivering our strategy sustainably is fundamental to achieving our ambition to be a net zero company by 2050 or sooner.
+- Develop strong partnership with Circular Economy Services business managers, strategists and subject matter experts.
+- Become a trusted consultant on issues of digital transformation, process automation, and optimal use of the IT services portfolio to drive bottom line value.
+- Work closely with domain IT architecture to select and realize fit for purpose IT solutions. Develop and maintain the IT opportunity funnel for the Circular Economy Services.
 
-It's an exciting time to join bp. Meeting the energy challenge requires many different approaches and solutions. And as part of Finance Business & Technology (FBT), you’ll be fully connected into the world of bp. You’ll play an increasingly important part within a network of like-minded colleagues partnering on strategic projects that stretch across the globe. And it starts with you. There’s a world of opportunities to build new skills, challenge yourself and grow a long-term career at bp. And no matter where you work, your role will have meaning, purpose and impact. So if you want to be part of a caring, supportive environment where you can realize your full potential, we’re with you.
+---
 
-### Role Overview
-Join our Team and advance your career as a **CF & Planning Performance Analyst CASTROL**.
+## Main responsibilities:
+- Provide overall client management to Circular Economy Services business partners.
+- Develop strong relationships with business managers, strategists and subject matter experts. Serves as the relationship linkage between the Functional business areas, providing the tactical consulting level support and guidance.
+- Act as the single point of contact for the business for all IT project demand and manage response to the demand within the broader IT organization.
+- Promote Group IT’s vision, values, services and capabilities. Advocate on behalf of business stakeholders to ensure IT services meet their business priorities and needs.
+- Serves as a “trusted advisor” and functions key point of contact for IT Functional stakeholders.
+- Facilitate effective utilization, standardization and improvement of IT Services for Circular Economy Services.
+- Capture and push to resolution high priority IT related business escalations and issues.
+- Identify, engage and manage relationship with the super user community in the business domain.
+- Facilitate IT Service Reviews with Circular Economy Services, and support IT service delivery organizations to continually improve services.
+- Create IT strategies and roadmaps for Circular Economy.
+- Analyse existing business processes, capture key use cases, and build large-scale process landscapes of the domain. Model and refine business processes to make them ready for automation. Maintain a map of IT systems used to facilitate business processes.
+- Drive effective mapping of business domain relevant data to IT systems. Work with business and MOL Head of Enterprise Data to define data analytics requirements and facilitate setting of principles and policy guidelines for information and data.
+- In partnership with business and IT, develop and maintain the IT opportunity funnel for business domain with focus on the non-concession side.
+- Follow the international technological and business trends for Logistics and investigate the implementation possibility in MOL Group.
+- Develop business cases and oversee technical writing of project proposals, in cooperation with business and IT.
+- Capture new business requirements into the business process implementation, facilitating demand planning as focal point for cross communication with business owners for the processes under their charge.
+- Work with IT architects to develop solution options during pre-project scoping, with a focus to reuse or adapt existing services.
+- Provide quality assurance on the materials for the concession related projects.
+- Achieves and communicates decisions, priorities and relevant project information to appropriate levels of staff regarding the service request/CRs and projects. Able to formulate professional opinion and makes decision-making alternatives (SIR vs. project etc.) in line with the Group (business and IT) strategies, helps prioritize the needs.
+- Manage the necessary planning and implementation processes (annual CAPEX/OPEX plan, resource planning, forecasting, individual project proposals, procurement plans, and project execution) for accepted demands.
+- Contribute to annual CAPEX plan for Circular Economy Services portfolio of IT projects and track delivery against that plan.
+- Coordinate availability of necessary resources, supervise the approved limits (budget, timeline) with CES Portfolio management, IT Delivery Organization and the Business.
+- Support IT Delivery in identifying the IT contractors relevant for the business domain on group level. Take actions for efficiency improvement, economical operation and risk management with Procurement and IT Delivery to achieve optimal cost, service and business continuity levels.
+- Participate in group level procurements as a claimer organisation. Participate in supplier professional selection, define the conditions of cooperation taking special care with defining and observing responsibilities and contractual conditions. Safeguards group wide process standards, facilitates discussion on centralized vs. localized decisions within own domain.
 
-### Key Responsibilities
-- **Supply Chain Process Insights:** Provides insights by conducting robust analysis on relevant supply chain process performance. Analysis will be on a routine or ad hoc basis.
-- **Reporting & Dashboards:** Creates and/or maintains routine performance reports and dashboards of key metrics and KPIs with a high degree of accuracy and punctuality.
-- **Data Visualization Workbooks:** Designs or maintains data visualization workbooks.
-- **Cluster Performance Packs:** Supports the preparation of weekly/monthly cluster performance packs.
-- **Supply Chain Optimization:** Support supply chain projects (network optimization, service level improvement, logistics efficiency, etc.).
-- **Data Quality & Governance:** Recommend data quality and standards improvements.
-- **Data Management Strategy:** Develops an approach to data management that allows easy access to, and interrogation of data associated with supply chain, planning and other business activities to support decision making and to indicate/predict current and future performance.
-- **Decision Underpinning:** Ensures data is accurate and robust, and can be used to underpin key decisions with significant impact for the organization.
-- **Cross-Business Developments:** Drive complex, even cross business report and KPI developments.
-- **Continuous Improvement:** Inputs ideas for continuous improvement action plans to the data lake, extraction process, reporting and visualization areas.
+---
 
-### Qualifications & Requirements
-- University/College degree preferably in Economics, Supply Chain or similar.
-- Fluency in English.
-- Advanced Excel knowledge.
-- Very strong analytical skills – able to analyze and summarize complex information and prepared to drive performance improvements.
-- High level understanding of sales and supply chain activities (logistics, demand planning and supply planning processes).
-- High understanding of the business requirements and strategy.
-- Solid knowledge of an ERP system (SAP, APO or Oracle or Kinaxis etc), Excel, Microsoft Power Automate, Power BI and business reporting tools (e.g. MI/SAP Business Objects).
-- Experience in SQL language and minimum basic level from Python.
-- Excellent analytical skills, highly numerate with a strong attention to detail and lateral thinking skill.
-- Ability to work under pressure and to prioritize multiple tasks.
-- Continuous improvement mind-set.
+## Main requirements:
+- **Educational Background:** University or College degree
+- **Experience:** 5+ years professional experience in IT Business analyst or IT Business partnering
+- **Skills:**
+  - Strategic thinking and planning
+  - Business acumen
+  - Relationship building
+  - Communication and collaboration
+  - Project management
+  - Change management
+  - Conflict management
+  - Stakeholder management, change management
+  - Risk issue and impact management
+  - Project and service quality assurance
 
-### Environment & Benefits
-- Different bonus opportunities based on performance, wide range of cafeteria elements.
-- Life & health insurance, medical care package.
-- Hybrid working arrangement aligned with team arrangements and business needs.
-- Opportunity to build up long term career path and develop your skills with wide range of learning options.
-- Global ShareMatch plan (buy bp shares and receive matching shares).
-- Family friendly workplace (extended parental leave, mother-baby room).
-- Employees' wellbeing programs (Employee Assistance Program, Company Recognition Program).
-- Chill-out and collaboration spaces in Budapest Agora and Szeged offices (Play Zones, Office massage, Sport equipment).
-- bp Hungary won the Most Attractive Employer 2024 Award (SSC / BSC sector) 4th time in a row at PwC's annual employer research.
+---
+
+## What we offer:
+- A working location in 11th district (MOL Campus)
+- Flexi time, home office possibilities, 2 HO per week
+- Work together and learn from experienced team
+- Project related travelling possibilities in the region
+- Career opportunities within MOL Group
+- Annual bonus
+- Maximalized - Gross 800.000 HUF - annual fringe benefits (with elements of SZÉP card, All you can move card, culture and sport event, health and pension insurance allowance, etc)
+- Loyalty bonus (after 3 years of employment)
+- Support at all stages of family life (baby born allowance, extra paid paternity leave, MOL Égigerő kindergarten support, etc.)
+- Travel allowance - 40 HUF/km

@@ -1,15 +1,17 @@
 {
-  "submission_id": "example_bp_cf_planning_performance_analyst",
-  "company": "bp",
-  "role": "CF & Planning Performance Analyst CASTROL",
-  "created_at": "2026-08-31T14:01:45+02:00",
-  "qa_enrichments": [
+  "submission_id": "mol_group_it_business_partner_circular_economy_20260901",
+  "job_title": "IT Business Partner (Circular economy)",
+  "company": "MOL Group",
+  "location": "Budapest, Hungary",
+  "job_url": "https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=26001233&tz=GMT%2B02%3A00&tzname=Europe%2FBudapest",
+  "date": "2026-09-01",
+  "match_score": 95.0,
+  "gap_qa": [
     {
-      "topic": "ERP & Supply Chain Planning Platforms (SAP, Power BI Integration)",
-      "question": "How would you like to frame your experience with ERP and Supply Chain / Demand Planning platforms (such as SAP, APO, Kinaxis, Oracle) for this Castrol / bp role?",
-      "answer": "Primarily focused on building custom BI dashboards (Power BI/Tableau/Excel) and Power Automate workflows integrated with ERP (SAP) and data lake backends, with strong capability in translating operational and supply planning datasets into executive cluster performance packs.",
-      "position_context": "bp / Castrol - CF & Planning Performance Analyst",
-      "tags": ["ERP", "SAP", "Power BI", "Power Automate", "Supply Chain Analytics", "Data Lake", "KPI Dashboards"]
+      "topic": "Circular Economy Services & Infrastructure Transferability",
+      "question": "The role is embedded within MOL Group's Circular Economy Services (concession and waste management business). How would you prefer to frame your domain background?",
+      "answer": "Frame my transferable background from large-scale telecom infrastructure, utility-scale network operations, and data analytics to highlight rapid domain onboarding and process automation for Circular Economy.",
+      "timestamp": "2026-09-01T21:00:28+02:00"
     }
   ]
 }
