@@ -2,7 +2,7 @@
 name: candidate-library
 description: >-
   How to read, update, merge, and save the persistent candidate library at
-  data/candidate.json. The library is the single source of truth for
+  data/bio.json. The library is the single source of truth for
   everything known about the candidate. Use whenever touching the library file.
 ---
 
@@ -10,7 +10,7 @@ description: >-
 
 ## What the Library Is
 
-`data/candidate.json` is a permanent, growing knowledge base for the
+`data/bio.json` is a permanent, growing knowledge base for the
 candidate. It accumulates content from every CV version and every gap Q&A session
 across all job applications.
 
@@ -95,7 +95,7 @@ across all job applications.
 
 ## Importance of Candidate Library Information for Document Relevance
 
-`data/candidate.json` is the **single source of truth** for all document generation and ATS matching.
+`data/bio.json` is the **single source of truth** for all document generation and ATS matching.
 
 > [!IMPORTANT]
 > **Checking and maintaining complete, verified candidate library information is essential for high document relevance.**
@@ -109,19 +109,19 @@ across all job applications.
 When setting up a new candidate library or ingesting all available CVs:
 
 1. Locate all files in `data/source_cvs/` (`.md`, `.txt`, `.pdf`, `.doc`, `.docx`).
-2. Load or initialize `data/candidate.json`.
+2. Load or initialize `data/bio.json`.
 3. For each CV in `data/source_cvs/`:
    - Parse CV data into structured format (see **cv-parsing** skill).
    - Merge the parsed data into the candidate library following the merge rules below.
    - Add the filename to `source_cvs`.
-4. Save the merged library to `data/candidate.json`.
-5. Advise the user to inspect and verify `data/candidate.json` (specifically contact details, location routing, work authorizations, and past experiences) before running applications.
+4. Save the merged library to `data/bio.json`.
+5. Advise the user to inspect and verify `data/bio.json` (specifically contact details, location routing, work authorizations, and past experiences) before running applications.
 
 ---
 
 ## Loading the Library
 
-1. Use `view_file` on `data/candidate.json`.
+1. Use `view_file` on `data/bio.json`.
 2. If the file does not exist, initialise an empty library:
 
 ```json
@@ -236,7 +236,7 @@ Before the interview step, split gap questions into two groups:
 
 1. Update `updated_at` to the current ISO timestamp.
 2. Use `write_to_file` with `Overwrite: true` to save the full JSON to
-   `data/candidate.json`.
+   `data/bio.json`.
 3. Always pretty-print (2-space indent) for human readability.
 
 **Save after:**

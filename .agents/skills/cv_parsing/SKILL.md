@@ -98,7 +98,7 @@ CVData:
 ## After Parsing
 
 Immediately follow the **candidate-library** skill to merge this CVData into
-`data/candidate.json`.
+`data/bio.json`.
 
 Do not skip the merge step — the library is the source of truth for all
 downstream matching and writing.

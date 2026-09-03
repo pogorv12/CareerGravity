@@ -11,7 +11,7 @@ description: >-
 
 ```
 data/
-├── candidate.json            # Persistent career knowledge base, profile & routing rules
+├── bio.json                  # Persistent career knowledge base, profile & routing rules
 ├── source_cvs/               # Drop raw CVs here; one file per format
 │   ├── john_doe_cv.pdf
 │   ├── john_doe_cv.docx
