@@ -165,11 +165,11 @@
   "education": [
     {
       "institution": "Belarusian State University of Informatics and Radioelectronics (BSUIR)",
-      "degree": "M.S. in Computer Science, Systems and Networks Engineering",
-      "field": "Computer Science / Systems and Networks Engineering",
+      "degree": "Computer Networks and Systems Engineer",
+      "field": "Computing machines Systems and Networks",
       "dates_from": "1999",
       "dates_to": "2004",
-      "grade": "Graduated with Honors / M.S."
+      "grade": "Engineer"
     }
   ],
   "technical_skills": [
