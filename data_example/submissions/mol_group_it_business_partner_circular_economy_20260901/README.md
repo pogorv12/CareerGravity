@@ -2,11 +2,11 @@
 **Date:** 2026-09-01  **Match Score:** 95/100
 
 ## Submission Checklist
-- [ ] Review [`tailored_cv.md`](file:///Users/pogorv/Dev/CareerGravity/.example/tailored_cv.md) — check all facts are accurate
-- [ ] Review [`cover_letter.md`](file:///Users/pogorv/Dev/CareerGravity/.example/cover_letter.md) — personalized for Andrea Juhász & MOL Group Hiring Team
-- [ ] Review [`resume_1page.md`](file:///Users/pogorv/Dev/CareerGravity/.example/resume_1page.md) — confirm it fits one page (≤600 words)
-- [ ] Review [`compensation_benchmark.md`](file:///Users/pogorv/Dev/CareerGravity/.example/compensation_benchmark.md) — benchmark salary expectations & negotiation targets
-- [ ] Submit application via MOL Career Portal: [www.mol.hu/karrier](https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=26001233&tz=GMT%2B02%3A00&tzname=Europe%2FBudapest) or contact Andrea Juhász (+36 20 931-1239 / andreajuhasz@mol.hu)
+- [ ] Review [`tailored_cv.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/tailored_cv.md) — check all facts are accurate
+- [ ] Review [`cover_letter.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/cover_letter.md) — personalized for Andrea Juhász & MOL Group Hiring Team
+- [ ] Review [`resume_1page.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/resume_1page.md) — confirm it fits one page (≤600 words)
+- [ ] Review [`compensation_benchmark.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/compensation_benchmark.md) — benchmark salary expectations & negotiation targets
+- [ ] Submit application via MOL Career Portal: [www.mol.hu/karrier](https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=26001233&tz=GMT%2B02%3A00&tzname=Europe%2FBudapest) or contact Andrea Juhász (+36 20 123 9999 / recruiter@molgroup.example.com)
 - [ ] Log application in tracker
 
 ---

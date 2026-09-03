@@ -20,5 +20,5 @@ I welcome the opportunity to discuss how my consultative partnering background, 
 Sincerely,
 
 **Victor Pogorelov**  
-[pogorv@gmail.com](mailto:pogorv@gmail.com) · [+36 70 552 63 15](tel:+36705526315) · [linkedin.com/in/pogorelov](https://www.linkedin.com/in/pogorelov/)  
+[victor.pogorelov@example.com](mailto:victor.pogorelov@example.com) · [+36 20 123 4567](tel:+36201234567) · [linkedin.com/in/example-profile](https://www.linkedin.com/in/example-profile/)  
 Budapest, Hungary

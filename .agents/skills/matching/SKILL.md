@@ -16,7 +16,7 @@ Produce a MatchReport that quantifies fit, surfaces genuine non-matches and comp
 
 ## Input
 
-- `CandidateLibrary` — the full library loaded from `library/candidate.json`
+- `CandidateLibrary` — the full library loaded from `data/candidate.json`
   (includes all experience, skills, AND previous enrichments / Q&A answers)
 - `JDData` — structured job description from Step 4 of the pipeline
 

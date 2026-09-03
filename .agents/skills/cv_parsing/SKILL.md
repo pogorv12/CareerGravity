@@ -14,7 +14,7 @@ the candidate library and matched against job descriptions.
 
 ## Reading the CV
 
-Read the CV file directly from `library/source_cvs/` based on its format:
+Read the CV file directly from `data/source_cvs/` based on its format:
 
 - **Markdown (`.md`) / Plain text (`.txt`):** Use `view_file`.
 - **PDF (`.pdf`):** Use `view_file` directly (built-in binary viewer parses PDF pages and OCR/text).
@@ -98,7 +98,7 @@ CVData:
 ## After Parsing
 
 Immediately follow the **candidate-library** skill to merge this CVData into
-`library/candidate.json`.
+`data/candidate.json`.
 
 Do not skip the merge step — the library is the source of truth for all
 downstream matching and writing.

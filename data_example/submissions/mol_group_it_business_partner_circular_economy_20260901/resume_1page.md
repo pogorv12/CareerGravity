@@ -1,6 +1,6 @@
 # Victor Pogorelov
 
-**Email:** [pogorv@gmail.com](mailto:pogorv@gmail.com) · **Phone:** [+36 70 552 63 15](tel:+36705526315) · **LinkedIn:** [linkedin.com/in/pogorelov](https://www.linkedin.com/in/pogorelov/) · **Location:** Budapest, Hungary  
+**Email:** [victor.pogorelov@example.com](mailto:victor.pogorelov@example.com) · **Phone:** [+36 20 123 4567](tel:+36201234567) · **LinkedIn:** [linkedin.com/in/example-profile](https://www.linkedin.com/in/example-profile/) · **Location:** Budapest, Hungary  
 **Work Authorization:** Eligible to work in Hungary / European Union (No sponsorship required)
 
 ---

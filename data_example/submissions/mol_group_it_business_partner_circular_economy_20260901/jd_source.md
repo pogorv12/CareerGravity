@@ -5,7 +5,7 @@
 **Job Number:** 26001233  
 **Schedule:** Full-time, Regular / Indefinite / Permanent  
 **Source URL:** https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=26001233&tz=GMT%2B02%3A00&tzname=Europe%2FBudapest  
-**Recruiter Contact:** Andrea Juhász (Senior Recruitment Specialist - MOL Group), +36 20 931-1239, andreajuhasz@mol.hu  
+**Recruiter Contact:** Andrea Juhász (Senior Recruitment Specialist - MOL Group), +36 20 123 9999, recruiter@molgroup.example.com  
 
 ---
 

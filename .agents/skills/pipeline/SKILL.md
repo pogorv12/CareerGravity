@@ -26,7 +26,7 @@ Step 7 → Write 3 documents from library
 Step 8 → Package submission folder
 ```
 
-Always read the **candidate-library** skill before touching `library/candidate.json`.
+Always read the **candidate-library** skill before touching `data/candidate.json`.
 Always read the **writing-guidelines** skill before generating any document.
 Always read the **folder-management** skill before creating the submission folder.
 
@@ -34,12 +34,12 @@ Always read the **folder-management** skill before creating the submission folde
 
 ## Step 0 — Load Candidate Library
 
-Read `library/candidate.json` using `view_file`.
+Read `data/candidate.json` using `view_file`.
 
-- If `library/candidate.json` does not exist, start with an empty library structure (see the
+- If `data/candidate.json` does not exist, start with an empty library structure (see the
   **candidate-library** skill for the schema).
-- `library/candidate.json` is the single source of truth defining career experience, enrichments, personal contact details, work authorizations, and regional routing rules. Checking and verifying the candidate library file is essential for high relevance and quality across all generated submission documents.
-- If the user asks to initialise the library or ingest all CVs, scan `library/source_cvs/`, parse each CV file, and merge them sequentially into `library/candidate.json`.
+- `data/candidate.json` is the single source of truth defining career experience, enrichments, personal contact details, work authorizations, and regional routing rules. Checking and verifying the candidate library file is essential for high relevance and quality across all generated submission documents.
+- If the user asks to initialise the library or ingest all CVs, scan `data/source_cvs/`, parse each CV file, and merge them sequentially into `data/candidate.json`.
 - Hold the library in context for the entire pipeline run.
 - Print: `📚 Library loaded — [N] experiences, [N] enrichments`
 
@@ -49,7 +49,7 @@ Read `library/candidate.json` using `view_file`.
 
 Check if the user specified a CV file. If not:
 
-1. List files in `library/source_cvs/` using `list_dir`.
+1. List files in `data/source_cvs/` using `list_dir`.
 2. Pick the most relevant or recently modified file.
 3. Confirm the selected file with the user.
 4. Read it directly according to format:
@@ -89,7 +89,7 @@ Read the **cv-parsing** skill for extraction rules.
    - Skills/tools/languages: union, case-insensitive dedup.
    - Education: deduplicate by `(institution, degree)`.
    - Track source filename in `library.source_cvs`.
-4. Save updated library to `library/candidate.json` with `write_to_file`.
+4. Save updated library to `data/candidate.json` with `write_to_file`.
 5. Print: `✓ CV merged — [N] roles, [N] skills in library`
 
 ---
@@ -145,7 +145,7 @@ For each **new** gap question (missing technologies, tools, platforms, formal fr
    > "Can you add a specific example or metric to strengthen that answer?"
 4. Accept the final answer (max 2 follow-ups per question).
 5. Append each answered enrichment to the library immediately.
-6. Save library to `library/candidate.json` after all questions.
+6. Save library to `data/candidate.json` after all questions.
 
 Print: `✓ [N] new answers saved to library`
 
@@ -159,8 +159,8 @@ Generate three documents in order. For each, use the **full library** as context
 (not just the CV parse from this session). Include:
 - All `library.experience` entries (ordered by recency)
 - All `library.enrichments` (especially those relevant to this JD)
-- **Strict Zero Fabrication & Domain Integrity**: Never invent, assume, or fabricate any technologies, tools, platforms, frameworks, standards, certifications, or metrics that are not explicitly present in `library/candidate.json` or answered in Q&A enrichments. Keep IT and Telecom domains distinct.
-- **Relevant CVs in `library/source_cvs/` (if gaps exist)**: If `library/candidate.json` has gaps matching the JD, check `library/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements to address those gaps without adding fictitious tools.
+- **Strict Zero Fabrication & Domain Integrity**: Never invent, assume, or fabricate any technologies, tools, platforms, frameworks, standards, certifications, or metrics that are not explicitly present in `data/candidate.json` or answered in Q&A enrichments. Keep IT and Telecom domains distinct.
+- **Relevant CVs in `data/source_cvs/` (if gaps exist)**: If `data/candidate.json` has gaps matching the JD, check `data/source_cvs/` for role-specific or domain-aligned CVs (e.g., Data Analyst, Solutions Manager, Software Engineer CVs) to adopt their specific phrasing, bullet structures, and emphasized achievements to address those gaps without adding fictitious tools.
 - The MatchReport's `strong_points`, `weak_points`, `competence_gaps`, and `suggested_emphasis`
 - The JD's `keywords` (mirror exact phrasing ONLY where truthful and verified)
 
@@ -185,8 +185,8 @@ Conduct market salary benchmarking based on the position, seniority, location, a
 - **Negotiation Recommendations**: Target anchor phrasing and experience-backed justifications for HR/recruiter screening calls.
 
 **Contact details & Regional Routing (mandatory):**
-- Consult `library/candidate.json` for name, email, links, and contact routing rules (`contact_routing_rules`, `work_authorization`).
-- Select the phone number, location, and work authorization notes matching the position's target geography as specified in `library/candidate.json`.
+- Consult `data/candidate.json` for name, email, links, and contact routing rules (`contact_routing_rules`, `work_authorization`).
+- Select the phone number, location, and work authorization notes matching the position's target geography as specified in `data/candidate.json`.
 
 ---
 
@@ -194,7 +194,7 @@ Conduct market salary benchmarking based on the position, seniority, location, a
 
 Read the **folder-management** skill for naming conventions.
 
-Create folder: `submissions/<company>_<role>_<YYYYMMDD>/`
+Create folder: `data/submissions/<company>_<role>_<YYYYMMDD>/`
 
 Write these files:
 | File | Content |
@@ -234,7 +234,7 @@ Write these files:
 ```
 
 After packaging, print a summary:
-> ✅ Submission saved to `submissions/<folder>/`
+> ✅ Submission saved to `data/submissions/<folder>/`
 > 📚 Library updated: [N] total enrichments
 
 ---

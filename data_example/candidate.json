@@ -1,0 +1,617 @@
+{
+  "name": "Victor Pogorelov",
+  "email": "victor.pogorelov@example.com",
+  "linkedin": "https://www.linkedin.com/in/example-profile/",
+  "github": null,
+  "default_location": "Budapest, Hungary / Hybrid",
+  "contact_routing_rules": {
+    "default": {
+      "region_scope": "Worldwide (all positions except Belarus and Russia)",
+      "phone": "+36 20 123 4567",
+      "location": "Budapest, Hungary"
+    },
+    "ru": {
+      "region_scope": "Positions located in Russia",
+      "phone": "+375 29 123 4567",
+      "location": "Minsk, Belarus"
+    },
+    "by": {
+      "region_scope": "Positions located in Belarus",
+      "phone": "+375 29 123 4567",
+      "location": "Minsk, Belarus"
+    }
+  },
+  "work_authorization": {
+    "eu_hungary": "Eligible to work in Hungary / EU",
+    "belarus": "Citizen of Belarus"
+  },
+  "experience": [
+    {
+      "company": "checkprice.app",
+      "title": "Engineer / Founder",
+      "dates_from": "2023-05",
+      "dates_to": "present",
+      "location": "Budapest, Hungary",
+      "bullets": [
+        "Engineered checkprice.app, a price comparison platform addressing a gap in the retail market by enabling consumers to compare prices across local and online stores. Conceived the idea to seize dramatic retail price differences, then learned application development from scratch to bring the concept to production.",
+        "Do full-stack development using Dart/Flutter frontend with Firebase and Google Cloud Platform backend infrastructure.",
+        "Launched fully functional MVP with integrated barcode scanner, price comparison interface, and multi-location price sourcing. Scaled infrastructure to support global markets with multi-currency and multilingual support.",
+        "Transitioned from zero prior application development experience to shipping production-ready code."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "UAVLAS",
+      "title": "Metrics and Analytics Expert",
+      "dates_from": "2021-03",
+      "dates_to": "present",
+      "location": "unknown",
+      "bullets": [
+        "Design, develop, and maintain KPI dashboards and real-time monitoring systems tracking financial, operational, and technical metrics.",
+        "Identify and communicate critical business and technical trends through advanced analytics, enabling data-driven decision-making."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "Startups Development",
+      "title": "Startup Founder / Software Developer",
+      "dates_from": "2018-09",
+      "dates_to": "present",
+      "location": "unknown",
+      "bullets": [
+        "Architecting and developing full-stack web and mobile applications electronic queue management using Dart/Flutter, JavaScript/NodeJS, Firebase, and Google Cloud Platform (GCP). Designing administrative web dashboards and engineering cloud backends, REST/SOAP API integrations, and real-time database architectures (Firebase, NoSQL, GCP).",
+        "Engineered application for wireless quality assessment based on Yandex (Maps and other applications) geo-data, designing administrative web dashboards",
+        "Designing and implementing autonomous AI agents, vector embeddings, and LLM-powered conversational chat workflows using Google Antigravity and modern AI frameworks."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "Independent Consulting",
+      "title": "Telecom & Solutions Consultant",
+      "dates_from": "2018-09",
+      "dates_to": "present",
+      "location": "unknown",
+      "bullets": [
+        "Consulting telecom vendors and operators on wireless network optimization, IRAT strategies, End-to-End Optimization, network data mining, and customer support.",
+        "Providing technical expertise, solution design, and architectural guidance for network modernisation, swap, and performance tuning projects across EMEA."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "Nokia Russia",
+      "title": "Head of Network Optimization Direction",
+      "dates_from": "2018-01",
+      "dates_to": "2018-08",
+      "location": "South Region, Russia",
+      "bullets": [
+        "Led NPO teams in the South Region of Russia to achieve project goals for VEON Phoenix LTE Rollout and RAN Swap projects.",
+        "Managed regional distribution of activities across multiple cities with 25 total engineers organized into local teams of 2-5 engineers each.",
+        "Collaborated with project management and customer service stakeholders to streamline rollout schedules and ensure strict alignment between customer service KPIs and real technical network performance metrics."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "Nokia Russia",
+      "title": "Services Solution Manager",
+      "dates_from": "2016-06",
+      "dates_to": "2018-01",
+      "location": "Moscow, Russia",
+      "bullets": [
+        "Developed, customized, and presented telecom services solutions to major telecom operators.",
+        "Prepared, designed, and packaged the SpecOps performance management solution for FIFA 2018 World Cup venues, negotiating scope within operator budget constraints with excellent profitability and customer satisfaction.",
+        "Mapped operator business requirements to delivery capabilities and delivery models; conducted budgeting, pricing, and business case justification.",
+        "Coordinated presales activities within account teams and cross-business lines; led bid management and technical proposal preparation.",
+        "Closed $15M+ in enterprise telecommunications services contracts during market contraction, including national SDM rollout, MSS platform migration, and FIFA 2018 infrastructure support initiatives.",
+        "Maintained customer retention during period of economic sanctions and budget constraints by tailoring solutions to customer requirements and establishing trusted advisor relationships through deep services expertise.",
+        "Built consultative sales approach emphasising customer-centric solutions and flexible delivery models, sustaining healthy sales pipeline despite challenging macroeconomic conditions affecting telecom vendors in Russia."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "Nokia / NSN Russia",
+      "title": "Team Lead for Telecom Networks Optimization Services",
+      "dates_from": "2010-08",
+      "dates_to": "2016-06",
+      "location": "Moscow & Regions, Russia",
+      "bullets": [
+        "Led delivery of advanced End-to-End network performance optimization services across multiple large-scale operator rollouts.",
+        "Implemented Self-Organizing Network (SON) solutions, authoring and maintaining automated network configuration and performance optimization scripts in Python.",
+        "Team Lead for MTS Russia Central region 3G rollout project (6 engineers), multiple MTS Network Performance Optimization (NPO) Projects (7 - 10 engineers).",
+        "Transformed project delivery mode by introducing Jira ticketing workflows into NPO projects, creating transparency, clear responsibility matrix, and reliable workload estimation.",
+        "Designed and developed Customer Experience Management (CEM) and Geo-analytical System converting wireless cellular network data into geo-analytical reports (population maps, displacement matrices, passenger flows), generating multiple follow-on project sales across EMEA.",
+        "Conducted terminal device profiling, benchmarking, and interoperability testing with 2G/3G/4G networks for MTS Russia and MTS Ukraine.",
+        "Architected and deployed proprietary analytical system on Nokia Traffica platform, enabling granular queries and monitoring capabilities across wireless network data lake. Supported VIP customer service quality monitoring, individual handset behaviour analysis, and municipal planning data set generation.",
+        "Reduced enterprise customer churn by 15% through improved network quality insights and enhanced VIP service visibility. Replicated analytical solution across Russia, Ukraine, and Belarus, creating replicable product for multiple operators.",
+        "Honoured by Nokia (2014, 2015) for analytical system innovation and platform delivery excellence.",
+        "Led engineering team launching WCDMA/HSDPA networks across 8 Russian regions (Tver, Tambov, Vologda, Kostroma, Vladimir, Ryazan, Tula, Kaluga), deploying 3000+ Nokia Flexi BTS base stations and delivering high-speed data services to millions of end users.",
+        "Achieved on-time network acceptance and customer handover across all regional deployments. Honoured by Nokia (2012) for project excellence and successful execution."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "Ericsson Russia",
+      "title": "Radio Network Planning & Optimization Engineer",
+      "dates_from": "2007-11",
+      "dates_to": "2010-08",
+      "location": "Moscow, Russia",
+      "bullets": [
+        "Delivered UMTS / 3G network planning and optimization projects across Russia and CIS.",
+        "Contributed to the successful launch of the first 3G Network in Russia as team lead for optimization engineers and primary customer point of contact.",
+        "Launched UMTS networks across 9 Russian regions (St. Petersburg, Novosibirsk, Omsk, Norilsk, Novokuznetsk, Krasnoyarsk, Sochi, Krasnodar), serving 25M+ population. Designed and optimized radio network plans for 1,000+ base stations.",
+        "Engineered neighbor planning, scrambling code allocation, and IRAT handover strategies, achieving 99.5%+ call completion rates across all deployments through systematic drive-test analysis using TEMS tools.",
+        "Coordinated cross-functional teams (Ericsson engineering, customer operators, third-party vendors) to meet aggressive launch timelines and customer acceptance criteria, ensuring network quality and performance standards."
+      ],
+      "enrichment_notes": []
+    },
+    {
+      "company": "Belcel JV LTD",
+      "title": "Deputy Head of Network Operations Department / Shift Technician",
+      "dates_from": "2003-03",
+      "dates_to": "2007-10",
+      "location": "Minsk, Belarus",
+      "bullets": [
+        "Managed network operations and shift operational staff for national CDMA2000 / NMT450 wireless network based on Huawei equipment.",
+        "Developed and successfully implemented Wireless Local Loop (WLL) service for Belarusian state landline operator Beltelecom, leading solution design and cross-stakeholder negotiation.",
+        "Promoted from Shift Technician to Deputy Head of Network Operations.",
+        "Engineered wireless local loop (WLL) system expansion to rural areas, negotiating PSTN routing protocols and phone number plans with 50+ anchor points across country. Implemented A-B number modification logic to ensure WLL phones maintained feature parity with PSTN services.",
+        "Successfully launched WLL platform, extending telephone service access to underserved rural populations and reducing network expansion costs through wireless deployment versus traditional copper wire excavation.",
+        "Configured BSS systems for Belarus's first CDMA2000 test zone on Huawei equipment - one of the first Huawei network deployments outside China. Supported network rollout across 450 MHz band achieving 95%+ population coverage with 300+ base stations.",
+        "Managed technical team (5+ technicians) responsible for alarm monitoring and network performance observation. Led launch of EV-DO extension, doubling throughput from 128 kbps to 2,048 kbps, delivering wireless internet speeds exceeding landline access available in Belarus at that time.",
+        "Performed alarm monitoring and NMT cellular network performance observation for Belarus's leading mobile operator, applying field remedies and escalating complex issues to senior engineering staff. Completed university studies while maintaining full-time role."
+      ],
+      "enrichment_notes": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Belarusian State University of Informatics and Radioelectronics (BSUIR)",
+      "degree": "M.S. in Computer Science, Systems and Networks Engineering",
+      "field": "Computer Science / Systems and Networks Engineering",
+      "dates_from": "1999",
+      "dates_to": "2004",
+      "grade": "Graduated with Honors / M.S."
+    }
+  ],
+  "technical_skills": [
+    "Dart",
+    "Flutter",
+    "JavaScript",
+    "Node.js / NodeJS",
+    "PostgreSQL",
+    "NoSQL",
+    "Google Cloud Platform (GCP)",
+    "BigQuery",
+    "Firebase",
+    "Python",
+    "SQL",
+    "C",
+    "PHP",
+    "VBA",
+    "AI Agents & Multi-Agent Workflows",
+    "Vector Embeddings & Semantic Search",
+    "Prompt Engineering & LLM Integration",
+    "AI Chat & Conversational AI",
+    "Radio Access Network (RAN) Optimization",
+    "End-to-End (E2E) Network Optimization",
+    "3G / UMTS",
+    "4G / LTE",
+    "5G NR",
+    "CDMA2000",
+    "IRAT Strategies",
+    "OSS / BSS / NSS Architectures",
+    "Customer Experience Management (CEM) Systems",
+    "Geo-analytical Data Processing",
+    "Data Mining",
+    "ETL Pipelines",
+    "BI Scheduled Refreshes & Automation",
+    "Cost Calculation Modeling",
+    "Self-Organizing Networks (SON)",
+    "KPI definition and analysis",
+    "Root cause analysis",
+    "Dashboards design",
+    "Geohash",
+    "Geocoding / Reverse geocoding",
+    "Overpass QL"
+  ],
+  "soft_skills": [
+    "Cross-functional Team Leadership",
+    "Presales & Bid Management",
+    "Services Sales",
+    "Technical Solution Architecture",
+    "Client Relationship Management",
+    "Customer Facing",
+    "Services Delivery",
+    "Customer Experience Management (NPS Improvement / Churn Reduction)",
+    "Jira Workflow Optimization",
+    "Lean Six Sigma Methodologies",
+    "Budgeting & Cost Estimation",
+    "Stakeholder Negotiation"
+  ],
+  "tools": [
+    "Google Antigravity",
+    "LLMs / AI Assistants (ChatGPT, Claude, Gemini)",
+    "Jira",
+    "Power BI",
+    "Tableau",
+    "QlikView",
+    "Excel / VBA",
+    "SAP (User / Cost Reporting)",
+    "Microsoft Power Automate (BI Scheduled Refreshes)",
+    "Git",
+    "Huawei OSS/BSS Tools",
+    "Ericsson OSS/BSS Tools",
+    "Nokia OSS/BSS Tools",
+    "Nokia Traffica",
+    "TEMS / NEMO",
+    "Nominatim",
+    "Overpass"
+  ],
+  "languages": [
+    "English (Full Professional Proficiency)",
+    "Russian (Native)",
+    "Belarusian (Native)",
+    "Hungarian (Basic)"
+  ],
+  "certifications": [
+    {
+      "name": "NCSS 3G RA PaO 2.2 Certification",
+      "issuer": "Nokia Education Center",
+      "date": "unknown"
+    },
+    {
+      "name": "Sales Staircase L3 Certification",
+      "issuer": "Nokia Education Center",
+      "date": "unknown"
+    },
+    {
+      "name": "Lean Six Sigma Purple Belt Certification",
+      "issuer": "Nokia Education Center",
+      "date": "unknown"
+    },
+    {
+      "name": "Ericsson Technical & Optimization Trainings",
+      "issuer": "Ericsson Education Center",
+      "date": "unknown"
+    },
+    {
+      "name": "Huawei Technical Operations Trainings",
+      "issuer": "Huawei Education Center",
+      "date": "unknown"
+    }
+  ],
+  "projects": [
+    {
+      "name": "checkprice.app",
+      "description": "Retail price comparison platform enabling consumers to compare prices across local and online stores with integrated barcode scanner, price comparison interface, and multi-location price sourcing. Scaled infrastructure to support global markets with multi-currency and multilingual support.",
+      "tech_stack": [
+        "Dart",
+        "Flutter",
+        "Firebase",
+        "Google Cloud Platform (GCP)",
+        "NoSQL",
+        "REST API",
+        "Flutter",
+        "NodeJS",
+        "Firestore",
+        "Cloud Functions",
+        "KPI Definition",
+        "Root cause analysis",
+        "ETL pipelines",
+        "Google Antigravity",
+        "AI Agents",
+        "Vector Embeddings",
+        "Semantic Search",
+        "LLMs",
+        "Prompt Engineering",
+        "Geohash",
+        "Geocoding",
+        "Overpass QL"
+      ]
+    },
+    {
+      "name": "Customer Experience Management (CEM) & Geo-analytical System",
+      "description": "Designed and implemented a geo-analytical platform processing telecom signaling and CDR data into population displacement maps, foot-traffic analytics, and customer experience metrics.",
+      "tech_stack": [
+        "Excel",
+        "VBA",
+        "SQL",
+        "Geo-analytics",
+        "Data Mining",
+        "Telecom OSS",
+        "Traffica",
+        "Power BI",
+        "KPI Definition",
+        "Root cause analysis",
+        "ETL pipelines",
+        "Telemetry analytics"
+      ]
+    },
+    {
+      "name": "SpecOps & FIFA 2018 World Cup Network Optimization",
+      "description": "Designed and executed specialized optimization package ensuring zero-outage telecom coverage and throughput across stadium venues during FIFA 2018.",
+      "tech_stack": [
+        "LTE",
+        "3G",
+        "Capacity Planning",
+        "RAN Optimization"
+      ]
+    },
+    {
+      "name": "Self Optimized Network (SON) implementation",
+      "description": "Implemented Self-Organizing Network (SON) solutions, authoring and maintaining automated network configuration and performance optimization scripts in Python.",
+      "tech_stack": [
+        "Python",
+        "LTE",
+        "3G",
+        "IRAT",
+        "RAN Optimization"
+      ]
+    }
+  ],
+  "awards": [
+    "Innovation award for CEM (Customer Experience Management) System development and delivery, Nokia, 2015",
+    "Award for exceptional contribution to MTS TNP4 optimization project, Nokia, 2014",
+    "Award for innovation and exceptional contribution to MTS TNP4/TNP3 optimization project, Nokia, 2012",
+    "Best Employee, JV BelCel, 2005",
+    "Best personal website, First Belarusian Internet Festival, 2000"
+  ],
+  "summary_statements": [
+    "Telecom professional with experience of designing, launching, and optimising telecom networks and services across EMEA and CIS regions. Led high-stakes projects for Nokia and Ericsson serving major carriers including national-scale deployments and enterprise solutions. Specialised in translating complex technical requirements into actionable business intelligence, building analytical systems that reduced customer churn and driving operational efficiency through data-driven automation. Proven track record executing in challenging market conditions and building teams that consistently deliver on aggressive timelines.",
+    "Currently building checkprice.app - a price comparison platform, applying technical expertise and analytical rigor to solve real-world market problems.",
+    "Data-obsessed problem solver who bridges engineering and business strategy.",
+    "Key player in Nokia and Ericsson projects for telecom operators in the EMEA region with substantial experience in developing and delivering services tailored to operator demands, service delivery, pre-sales, and technical leadership.",
+    "Experienced Telecom Consultant and Software/Solutions Developer proficient in Dart, Flutter, Python, SQL, Big Data analytics, Cloud (GCP, AWS), and end-to-end network performance optimization.",
+    "Track record of building innovative solutions including Customer Experience Management (CEM) and Geo-analytical systems, leading multi-functional engineering teams, and managing high-stakes client and partner relationships.",
+    "Customer Experience Management (CEM): created CEM engine for Nokia actively used during telecom operator projects; developed service, strategy and team which improved NPS and reduced churn in customer projects."
+  ],
+  "enrichments": [
+    {
+      "topic": "HSE Systems & Incident/Safety Monitoring Platforms",
+      "question": "Have you had direct experience or exposure to specialized HSE software platforms (such as Enablon, Intelex, Sphera, Cority, Quentic) or operational safety/incident tracking systems?",
+      "answer": "Worked extensively with custom operational incident, reliability, and safety monitoring databases/platforms and can rapidly adapt to tools like Enablon or Intelex.",
+      "position_context": "MOL Group - Senior HSE Business Analyst",
+      "tags": [
+        "HSE",
+        "Incident Monitoring",
+        "Enablon",
+        "Intelex",
+        "Safety Data"
+      ],
+      "created_at": "2026-08-31T13:33:00.000000+02:00"
+    },
+    {
+      "topic": "ISO 45001 / ISO 14001 Standards & KPI Governance",
+      "question": "What is your level of familiarity or experience with ISO 45001 (OH&S), ISO 14001 (Environment), or corporate ESG/regulatory compliance reporting?",
+      "answer": "Not directly involved in specific ISO audits, but deeply experienced in corporate KPI governance, operational SLA reporting, and data integrity compliance frameworks.",
+      "position_context": "MOL Group - Senior HSE Business Analyst",
+      "tags": [
+        "ISO 45001",
+        "ISO 14001",
+        "KPI Governance",
+        "SLA Reporting",
+        "Compliance"
+      ],
+      "created_at": "2026-08-31T13:33:00.000000+02:00"
+    },
+    {
+      "topic": "ERP & Supply Chain Planning Platforms (SAP, Power BI Integration)",
+      "question": "How would you like to frame your experience with ERP and Supply Chain / Demand Planning platforms (such as SAP, APO, Kinaxis, Oracle) for this Castrol / bp role?",
+      "answer": "Primarily focused on building custom BI dashboards (Power BI/Tableau/Excel) and Power Automate workflows integrated with ERP (SAP) and data lake backends, with strong capability in translating operational and supply planning datasets into executive cluster performance packs.",
+      "position_context": "bp / Castrol - CF & Planning Performance Analyst",
+      "tags": [
+        "ERP",
+        "SAP",
+        "Power BI",
+        "Power Automate",
+        "Supply Chain Analytics",
+        "Data Lake",
+        "KPI Dashboards"
+      ],
+      "created_at": "2026-08-31T14:01:15+02:00"
+    },
+    {
+      "topic": "Master Data Governance (MDG) & Data Clinic / Duplication Cleansing",
+      "question": "How would you like to frame your experience regarding Master Data Governance (MDG) platforms and Data Clinic / deduplication algorithms?",
+      "answer": "Deep background in full-stack data governance, entity matching, and auditability across large-scale retail and telecom data platforms (checkprice.app and CEM data lake), with direct transferability to SAP Data Clinic support, deduplication rule development, and MDG workflow enhancement.",
+      "position_context": "MOL Group - Master Data Management Lead Developer",
+      "tags": [
+        "MDM",
+        "MDG",
+        "Data Clinic",
+        "Data Cleansing",
+        "Deduplication",
+        "Data Governance",
+        "Entity Matching"
+      ],
+      "created_at": "2026-08-31T14:42:15+02:00"
+    },
+    {
+      "topic": "Telecom vs IT Background Differentiation",
+      "question": "How would you like to explicitly distinguish your Telecommunications vs. IT/Software background across your CV and documents?",
+      "answer": "I have extensive background in Telecommunications Network Optimization & Services (Nokia, Ericsson, Belcel) combined with hands-on Software/IT Engineering (checkprice.app, Cloud/GCP, Full-stack). Keep them clearly differentiated.",
+      "position_context": "MOL Group - IT Core Service Delivery Expert",
+      "tags": [
+        "Telecom",
+        "IT Differentiation",
+        "Network Services",
+        "Software Engineering",
+        "Full-stack",
+        "GCP"
+      ],
+      "created_at": "2026-09-01T11:38:05+02:00"
+    },
+    {
+      "topic": "Formal Frameworks & Standards Scope (No Fabrication)",
+      "question": "Regarding formal frameworks & standards (e.g., ITIL, ITSM, ISO): What is your exact verified scope to ensure zero fabrication?",
+      "answer": "I have practical experience with Jira ticketing workflows and SLA tracking, but do not mention formal ITSM/ITIL frameworks at all. Focus strictly on verified tools (Jira, Power BI, Tableau, Excel, Python, SQL), Lean Six Sigma, and operational metrics.",
+      "position_context": "MOL Group - IT Core Service Delivery Expert",
+      "tags": [
+        "Jira",
+        "SLA Tracking",
+        "Lean Six Sigma",
+        "Data Analytics",
+        "Operational Metrics",
+        "Zero Fabrication"
+      ],
+      "created_at": "2026-09-01T12:10:00+02:00"
+    },
+    {
+      "topic": "Service Delivery Metrics & Operational Reporting",
+      "question": "How would you like to frame your experience with service delivery metrics and operational reporting?",
+      "answer": "Proven track record in setting up service delivery metrics, dashboarding (Power BI/Tableau/Excel), and automated operational reporting for executive stakeholders.",
+      "position_context": "MOL Group - IT Core Service Delivery Expert",
+      "tags": [
+        "Service Delivery Metrics",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Executive Reporting",
+        "Automated Reporting"
+      ],
+      "created_at": "2026-09-01T11:38:05+02:00"
+    },
+    {
+      "topic": "IT Procurement, Vendor Management & Framework Contracts",
+      "question": "How should we highlight your vendor management, IT procurement preparation, and framework contract monitoring background?",
+      "answer": "Expertise in translating complex business requirements into clear IT service contracts, technical specifications, and vendor performance benchmarks.",
+      "position_context": "MOL Group - IT Core Service Delivery Expert",
+      "tags": [
+        "Vendor Management",
+        "IT Procurement",
+        "Service Contracts",
+        "Technical Specifications",
+        "Vendor Benchmarks",
+        "Framework Contracts"
+      ],
+      "created_at": "2026-09-01T11:38:05+02:00"
+    },
+    {
+      "topic": "Circular Economy Services & Infrastructure Transferability",
+      "question": "The role is embedded within MOL Group's Circular Economy Services (concession and waste management business). How would you prefer to frame your domain background?",
+      "answer": "Frame my transferable background from large-scale telecom infrastructure, utility-scale network operations, and data analytics to highlight rapid domain onboarding and process automation for Circular Economy.",
+      "position_context": "MOL Group - IT Business Partner (Circular economy)",
+      "tags": [
+        "Circular Economy",
+        "Infrastructure Transferability",
+        "Process Automation",
+        "Data Analytics",
+        "Utility Operations"
+      ],
+      "created_at": "2026-09-01T21:00:28+02:00"
+    },
+    {
+      "topic": "ENM & Network Management Engineering Design Owner",
+      "question": "The role requires acting as 'Design Owner' / Design Responsible for Network Management Engineering (ENM, Resource Orchestration, and Automation). How would you prefer to frame your technical depth and domain background?",
+      "answer": "Emphasize deep foundational knowledge of Ericsson & Nokia OSS/BSS, wireless network management architectures, SON automation, and modern full-stack software development to rapidly master ENM product internals and serve as an effective technical Design Owner.",
+      "position_context": "Ericsson - Line Manager ENM (fixed-term maternity cover)",
+      "tags": [
+        "ENM",
+        "Ericsson Network Manager",
+        "Design Owner",
+        "OSS/BSS",
+        "Resource Orchestration",
+        "Network Management",
+        "SON",
+        "Automation"
+      ],
+      "created_at": "2026-09-01T23:12:00+02:00"
+    },
+    {
+      "topic": "Fixed-Term Contract & Strategic Ericsson Re-engagement",
+      "question": "This position is a fixed-term maternity cover based in Budapest. How would you like to position your availability and commitment?",
+      "answer": "Position the fixed-term role as a strategic entry point to re-join Ericsson in Budapest, aiming to deliver immediate impact, drive rapid team onboarding, and explore long-term leadership opportunities within Ericsson Hungary.",
+      "position_context": "Ericsson - Line Manager ENM (fixed-term maternity cover)",
+      "tags": [
+        "Fixed-Term Contract",
+        "Maternity Cover",
+        "Ericsson Budapest",
+        "Immediate Impact",
+        "Strategic Re-engagement",
+        "Team Onboarding"
+      ],
+      "created_at": "2026-09-01T23:12:00+02:00"
+    },
+    {
+      "topic": "Agile & Lean Leadership (Flow Efficiency & Six Sigma)",
+      "question": "How would you like to frame your Agile and Lean leadership philosophy (e.g., flow efficiency, multi-skilling, servant leadership)?",
+      "answer": "Highlight Lean Six Sigma Purple Belt certification, practical Jira agile workflow transformations at Nokia, and continuous flow efficiency / multi-skilling coaching applied across engineering teams.",
+      "position_context": "Ericsson - Line Manager ENM (fixed-term maternity cover)",
+      "tags": [
+        "Lean Six Sigma",
+        "Flow Efficiency",
+        "Multi-skilling",
+        "Agile Leadership",
+        "Jira Workflows",
+        "Continuous Improvement",
+        "Scrum"
+      ],
+      "created_at": "2026-09-01T23:12:00+02:00"
+    },
+    {
+      "topic": "People Data Modernization & Workflow Automation",
+      "question": "How would you like to frame your experience regarding enterprise HR systems (Oracle Fusion, SAP HCM) and People Data lifecycle management?",
+      "answer": "Position as a digital transformation and automation lead who modernizes People Data operations using Power BI, automation scripts, and workflow optimization, ensuring strict data governance and validation.",
+      "position_context": "Nokia - People Data Management Manager - Europe",
+      "tags": [
+        "People Data",
+        "HR Operations",
+        "Digital Transformation",
+        "Power BI",
+        "Workflow Automation",
+        "Data Governance",
+        "Process Optimization"
+      ],
+      "created_at": "2026-09-01T23:39:45+02:00"
+    },
+    {
+      "topic": "Nokia Leadership Heritage & Service Delivery in Hungary",
+      "question": "How would you like to position your previous 8-year Nokia tenure and leadership background for this People Data Management Manager position?",
+      "answer": "Highlight 8+ years of award-winning Nokia leadership, deep familiarity with Nokia internal culture/processes, and proven ability to build high-performing, SLA-compliant service delivery teams in Hungary.",
+      "position_context": "Nokia - People Data Management Manager - Europe",
+      "tags": [
+        "Nokia Leadership",
+        "Service Delivery",
+        "SLA Compliance",
+        "Team Leadership",
+        "Budapest Hungary",
+        "Culture & Values",
+        "Nokia Awards"
+      ],
+      "created_at": "2026-09-01T23:39:45+02:00"
+    }
+  ],
+  "created_at": "2026-08-28T19:13:01.267973+00:00",
+  "updated_at": "2026-09-01T23:39:45+02:00",
+  "source_cvs": [
+    "BDM_ASBIS_Victor_Pogorelov.docx",
+    "BDM_Cover.rtf.docx",
+    "BDM_Victor_Pogorelov.rtf.docx",
+    "CISCO_Architectures_and_Technologies_Manager_Logicom_Victor_Pogorelov.docx",
+    "Cover.docx",
+    "DataAnalyst_CV_Victor_Pogorelov.docx",
+    "Data_Scientist _CV_Victor_Pogorelov.docx",
+    "ECS_Victor_Pogorelov.docx",
+    "FB_Market_Specialist_BY_Victor_Pogorelov.docx",
+    "Head_Of_Player_Exp_Victor_Pogorelov.docx",
+    "Head_Player_Exp_Cover.rtf.docx",
+    "IMF_ILUC_CV_Victor_Pogorelov.docx",
+    "KAM_ASBIS_Victor_Pogorelov.docx",
+    "Marketing_Mng_Cover.rtf.docx",
+    "Marketing_Mng_Victor_Pogorelov.docx",
+    "NPOSA_CV_Victor_Pogorelov.docx",
+    "NPO_Business_Transformation_Manager_CV_Victor_Pogorelov.docx",
+    "NPO_Solution_Architect_Victor_Pogorelov.rtf.docx",
+    "NPO_Team_Lead_Victor_Pogorelov.docx",
+    "Presales_Manager_Cover.rtf.docx",
+    "Presales_Manager_Victor_Pogorelov.docx",
+    "Product_manager_Victor_Pogorelov.docx",
+    "Project_Manager_Cover.rtf.docx",
+    "Project_Manager_Victor_Pogorelov.docx",
+    "RAN_Optimization_SW_Developer_Victor_Pogorelov.docx",
+    "RF_Optimization_Consultant_Victor_Pogorelov.rtf.docx",
+    "Solutions_Manager_Victor_Pogorelov_1.rtf.docx",
+    "Telecom_System_Architect_Victor_Pogorelov.docx",
+    "victor_pogorelov_it_telecom_consultant.docx",
+    "linkedin01.pdf"
+  ]
+}

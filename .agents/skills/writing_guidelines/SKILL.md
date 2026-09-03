@@ -8,9 +8,9 @@ description: >-
 # Writing Guidelines Skill
 
 ## General Principles
-- **Zero Fabrication Principle (Strict Grounding)** — NEVER invent or fabricate ANY experience, technologies, tools, platforms, programming languages, responsibilities, formal frameworks/standards (ITIL, ISO, TOGAF, etc.), or metrics to match a JD. If an item is not explicitly recorded in `library/candidate.json` or verified in Q&A enrichments, do NOT mention or claim it in any generated document.
+- **Zero Fabrication Principle (Strict Grounding)** — NEVER invent or fabricate ANY experience, technologies, tools, platforms, programming languages, responsibilities, formal frameworks/standards (ITIL, ISO, TOGAF, etc.), or metrics to match a JD. If an item is not explicitly recorded in `data/candidate.json` or verified in Q&A enrichments, do NOT mention or claim it in any generated document.
 - **Domain Integrity & Background Boundaries** — Do NOT mix up or conflate distinct technical or industry domains (e.g. IT/Enterprise IT vs Telecommunications, Data Engineering vs Data Analytics, Infrastructure vs Software Engineering). Accurately reflect the true environment in which the candidate worked.
-- **No Unverified Tool/Framework Claims** — Never claim or imply practical experience, compliance, implementation, or certification with unverified technologies or industry standards (e.g. Jira Service Management, ServiceNow, ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, PMP, Prince2, SAFe) unless they are explicitly present in `library/candidate.json`.
+- **No Unverified Tool/Framework Claims** — Never claim or imply practical experience, compliance, implementation, or certification with unverified technologies or industry standards (e.g. Jira Service Management, ServiceNow, ITIL, TOGAF, ISO 20000/27001/9001, COBIT, eTOM, PMP, Prince2, SAFe) unless they are explicitly present in `data/candidate.json`.
 - **Ask Before Bridging Gaps** — If a JD requires a critical technology or qualification not present in the candidate library, the pipeline must interview the user during Gap Q&A to ask how the candidate wants to address that gap.
 - **Specificity over vagueness** — "Reduced API latency by 40%" beats "Improved performance".
 - **Action verbs** — Start every bullet with a strong past-tense verb: Led, Built, Designed, Reduced, Launched, Mentored, Automated…
@@ -18,8 +18,8 @@ description: >-
 - **Mirror the JD language truthfully** — use relevant phrasing from `JDData.keywords` ONLY where it honestly reflects the candidate's verified work.
 - **No first-person pronouns** — Never "I" or "my" in CVs/résumés; write in third-person implied (e.g. "Designed…" not "I designed…").
 - **ATS-safe formatting** — no tables, columns, or graphics in the Markdown that would break text extraction.
-- **Personal profile & Regional contact routing** — Read `library/candidate.json` for personal contact information and apply the defined regional contact routing rules (`contact_routing_rules`, `work_authorization`) in respect of the job location.
-- **Consult relevant source CVs (on gaps)** — If `library/candidate.json` has gaps against the JD, check `library/source_cvs/` for role-aligned CVs (e.g., Data Analyst, Solutions Manager, etc.) to borrow tailored framing, strong phrasing, and relevant emphasis to help address those gaps based strictly on real work.
+- **Personal profile & Regional contact routing** — Read `data/candidate.json` for personal contact information and apply the defined regional contact routing rules (`contact_routing_rules`, `work_authorization`) in respect of the job location.
+- **Consult relevant source CVs (on gaps)** — If `data/candidate.json` has gaps against the JD, check `data/source_cvs/` for role-aligned CVs (e.g., Data Analyst, Solutions Manager, etc.) to borrow tailored framing, strong phrasing, and relevant emphasis to help address those gaps based strictly on real work.
 
 ---
 

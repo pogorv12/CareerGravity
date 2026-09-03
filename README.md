@@ -18,7 +18,7 @@ CareerGravity takes a completely different approach by turning Google Antigravit
 
 - 💸 **100% Free & Pro-Grade AI:** Running deep multi-agent pipelines (parsing multiple resumes, ATS matching, gap interviews, and document generation) is computationally heavy. Instead of relying on ad-supported web apps or paying monthly SaaS fees, you leverage the generous free AI quota already included in your Google account.
 - 🔒 **Local-First & Private:** Your career history, contact details, salary expectations, and tailored submission files remain stored safely on your local machine in clean JSON and Markdown—not in a proprietary third-party database.
-- 🧠 **Persistent Career Knowledge Base:** Standard chatbots forget your details after every chat. CareerGravity builds and maintains a single source of truth (`library/candidate.json`) that merges all your past CVs and learns from your answers, getting smarter with each application.
+- 🧠 **Persistent Career Knowledge Base:** Standard chatbots forget your details after every chat. CareerGravity builds and maintains a single source of truth (`data/candidate.json`) that merges all your past CVs and learns from your answers, getting smarter with each application.
 - 🤖 **Zero Coding Required:** You don't need to write code, install libraries, or manage API keys. If you can type in plain English and drag-and-drop a file, you have a professional agentic workflow at your fingertips.
 
 ---
@@ -45,8 +45,8 @@ You do not need to use Git or the command line:
 - You will see the project file list on the left side and an **AI Chat panel** on the right side.
 
 ### 4. Put Your Resume / CV in the Source Folder
-- Look at the left file explorer panel and expand the `library/` folder.
-- Drag & drop your existing resume or CV files into `library/source_cvs/`.
+- Look at the left file explorer panel and expand the `data/` folder.
+- Drag & drop your existing resume or CV files into `data/source_cvs/`.
 - You can drop multiple formats: **PDF (`.pdf`)**, **Word (`.docx` / `.doc`)**, **Markdown (`.md`)**, or **Text (`.txt`)**.
 - *Tip: If you have different CV versions (e.g., general, technical, management), drop all of them in — the AI will combine and organize your full experience!*
 
@@ -55,7 +55,7 @@ Click into the **Chat window** on the right side and type your request in normal
 - **First time setup:** Type:
   > *"Please initialize my candidate library from all source CVs"*
   
-  The AI will read your resumes, build your personal career profile in `library/candidate.json`, and confirm when ready.
+  The AI will read your resumes, build your personal career profile in `data/candidate.json`, and confirm when ready.
 
 - **To apply for a job:** Simply paste the job link or text into the chat:
   > *"I want to apply for this role: [Paste URL or Paste Job Description Text]"*
@@ -63,7 +63,7 @@ Click into the **Chat window** on the right side and type your request in normal
 ### 6. Answer Gap Questions & Get Your Tailored Documents
 - The AI will analyze the job requirements and compare them against your experience.
 - If there are specific skills or project details to clarify, the AI will ask you a few quick multiple-choice or short questions in the chat.
-- Once answered, the AI automatically creates your tailored application package inside the `submissions/` folder:
+- Once answered, the AI automatically creates your tailored application package inside the `data/submissions/` folder:
   - 📄 **Tailored CV (`tailored_cv.md`)** — Optimized for ATS filters and the exact role
   - 📄 **1-Page Résumé (`resume_1page.md`)** — Concise, high-impact one-page version
   - ✉️ **Targeted Cover Letter (`cover_letter.md`)** — Compelling story connecting your past achievements to the job's needs
@@ -94,20 +94,20 @@ The agent automatically reads the `pipeline` skill and walks you through the ent
 Before generating job applications, initialize and verify your persistent career knowledge base:
 
 ### Step 1: Drop Your Available CVs
-Place all your existing CV versions into `library/source_cvs/` (supported: `.md`, `.txt`, `.pdf`, `.doc`, `.docx`). If you have role-specific CVs (e.g., Data Analyst, Solutions Manager, Software Engineer), include all of them so the library captures your full career history, tools, and achievements.
+Place all your existing CV versions into `data/source_cvs/` (supported: `.md`, `.txt`, `.pdf`, `.doc`, `.docx`). If you have role-specific CVs (e.g., Data Analyst, Solutions Manager, Software Engineer), include all of them so the library captures your full career history, tools, and achievements.
 
 ### Step 2: Ingest CVs into the Library
 Tell the agent:
-> *"Initialise my candidate library from all source CVs in `library/source_cvs/`"*
+> *"Initialise my candidate library from all source CVs in `data/source_cvs/`"*
 
-The agent parses every CV file and cleanly merges experience bullets, skills, education, tools, and certifications into `library/candidate.json`.
+The agent parses every CV file and cleanly merges experience bullets, skills, education, tools, and certifications into `data/candidate.json`.
 
 ### Step 3: Review & Verify Library Information (Crucial!)
 > [!IMPORTANT]
 > **Checking and maintaining your candidate library information is essential for high document relevance.**
-> `library/candidate.json` is the **single source of truth** for all document generation and ATS matching. The quality, precision, and truthfulness of your tailored CV, one-page résumé, and cover letter directly depend on the library's data.
+> `data/candidate.json` is the **single source of truth** for all document generation and ATS matching. The quality, precision, and truthfulness of your tailored CV, one-page résumé, and cover letter directly depend on the library's data.
 >
-> Open `library/candidate.json` to verify:
+> Open `data/candidate.json` to verify:
 > 1. **Identity & Contact Routing:** Ensure `contact_routing_rules` has correct phone numbers and locations for your target countries/regions.
 > 2. **Work Authorization:** Confirm `work_authorization` accurately reflects your legal eligibility for target jurisdictions (e.g., EU, UK, US).
 > 3. **Experience Bullets & Metrics:** Check that past roles contain quantified outcomes, verified technologies, and clear responsibilities.
@@ -116,7 +116,7 @@ The agent parses every CV file and cleanly merges experience bullets, skills, ed
 
 ## How the Candidate Library Works
 
-`library/candidate.json` is your personal career knowledge base:
+`data/candidate.json` is your personal career knowledge base:
 
 | Event | What happens |
 |---|---|
@@ -132,45 +132,51 @@ By your 3rd–4th application the library is rich and Q&A gets shorter every tim
 ## Data Structure
 
 ```
-library/
+data/
 ├── candidate.json           ← Persistent career knowledge base, profile & contact routing
-└── source_cvs/              ← Drop your CVs here (.md, .txt, .pdf, .doc, or .docx)
-    └── my_cv.md
+├── source_cvs/              ← Drop your CVs here (.md, .txt, .pdf, .doc, or .docx)
+│   └── my_cv.md
+└── submissions/             ← Generated application packages
+    └── mol_group_it_business_partner_circular_economy_20260901/
+        ├── README.md            ← Checklist + summary
+        ├── tailored_cv.md       ← Full CV tailored for this role
+        ├── resume_1page.md      ← One-page résumé
+        ├── cover_letter.md      ← Personalised cover letter
+        ├── compensation_benchmark.md ← Market salary benchmarks & negotiation targets
+        ├── match_report.json    ← Match score & gap analysis
+        └── jd_source.md         ← Original JD text
 
-submissions/                 ← Generated application packages
-└── mol_group_it_business_partner_circular_economy_20260901/
-    ├── README.md            ← Checklist + summary
-    ├── tailored_cv.md       ← Full CV tailored for this role
-    ├── resume_1page.md      ← One-page résumé
-    ├── cover_letter.md      ← Personalised cover letter
-    ├── compensation_benchmark.md ← Market salary benchmarks & negotiation targets
-    ├── match_report.json    ← Match score & gap analysis
-    └── jd_source.md         ← Original JD text
-
-.example/                    ← Sample completed submission package for reference
-├── README.md                ← Example checklist & match breakdown
-├── tailored_cv.md           ← Example tailored CV
-├── resume_1page.md          ← Example 1-page résumé
-├── cover_letter.md          ← Example targeted cover letter
-├── compensation_benchmark.md ← Example compensation & salary benchmark report
-├── match_report.json        ← Example match report & score
-├── jd_source.md             ← Example raw job description
-└── session.json             ← Example recorded Q&A session
+data_example/                ← Complete sample data/ directory for reference
+├── candidate.json           ← Example candidate career library & routing rules
+├── source_cvs/              ← Example input CVs (.md, .txt, .pdf, .doc, or .docx)
+│   └── sample_cv.md
+└── submissions/             ← Example generated application package(s)
+    └── mol_group_it_business_partner_circular_economy_20260901/
+        ├── README.md        ← Example checklist & match breakdown
+        ├── tailored_cv.md   ← Example tailored CV
+        ├── resume_1page.md  ← Example 1-page résumé
+        ├── cover_letter.md  ← Example targeted cover letter
+        ├── compensation_benchmark.md ← Example compensation & salary benchmark report
+        ├── match_report.json ← Example match report & score
+        ├── jd_source.md     ← Example raw job description
+        └── session.json     ← Example recorded Q&A session
 ```
 
 ---
 
-## 📂 Example Submission Package
+## 📂 Example Data & Submission Package
 
-To explore what a completed application output looks like before running the pipeline, check the [`.example/`](file:///Users/pogorv/Dev/CareerGravity/.example) directory. It contains a full end-to-end submission generated for an **IT Business Partner (Circular economy) @ MOL Group** role:
+To explore what a completed candidate library and application output looks like before running the pipeline, check the [`data_example/`](file:///Users/pogorv/Dev/CareerGravity/data_example) directory. It contains a full end-to-end example of the `data/` folder, including an ingested candidate library, source CV, and an application submission generated for an **IT Business Partner (Circular economy) @ MOL Group** role:
 
-- 📄 [`.example/tailored_cv.md`](file:///Users/pogorv/Dev/CareerGravity/.example/tailored_cv.md) — Multi-page ATS-tailored CV.
-- 📄 [`.example/resume_1page.md`](file:///Users/pogorv/Dev/CareerGravity/.example/resume_1page.md) — High-impact one-page executive résumé.
-- ✉️ [`.example/cover_letter.md`](file:///Users/pogorv/Dev/CareerGravity/.example/cover_letter.md) — Targeted cover letter mapping qualifications, tools, and quantified metrics.
-- 💰 [`.example/compensation_benchmark.md`](file:///Users/pogorv/Dev/CareerGravity/.example/compensation_benchmark.md) — Market salary benchmarks, net estimations, benefits, and negotiation strategy.
-- 📊 [`.example/match_report.json`](file:///Users/pogorv/Dev/CareerGravity/.example/match_report.json) — Detailed ATS scoring, competence gap analysis, and interview prep suggestions.
-- 📝 [`.example/jd_source.md`](file:///Users/pogorv/Dev/CareerGravity/.example/jd_source.md) & [`.example/session.json`](file:///Users/pogorv/Dev/CareerGravity/.example/session.json) — Raw vacancy text and gap Q&A enrichments.
-- 📋 [`.example/README.md`](file:///Users/pogorv/Dev/CareerGravity/.example/README.md) — Submission package overview and application checklist.
+- 🧠 [`data_example/candidate.json`](file:///Users/pogorv/Dev/CareerGravity/data_example/candidate.json) — Complete career knowledge base, profile, and regional contact routing rules.
+- 📄 [`data_example/source_cvs/sample_cv.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/source_cvs/sample_cv.md) — Example source CV input.
+- 📄 [`data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/tailored_cv.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/tailored_cv.md) — Multi-page ATS-tailored CV.
+- 📄 [`data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/resume_1page.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/resume_1page.md) — High-impact one-page executive résumé.
+- ✉️ [`data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/cover_letter.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/cover_letter.md) — Targeted cover letter mapping qualifications, tools, and quantified metrics.
+- 💰 [`data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/compensation_benchmark.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/compensation_benchmark.md) — Market salary benchmarks, net estimations, benefits, and negotiation strategy.
+- 📊 [`data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/match_report.json`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/match_report.json) — Detailed ATS scoring, competence gap analysis, and interview prep suggestions.
+- 📝 [`data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/jd_source.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/jd_source.md) & [`session.json`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/session.json) — Raw vacancy text and gap Q&A enrichments.
+- 📋 [`data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/README.md`](file:///Users/pogorv/Dev/CareerGravity/data_example/submissions/mol_group_it_business_partner_circular_economy_20260901/README.md) — Submission package overview and application checklist.
 
 ---
 
@@ -192,7 +198,7 @@ folder_management/  ← Naming conventions
 
 ```
 0. Load candidate library
-1. Locate CV (library/source_cvs/ or paste text)
+1. Locate CV (data/source_cvs/ or paste text)
 2. Get JD (file / URL / paste)
 3. Parse CV → merge into library → save
 4. Parse JD → extract structured data
@@ -207,7 +213,7 @@ folder_management/  ← Naming conventions
 
 ## CV Formats
 
-Drop your CV into `library/source_cvs/`. Supported formats:
+Drop your CV into `data/source_cvs/`. Supported formats:
 - **Markdown (`.md`)** & **Plain Text (`.txt`)**: Read directly.
 - **PDF (`.pdf`)**: Read directly via built-in viewer and text/OCR.
 - **Word (`.docx` & `.doc`)**: Extracted automatically across operating systems:
